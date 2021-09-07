@@ -1,0 +1,186 @@
+main section#hero {
+  min-height: 499px;
+}
+
+main section#hero div.container div.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  max-width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 72px;
+}
+
+main section#hero div.container div.wrapper h1 {
+  text-align: center;
+  color: var(--drl-c-titles);
+  margin-bottom: 32px;
+}
+
+main section#hero div.container div.wrapper p {
+  text-align: center;
+  color: var(--drl-c-paragraph);
+  margin-bottom: 48px;
+}
+
+main section#hero div.container div.wrapper a {
+  margin-left: auto;
+  margin-right: auto;
+  width: 144px;
+  height: 24px;
+  padding: 20px 30px;
+  text-transform: uppercase;
+}
+
+main section#hero-badge div.container {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main section#hero-badge div.container div.dino {
+  width: 303px;
+  height: 332.28px;
+  background: url("/assets/images/Color_Dino.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 30px;
+  left: calc(100% - 183px);
+  z-index: 2;
+  -webkit-animation: dinoShake 8s infinite ease-in-out;
+          animation: dinoShake 8s infinite ease-in-out;
+}
+
+main section#hero-badge div.container div.boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 0;
+          column-gap: 0;
+  height: 178px;
+}
+
+main section#hero-badge div.container div.boxes div.box {
+  max-width: 330px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main section#hero-badge div.container div.boxes div.box h2 {
+  color: var(--drl-c-bg);
+  text-align: center;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+main section#hero-badge div.container div.boxes div.box p {
+  margin: 0;
+  color: var(--drl-c-bg);
+  text-align: center;
+}
+
+main section#hero-badge div.container div.boxes div.separator {
+  height: 70px;
+  width: 1px;
+  margin: 0 16px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 1279px) {
+  main section#hero div.container div.wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+    min-height: 499px;
+    height: 100%;
+  }
+  main section#hero div.container div.wrapper h1 {
+    margin-top: 0;
+  }
+  main section#hero div.container div.wrapper p {
+    line-height: 160%;
+  }
+  main section#hero div.container div.wrapper a {
+    height: 22px;
+    width: 130px;
+  }
+  main section#hero-badge div.dino {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  main section#hero div.container div.wrapper {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  main section#hero div.container div.wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  main section#hero div.container div.wrapper a {
+    padding: 16px 24px;
+  }
+}
+
+@-webkit-keyframes dinoShake {
+  33% {
+    -webkit-transform: rotate(-7deg);
+            transform: rotate(-7deg);
+  }
+  66% {
+    -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
+  }
+}
+
+@keyframes dinoShake {
+  33% {
+    -webkit-transform: rotate(-7deg);
+            transform: rotate(-7deg);
+  }
+  66% {
+    -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
+  }
+}
+/*# sourceMappingURL=home.css.map */
