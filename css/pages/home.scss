@@ -1,10 +1,15 @@
 main {
+  overflow-x: hidden;
   section#hero {
     min-height: 499px;
-    
 
     div.container {
-        
+      background: url("/assets/images/test1.svg");
+      background-position-y: bottom;
+      background-position-x: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+
       div.wrapper {
         display: flex;
         flex-direction: column;
@@ -40,62 +45,295 @@ main {
   }
 
   section#hero-badge {
-      div.container {
-        position: relative;
-        width: 100%;
-        max-width: 1440px;
-        margin-left: auto;
-        margin-right: auto;
-        div.dino {
-            width: 303px;
-            height: 332.28px;
-            background: url('assets/images/Color_Dino.svg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: contain;
-            position: absolute;
-            bottom: 30px;
-            left: calc(100% - 183px);
-            z-index: 2;
-            animation: dinoShake 8s infinite ease-in-out
+    height: 178px;
+    background: #5db59d;
+    div.container {
+      position: relative;
+      width: 100%;
+      max-width: 1440px;
+      margin-left: auto;
+      margin-right: auto;
+      div.dino {
+        width: 303px;
+        height: 332.28px;
+        background: url("/assets/images/Color_Dino.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        bottom: 30px;
+        left: calc(100% - 183px);
+        z-index: 2;
+        animation: dinoShake 8s infinite ease-in-out;
+      }
+      div.boxes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 0;
+        height: 178px;
+
+        div.box {
+          max-width: 330px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          h2 {
+            color: var(--drl-c-bg);
+            text-align: center;
+            margin: 0;
+            margin-bottom: 8px;
+          }
+
+          p {
+            margin: 0;
+            color: var(--drl-c-bg);
+            text-align: center;
+          }
         }
-        div.boxes {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            column-gap: 0;
-            height: 178px;
 
-            div.box {
-                max-width: 330px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-
-                h2 {
-                    color: var(--drl-c-bg);
-                    text-align: center;
-                    margin: 0;
-                    margin-bottom: 8px;
-                }
-
-                p {
-                    margin: 0;
-                    color: var(--drl-c-bg);
-                    text-align: center;
-                }
-            }
-
-            div.separator {
-                height: 70px;
-                width: 1px;
-                margin: 0 16px;
-                background: rgba(255, 255, 255, 0.4);
-            }
+        div.separator {
+          height: 70px;
+          width: 1px;
+          margin: 0 16px;
+          background: rgba(255, 255, 255, 0.4);
         }
       }
+    }
+  }
+
+  section#intro-content {
+    padding-top: 52px;
+    padding-bottom: 52px;
+    div.wrapper {
+      max-width: 820px;
+      margin-left: auto;
+      margin-right: auto;
+      div.video-container {
+        margin-left: auto;
+        margin-right: auto;
+        background: url(/assets/images/home_dinorank_video_1_frame.svg);
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 669px;
+        height: 398px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 610px;
+          height: 343px;
+        }
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      p {
+        line-height: 28.8px;
+      }
+
+      a.drl-btn {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        text-transform: uppercase;
+        margin-top: 64px;
+      }
+    }
+  }
+
+  section#intro-content-badge {
+    height: 178px;
+    background: #eef9f3;
+    div.container {
+      position: relative;
+      width: 100%;
+      max-width: 1440px;
+      margin-left: auto;
+      margin-right: auto;
+      div.boxes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 0;
+        height: 178px;
+
+        div.box {
+          max-width: 330px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          h2 {
+            color: var(--drl-c-dark-bg);
+            text-align: center;
+            margin: 0;
+            margin-bottom: 8px;
+          }
+
+          p {
+            margin: 0;
+            color: var(--drl-c-dark-bg);
+            text-align: center;
+          }
+        }
+
+        div.separator {
+          height: 70px;
+          width: 1px;
+          margin: 0 16px;
+          background: rgba(197, 197, 197, 0.8);
+        }
+      }
+    }
+  }
+
+  section#dino-functions {
+    padding-top: 52px;
+    padding-bottom: 52px;
+    div.wrapper {
+      max-width: 820px;
+      margin-left: auto;
+      margin-right: auto;
+
+      h2.headerTitle {
+        text-align: center;
+        margin-bottom: 0;
+      }
+
+      p.headerParagraph {
+        text-align: center;
+        margin-top: 16px;
+      }
+
+      div.items-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        row-gap: 75px;
+        grid-template-areas:
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". .";
+        align-items: center;
+        div.item {
+          position: relative;
+
+          &.right {
+            padding-left: 75px;
+          }
+
+          h3.drl-Headline3 {
+            padding-right: 75px;
+            margin-top: 0;
+          }
+          p {
+            margin-top: 24px;
+            padding-right: 75px;
+          }
+          div.btn-container {
+            margin-top: 24px;
+            max-width: 120px;
+            a.drl-btn {
+              span {
+                text-transform: uppercase;
+                font-weight: 700;
+              }
+              img {
+                margin-left: 5px;
+              }
+            }
+          }
+          div.shape {
+            background: url("/assets/images/home_dinorank_feature_circle.svg");
+            left: 175px;
+            background-size: contain;
+            width: 275px;
+            height: 275px;
+            position: absolute;
+            top: 30px;
+            z-index: -1;
+
+            &.left {
+              left: unset;
+              right: 175px;
+            }
+          }
+          &.image {
+            img {
+              max-width: 100%;
+              height: auto;
+            }
+          }
+          &:not(.image) {
+          }
+
+          &:first-child,
+          &:nth-child(2) {
+            margin-top: 80px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 950px) {
+  main {
+    section#dino-functions {
+      div.wrapper {
+        max-width: 1000px;
+        div.items-container {
+          div.item {
+            div.shape {
+              left: 275px;
+              &.left {
+                right: 275px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  main {
+    section#dino-functions {
+      div.wrapper {
+        max-width: 1200px;
+
+        div.items-container {
+          div.item {
+            div.shape {
+              left: 325px;
+              &.left {
+                right: 375px;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -104,66 +342,267 @@ main {
     section#hero {
       div.container {
         div.wrapper {
-            padding-left: 40px;
-            padding-right: 40px;
-            padding-bottom: 0px;
-            min-height: 499px;
-            height: 100%;
-            h1 {
-                margin-top: 0;
-            }
-            p {
-              line-height: 160%;
-            }
-            a {
-              height: 22px;
-              width: 130px;
-            }
+          padding-left: 40px;
+          padding-right: 40px;
+          padding-bottom: 0px;
+          min-height: 499px;
+          height: 100%;
+          h1 {
+            margin-top: 0;
           }
+          p {
+            line-height: 160%;
+          }
+          a {
+            height: 22px;
+            width: 130px;
+          }
+        }
       }
     }
 
     section#hero-badge {
-        div.dino {
-            display: none;
+      div.dino {
+        display: none;
+      }
+    }
+
+    section#intro-content {
+      padding-top: 28px;
+      padding-bottom: 28px;
+      div.wrapper {
+        padding-left: 40px;
+        padding-right: 40px;
+        div.video-container {
+          width: 570px;
+          height: 342px;
+          img {
+            width: 511px;
+            height: 287px;
+          }
         }
+      }
+    }
+
+    section#dino-functions {
+      padding-top: 28px;
+      padding-bottom: 28px;
+      div.wrapper {
+        padding-left: 128.5px;
+        padding-right: 128.5px;
+
+        div.items-container {
+          display: block;
+          div.item {
+            position: relative;
+
+            &.right {
+              padding-left: unset;
+            }
+
+            h3.drl-Headline3 {
+              padding-left: unset;
+              padding-right: unset;
+            }
+            p {
+              padding-left: unset;
+              padding-right: unset;
+              margin-top: 24px;
+
+              &:first-child {
+                margin-top: 16px;
+              }
+            }
+            div.btn-container {
+              margin-top: 16px;
+              max-width: 117px;
+              a.drl-btn {
+                span {
+                  text-transform: uppercase;
+                  font-weight: 700;
+                }
+                img {
+                  margin-left: 5px;
+                }
+              }
+            }
+            div.shape {
+              background: url("/assets/images/home_dinorank_feature_circle.svg");
+              width: 392px;
+              height: 392px;
+              position: absolute;
+              top: 30px;
+              left: 182px;
+              z-index: -1;
+
+              &.left {
+                left: unset;
+                right: 182px;
+              }
+            }
+            &.image {
+              margin-bottom: 40px;
+              img {
+                max-width: 100%;
+                height: auto;
+              }
+            }
+            &:not(.image) {
+              margin-bottom: 96px;
+            }
+
+            &:first-child {
+              margin-top: 48px;
+            }
+
+            &:nth-child(2) {
+              margin-top: unset;
+            }
+          }
+        }
+      }
     }
   }
 }
 
 @media (max-width: 640px) {
-    main {
-      section#hero {
-        div.container {
-          div.wrapper {
-              padding-bottom: 40px;
+  main {
+    section#hero {
+      div.container {
+        div.wrapper {
+          padding-bottom: 40px;
+        }
+      }
+    }
+
+    section#hero-badge {
+      height: auto;
+
+      div.container {
+        div.boxes {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: auto;
+
+          padding: 24px;
+          div.separator {
+            width: 90%;
+            height: 1px;
+            margin: 16px 0px;
+          }
+        }
+      }
+    }
+
+    section#intro-content-badge {
+      height: auto;
+
+      div.container {
+        div.boxes {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: auto;
+
+          padding: 24px;
+          div.separator {
+            width: 90%;
+            height: 1px;
+            margin: 16px 0px;
+          }
+        }
+      }
+    }
+
+    section#dino-functions {
+      div.wrapper {
+        div.items-container {
+          div.item {
+            h3.drl-Headline3 {
             }
+            p {
+            }
+            div.btn-container {
+              margin-top: 16px;
+              max-width: 113px;
+              a.drl-btn {
+                span {
+                  text-transform: uppercase;
+                  font-weight: 700;
+                }
+                img {
+                  margin-left: 5px;
+                }
+              }
+            }
+            div.shape {
+              display: none;
+            }
+            &.image {
+              margin-bottom: 32px;
+              img {
+                max-width: 100%;
+                height: auto;
+              }
+            }
+            &:not(.image) {
+              margin-bottom: 64px;
+            }
+          }
         }
       }
     }
   }
+}
+
+@media (max-width: 420px) {
+  main {
+    section#intro-content {
+      div.wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+        div.video-container {
+          width: 311px;
+          height: 183px;
+          img {
+            width: 280px;
+            height: 157px;
+          }
+        }
+      }
+    }
+
+    section#dino-functions {
+      div.wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+  }
+}
 
 @media (max-width: 320px) {
   main {
     section#hero {
       div.container {
         div.wrapper {
-            padding-left: 20px;
-            padding-right: 20px;
-            a {
-              padding: 16px 24px;
-            }
+          padding-left: 20px;
+          padding-right: 20px;
+          a {
+            padding: 16px 24px;
           }
+        }
       }
     }
   }
 }
 
 @keyframes dinoShake {
-    33% {
-        transform: rotate(-7deg);
-    }
-    66% {
-      transform: rotate(7deg);
-    }
+  33% {
+    transform: rotate(-7deg);
   }
+  66% {
+    transform: rotate(7deg);
+  }
+}

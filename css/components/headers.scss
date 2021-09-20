@@ -68,7 +68,7 @@ header.drl-header {
         border-top-width: 4px;
         border-top-color: var(--drl-c-primary-accent);
         z-index: 1;
-        transition: all ease-in-out 0.3s;
+        transition: all ease-in-out 0s;
 
         a {
           padding: 8px 16px;
@@ -79,7 +79,7 @@ header.drl-header {
           justify-content: flex-start;
           align-items: center;
           column-gap: 10px;
-          transition: all ease-in-out 0.3s;
+          transition: all ease-in-out 0s;
           color: var(--drl-c-paragraph);
           font-weight: normal;
 
@@ -90,7 +90,7 @@ header.drl-header {
 
           span {
             color: var(--drl-c-paragraph);
-            transition: all ease-in-out 0.3s;
+            transition: all ease-in-out 0s;
           }
 
           &:hover {
@@ -138,7 +138,7 @@ header.drl-header {
     div.drl-language-dropdown {
       position: relative;
       display: inline-block;
-      transition: all ease-in-out 0.3s;
+      transition: all ease-in-out 0s;
       div.drl-langauge-dropdown-btn {
         display: flex;
         flex-direction: row;
@@ -159,7 +159,7 @@ header.drl-header {
         border-top-width: 4px;
         border-top-color: var(--drl-c-primary-accent);
         z-index: 1;
-        transition: all ease-in-out 0.3s;
+        transition: all ease-in-out 0s;
 
         a.drl-language-menu-item {
           padding: 12px 16px;
@@ -170,7 +170,7 @@ header.drl-header {
           justify-content: flex-start;
           align-items: center;
           column-gap: 10px;
-          transition: all ease-in-out 0.3s;
+          transition: all ease-in-out 0s;
 
           &:last-child {
             border-bottom-left-radius: 5px;
@@ -179,7 +179,7 @@ header.drl-header {
 
           span {
             color: var(--drl-c-paragraph);
-            transition: all ease-in-out 0.3s;
+            transition: all ease-in-out 0s;
           }
 
           &:hover {
