@@ -5,60 +5,70 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 48px;
     font-weight: bold;
+    color: var(--drl-c-titles);
 }
 
 .drl-Headline2 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 36px;
     font-weight: bold;
+    color: var(--drl-c-titles);
 }
 
 .drl-Headline3 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 28px;
     font-weight: bold;
+    color: var(--drl-c-titles);
 }
 
 .drl-Headline4 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 24px;
     font-weight: bold;
+    color: var(--drl-c-titles);
 }
 
 .drl-Headline5 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     font-weight: bold;
+    color: var(--drl-c-titles);
 }
 
 .drl-Headline6 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     font-weight: bold;
+    color: var(--drl-c-titles);
 }
 
 .drl-Caption1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     font-weight: bold;
+    color: var(--drl-c-paragraph);
 }
 
 .drl-Caption2 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     font-weight: bold;
+    color: var(--drl-c-paragraph);
 }
 
 .drl-Caption3 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     font-weight: bold;
+    color: var(--drl-c-paragraph);
 }
 
 .drl-Caption4 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 12px;
     font-weight: bold;
+    color: var(--drl-c-paragraph);
 }
 
 .drl-Button1, a.drl-btn {
@@ -77,18 +87,21 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: normal;
+    color: var(--drl-c-paragraph);
 }
 
 .drl-Text2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: normal;
+    color: var(--drl-c-paragraph);
 }
 
 .drl-Text3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: normal;
+    color: var(--drl-c-paragraph);
 }
 
 .drl-Label1 {
