@@ -1432,6 +1432,7 @@ main section#plans-prices div.wrapper div.plan-chooser-container a.drl-btn {
     padding-right: 9px;
     margin-bottom: 48px;
     position: relative;
+    width: unset;
   }
   main section#plans-prices div.wrapper div.plan-chooser-container div.side-figure {
     background: url("/assets/images/home_plans_prices_button_figure.svg");
