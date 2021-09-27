@@ -864,6 +864,93 @@ main section#plans-prices div.wrapper div.plan-chooser-container a.drl-btn {
   line-height: 16.8px;
 }
 
+main section#dinorank-helps {
+  background: var(--drl-c-grey-bg);
+}
+
+main section#dinorank-helps div.wrapper {
+  padding: 72px 200px;
+  max-width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main section#dinorank-helps div.wrapper h2 {
+  color: var(--drl-c-titles);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 48px;
+  line-height: 38.4px;
+}
+
+main section#dinorank-helps div.wrapper div.work-picker {
+  overflow-x: scroll;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 40px;
+}
+
+main section#dinorank-helps div.wrapper div.work-picker a.picker-btn {
+  display: inline-block;
+  max-width: 205px;
+  max-height: 44px;
+  padding: 12.5px 52px;
+  background-color: var(--drl-c-bg);
+  color: var(--drl-c-titles);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+main section#dinorank-helps div.wrapper div.work-picker a.picker-btn:first-child {
+  border-radius: 5px 0px 0px 5px;
+}
+
+main section#dinorank-helps div.wrapper div.work-picker a.picker-btn:last-child {
+  border-radius: 0px 5px 5px 0px;
+}
+
+main section#dinorank-helps div.wrapper div.work-picker a.picker-btn.selected {
+  background-color: var(--drl-c-primary);
+  color: var(--drl-c-bg);
+}
+
+main section#dinorank-helps div.wrapper div.work-picker a.picker-btn:not(.selected) {
+  border: 1px solid rgba(34, 32, 51, 0.1);
+}
+
+main section#dinorank-helps div.wrapper div.content {
+  margin-bottom: 64px;
+}
+
+main section#dinorank-helps div.wrapper div.content p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--drl-c-titles);
+  line-height: 28.8px;
+}
+
+main section#dinorank-helps div.wrapper div.content p:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+main section#dinorank-helps div.wrapper div.cta-container {
+  padding-left: 242.5px;
+  padding-right: 242.5px;
+}
+
+main section#dinorank-helps div.wrapper div.cta-container a {
+  text-align: center;
+  text-transform: uppercase;
+}
+
 @media (min-width: 950px) {
   main section#dino-functions div.wrapper {
     max-width: 1000px;
@@ -1450,6 +1537,76 @@ main section#plans-prices div.wrapper div.plan-chooser-container a.drl-btn {
     text-align: center;
     line-height: 16.8px;
   }
+  main section#dinorank-helps {
+    background: var(--drl-c-grey-bg);
+  }
+  main section#dinorank-helps div.wrapper {
+    padding: 48px 40px;
+  }
+  main section#dinorank-helps div.wrapper h2 {
+    color: var(--drl-c-titles);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+    line-height: 38.4px;
+  }
+  main section#dinorank-helps div.wrapper div.work-picker {
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 40px;
+  }
+  main section#dinorank-helps div.wrapper div.work-picker a.picker-btn {
+    display: inline-block;
+    max-width: 205px;
+    max-height: 44px;
+    padding: 13px 55px;
+    background-color: var(--drl-c-bg);
+    color: var(--drl-c-titles);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  main section#dinorank-helps div.wrapper div.work-picker a.picker-btn:first-child {
+    border-radius: 5px 0px 0px 5px;
+  }
+  main section#dinorank-helps div.wrapper div.work-picker a.picker-btn:last-child {
+    border-radius: 0px 5px 5px 0px;
+  }
+  main section#dinorank-helps div.wrapper div.work-picker a.picker-btn.selected {
+    background-color: var(--drl-c-primary);
+    color: var(--drl-c-bg);
+  }
+  main section#dinorank-helps div.wrapper div.work-picker a.picker-btn:not(.selected) {
+    border: 1px solid rgba(34, 32, 51, 0.1);
+  }
+  main section#dinorank-helps div.wrapper div.content {
+    margin-bottom: 48px;
+  }
+  main section#dinorank-helps div.wrapper div.content p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--drl-c-titles);
+    line-height: 25.6px;
+  }
+  main section#dinorank-helps div.wrapper div.content p:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  main section#dinorank-helps div.wrapper div.cta-container {
+    padding-left: 172.5px;
+    padding-right: 172.5px;
+  }
+  main section#dinorank-helps div.wrapper div.cta-container a {
+    text-align: center;
+    text-transform: uppercase;
+  }
 }
 
 @media (max-width: 640px) {
@@ -1920,6 +2077,75 @@ main section#plans-prices div.wrapper div.plan-chooser-container a.drl-btn {
     padding: 10px 15px;
     text-align: center;
     line-height: 16.8px;
+  }
+  main section#dinorank-helps {
+    background: var(--drl-c-grey-bg);
+  }
+  main section#dinorank-helps div.wrapper {
+    padding: 48px 20px;
+  }
+  main section#dinorank-helps div.wrapper h2 {
+    color: var(--drl-c-titles);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 32px;
+    line-height: 33.6px;
+  }
+  main section#dinorank-helps div.wrapper div.work-picker {
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 32px;
+  }
+  main section#dinorank-helps div.wrapper div.work-picker a.picker-btn {
+    display: inline-block;
+    max-width: 180px;
+    max-height: 44px;
+    padding: 10px 15px;
+    background-color: var(--drl-c-bg);
+    color: var(--drl-c-titles);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  main section#dinorank-helps div.wrapper div.work-picker a.picker-btn:first-child {
+    border-radius: 5px 0px 0px 5px;
+  }
+  main section#dinorank-helps div.wrapper div.work-picker a.picker-btn:last-child {
+    border-radius: 0px 5px 5px 0px;
+  }
+  main section#dinorank-helps div.wrapper div.work-picker a.picker-btn.selected {
+    background-color: var(--drl-c-primary);
+    color: var(--drl-c-bg);
+  }
+  main section#dinorank-helps div.wrapper div.work-picker a.picker-btn:not(.selected) {
+    border: 1px solid rgba(34, 32, 51, 0.1);
+  }
+  main section#dinorank-helps div.wrapper div.content {
+    margin-bottom: 48px;
+  }
+  main section#dinorank-helps div.wrapper div.content p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--drl-c-titles);
+    line-height: 24px;
+  }
+  main section#dinorank-helps div.wrapper div.content p:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  main section#dinorank-helps div.wrapper div.cta-container {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  main section#dinorank-helps div.wrapper div.cta-container a {
+    text-align: center;
+    text-transform: uppercase;
   }
 }
 
