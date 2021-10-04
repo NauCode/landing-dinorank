@@ -894,6 +894,9 @@ main section#dinorank-helps div.wrapper div.work-picker {
       -ms-flex-direction: row;
           flex-direction: row;
   margin-bottom: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 main section#dinorank-helps div.wrapper div.work-picker a.picker-btn {
@@ -1996,6 +1999,9 @@ footer div.wrapper div.bottom p {
         -ms-flex-direction: row;
             flex-direction: row;
     margin-bottom: 40px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   main section#dinorank-helps div.wrapper div.work-picker a.picker-btn {
     display: inline-block;
@@ -2902,6 +2908,9 @@ footer div.wrapper div.bottom p {
         -ms-flex-direction: row;
             flex-direction: row;
     margin-bottom: 32px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   main section#dinorank-helps div.wrapper div.work-picker a.picker-btn {
     display: inline-block;

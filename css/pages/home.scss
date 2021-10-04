@@ -758,6 +758,7 @@ main {
         display: flex;
         flex-direction: row;
         margin-bottom: 40px;
+        justify-content: center;
 
         a.picker-btn {
           display: inline-block;
@@ -1795,6 +1796,7 @@ footer {
           display: flex;
           flex-direction: row;
           margin-bottom: 40px;
+          justify-content: center;
 
           a.picker-btn {
             display: inline-block;
@@ -2683,6 +2685,7 @@ footer {
           display: flex;
           flex-direction: row;
           margin-bottom: 32px;
+          justify-content: center;
 
           a.picker-btn {
             display: inline-block;

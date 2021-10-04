@@ -1,0 +1,46 @@
+main {
+  section#hero {
+    background: rgba(34, 32, 51, 0.05);
+    div.wrapper {
+      padding: 18px 20px;
+      padding-bottom: 0;
+      h1 {
+        text-align: center;
+        line-height: 40.8px;
+        color: var(--drl-c-titles);
+        margin-bottom: 32px;
+      }
+      p.drl-Text2 {
+        color: var(--drl-c-paragraph);
+        text-align: center;
+        line-height: 24px;
+        margin-top: 0;
+        margin-bottom: 48px;
+      }
+      div.btn-wrapper {
+        max-width: 239px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
+        a {
+          text-align: center;
+          text-transform: uppercase;
+          padding: 20px 30px;
+        }
+      }
+      div.img-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -16px;
+        img {
+          width: 100%;
+          max-width: 280px;
+          height: auto;
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+}
