@@ -167,12 +167,13 @@ main {
   section#data-3 {
     div.wrapper {
       padding: 48px 20px;
-      h3.drl-Headline3 {
+      p.drl-Headline3 {
         color: var(--drl-c-titles);
         text-align: center;
         line-height: 26.4px;
         margin-top: 0;
         margin-bottom: 48px;
+        text-align: center;
       }
       p.drl-Text1 {
         line-height: 24px;
