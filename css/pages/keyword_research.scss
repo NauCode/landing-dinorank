@@ -4,12 +4,6 @@ main {
     div.wrapper {
       padding: 18px 20px;
       padding-bottom: 0;
-      p.drl-Headline3 {
-        color: var(--drl-c-titles);
-        text-align: center;
-        line-height: 26.4px;
-        margin-bottom: 8px;
-      }
       h1 {
         text-align: center;
         line-height: 40.8px;
@@ -68,11 +62,11 @@ main {
     div.wrapper {
       padding: 48px 20px;
       h2 {
-        line-height: 26.4px;
+        line-height: 33.6px;
         text-align: center;
         color: var(--drl-c-titles);
         margin-top: 0;
-        margin-bottom: 48px;
+        margin-bottom: 32px;
       }
       p.drl-Text1 {
         line-height: 26.4px;
@@ -89,6 +83,22 @@ main {
           margin-bottom: 24px;
         }
       }
+      div.video-wrapper {
+        img {
+        }
+        iframe {
+          display: none;
+          margin: 0 20px;
+          width: calc(100% - 40px);
+        }
+      }
+      p.drl-Caption1 {
+        margin-top: 48px;
+        text-align: center;
+        line-height: 18px;
+        color: var(--drl-c-titles);
+        margin-bottom: 24px;
+      }
       div.container {
         display: flex;
         flex-direction: column;
@@ -96,36 +106,40 @@ main {
         align-items: center;
         div.item {
           position: relative;
-          overflow: hidden;
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          justify-content: center;
+          padding: 22.3px 16px 16px 16px;
           background: var(--drl-c-bg);
+          border: 1px solid var(--drl-c-primary-accent);
+          box-sizing: border-box;
           box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05),
             0px 6px 20px rgba(0, 0, 0, 0.05);
-          border-radius: 8px;
-          padding: 24px 24px;
-          &:not(:last-child) {
-            margin-bottom: 24px;
+          border-radius: 10px;
+          overflow: hidden;
+          &:not(:last-child)
+          {
+              margin-bottom: 24px;
           }
-          p.drl-Text1 {
-            text-align: center;
-            margin-top: 0;
-            margin-bottom: 0;
+          div.img-wrapper {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              margin-bottom: 14.63px;
+          }
+          p {
+              margin-top: 0;
+              margin-bottom: 0;
+              line-height: 24px;
+              color: var(--drl-c-paragraph);
+              text-align: center;
           }
           div.figure {
             position: absolute;
-            width: 316px;
-            height: 316px;
-            right: -160px;
-            bottom: -200px;
+            width: 160px;
+            height: 160px;
+            right: -20px;
+            bottom: -70px;
             border-radius: 50%;
-            background: linear-gradient(
-              180deg,
-              rgba(93, 181, 157, 0.4) 0%,
-              rgba(93, 181, 157, 0) 100%
-            );
+            background: linear-gradient(180deg, rgba(93, 181, 157, 0.4) 0%, rgba(93, 181, 157, 0) 100%);
             transform: matrix(1, 0, 0, -1, 0, 0);
           }
         }
@@ -165,8 +179,8 @@ main {
         color: var(--drl-c-paragraph);
         margin-top: 0;
         margin-bottom: 0;
-        &.centered {
-          text-align: center;
+        &#featured {
+          font-weight: 700;
         }
         &:not(:last-child) {
           margin-bottom: 36px;
@@ -183,20 +197,6 @@ main {
             max-width: 310px;
             height: auto;
           }
-        }
-      }
-      p.drl-Headline3 {
-        line-height: 26.4px;
-        margin-top: 0;
-        margin-bottom: 0;
-        text-align: center;
-        color: var(--drl-c-titles);
-        &:not(:last-child) {
-          margin-top: 48px;
-          margin-bottom: 24px;
-        }
-        &:last-child {
-          margin-bottom: 48px;
         }
       }
     }
