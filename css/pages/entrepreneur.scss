@@ -47,6 +47,9 @@ main {
           &:not(:last-child) {
             margin-bottom: 32px;
           }
+          &:last-child {
+              margin-top: 32px;
+          }
         }
         div.container {
           margin-top: 32px;

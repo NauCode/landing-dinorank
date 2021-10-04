@@ -66,6 +66,10 @@ main section#data-1 div.wrapper p.drl-Text1:not(:last-child) {
   margin-bottom: 32px;
 }
 
+main section#data-1 div.wrapper p.drl-Text1:last-child {
+  margin-top: 32px;
+}
+
 main section#data-1 div.wrapper div.container {
   margin-top: 32px;
   display: -webkit-box;
@@ -512,4 +516,4 @@ main section#final-cta h3 {
     margin-right: auto;
   }
 }
-/*# sourceMappingURL=designer.css.map */
+/*# sourceMappingURL=entrepreneur.css.map */
