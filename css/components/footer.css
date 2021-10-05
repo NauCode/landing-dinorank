@@ -1,0 +1,228 @@
+footer {
+  background: var(--drl-c-paragraph);
+}
+
+footer div.wrapper {
+  padding: 57px 200px;
+  max-width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer div.wrapper div.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 57px;
+}
+
+footer div.wrapper div.top div.left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer div.wrapper div.top div.left a {
+  color: var(--drl-c-bg);
+  text-decoration: none;
+  margin-bottom: 0px;
+  margin-right: 64px;
+}
+
+footer div.wrapper div.top div.right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0px;
+}
+
+footer div.wrapper div.top div.right a:not(:last-child) {
+  margin-right: 24px;
+}
+
+footer div.wrapper div.separator {
+  background: var(--drl-c-bg);
+  width: 658px;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+}
+
+footer div.wrapper div.bottom p {
+  color: var(--drl-c-bg);
+  text-align: center;
+}
+
+@media (max-width: 1279px) {
+  footer {
+    background: var(--drl-c-paragraph);
+  }
+  footer div.wrapper {
+    padding: 57px 55px 48px 55px;
+  }
+  footer div.wrapper div.top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 57px;
+  }
+  footer div.wrapper div.top div.left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer div.wrapper div.top div.left a {
+    color: var(--drl-c-bg);
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-right: 64px;
+  }
+  footer div.wrapper div.top div.right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0px;
+  }
+  footer div.wrapper div.top div.right a:not(:last-child) {
+    margin-right: 24px;
+  }
+  footer div.wrapper div.separator {
+    background: var(--drl-c-bg);
+    width: 658px;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+  }
+  footer div.wrapper div.bottom p {
+    color: var(--drl-c-bg);
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  footer {
+    background: var(--drl-c-paragraph);
+  }
+  footer div.wrapper {
+    padding: 48px 40px;
+  }
+  footer div.wrapper div.top {
+    display: block;
+    margin-bottom: 0;
+  }
+  footer div.wrapper div.top div.left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer div.wrapper div.top div.left a {
+    color: var(--drl-c-bg);
+    text-decoration: none;
+    margin-bottom: 24px;
+    margin-right: 0;
+  }
+  footer div.wrapper div.top div.right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 36px;
+  }
+  footer div.wrapper div.top div.right a:not(:last-child) {
+    margin-right: 24px;
+  }
+  footer div.wrapper div.separator {
+    background: var(--drl-c-bg);
+    width: 240px;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+  }
+  footer div.wrapper div.bottom p {
+    color: var(--drl-c-bg);
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

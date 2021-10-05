@@ -1,0 +1,493 @@
+main {
+  section#hero {
+    div.wrapper {
+      padding: 18px 20px;
+      padding-bottom: 0;
+      h1 {
+        text-align: center;
+        line-height: 40.8px;
+        color: var(--drl-c-titles);
+        margin-bottom: 48px;
+      }
+      div.img-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 48.3px;
+        img {
+          width: 100%;
+          max-width: 280px;
+          height: auto;
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+  section#subhero {
+    background: rgba(34, 32, 51, 0.1);
+    div.wrapper {
+      padding: 32px 20px 32px 20px;
+      p {
+        text-align: center;
+        color: var(--drl-c-paragraph);
+
+        &:last-child {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  section#features {
+    background: var(--drl-c-primary);
+    div.wrapper {
+      padding: 32px 24px;
+      div.item {
+        div.img-container {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 16px;
+          img {
+            width: 100%;
+            max-width: 48px;
+            height: auto;
+          }
+        }
+        p {
+          color: var(--drl-c-bg);
+          text-align: center;
+        }
+      }
+      div.separator {
+        margin-top: 32px;
+        margin-bottom: 32px;
+        width: 272px;
+        height: 1px;
+        margin-left: auto;
+        margin-right: auto;
+
+        background: #ffffff;
+        opacity: 0.4;
+      }
+    }
+  }
+  section#conception {
+    div.wrapper {
+      padding: 48px 20px;
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 24px;
+        color: var(--drl-c-paragraph);
+        &:not(:first-child) {
+          margin-top: 24px;
+          line-height: 22.4px;
+          padding-left: 16px;
+        }
+      }
+    }
+  }
+  section#born {
+    padding: 48px 20px;
+    background: var(--drl-c-primary);
+    h2 {
+      text-align: center;
+      color: var(--drl-c-bg);
+    }
+  }
+  section#conception2 {
+    div.wrapper {
+      padding: 48px 20px;
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 24px;
+        color: var(--drl-c-paragraph);
+        &:not(:first-child) {
+          margin-top: 24px;
+        }
+        &:last-child {
+          line-height: 26.4px;
+        }
+      }
+    }
+  }
+
+  section#dinorank-video {
+    background-color: rgba(34, 32, 51, 0.05);
+    div.wrapper {
+      padding: 48px 20px;
+      p {
+        color: var(--drl-c-paragraph);
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+
+        &.drl-Caption1 {
+          margin-bottom: 8px;
+        }
+
+        &.drl-Text1 {
+          margin-bottom: 19.25px;
+        }
+      }
+
+      div.video-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        iframe {
+          display: none;
+          width: 100%;
+          max-width: 280px;
+          height: auto;
+          padding: 9px;
+        }
+
+        img {
+          width: 100%;
+          max-width: 280px;
+          height: auto;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  section#discover-dinorank {
+    background-color: #f9f9f9;
+    div.wrapper {
+      padding: 48px 20px;
+      h2,
+      h3 {
+        color: var(--drl-c-paragraph);
+        text-align: center;
+        margin-top: 0;
+      }
+
+      h2 {
+        margin-bottom: 16px;
+      }
+
+      h3 {
+        margin-bottom: 24px;
+      }
+
+      div.img-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 24px;
+        margin-left: -24px;
+        img {
+          width: 100%;
+          max-width: 280px;
+          height: auto;
+        }
+      }
+      p.drl-Text1 {
+        color: var(--drl-c-paragraph);
+        text-align: center;
+        margin-top: 0;
+        &:not(:last-child) {
+          margin-bottom: 16ox;
+        }
+      }
+
+      div.btn-wrapper {
+        margin-top: 24px;
+        a {
+          text-align: center;
+          max-width: 170px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
+
+  section#knowledge {
+    div.wrapper {
+      padding: 48px 20px;
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+        color: var(--drl-c-paragraph);
+        &:not(:last-child) {
+          margin-bottom: 16px;
+        }
+      }
+    }
+  }
+
+  section#community {
+    padding: 48px 20px;
+    background: var(--drl-c-primary);
+    h3 {
+      text-align: center;
+      color: var(--drl-c-bg);
+    }
+  }
+
+  section#live {
+    div.wrapper {
+      padding: 48px 20px;
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 24px;
+        color: var(--drl-c-paragraph);
+        &:not(:last-child) {
+          margin-bottom: 16px;
+        }
+      }
+
+      div.img-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 24px;
+        img {
+          width: 100%;
+          max-width: 310px;
+          height: auto;
+        }
+      }
+
+      div.btn-container {
+        margin-top: 24px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 134px;
+      }
+    }
+  }
+
+  section#optimize {
+    background: rgba(34, 32, 51, 0.05);
+    div.wrapper {
+      padding: 48px 20px;
+
+      h2 {
+        text-align: center;
+        color: var(--drl-c-titles);
+        line-height: 33.6px;
+      }
+
+      div.img-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 100%;
+          max-width: 220px;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    section#hero {
+      div.wrapper {
+        padding-left: 200px;
+        padding-right: 200px;
+        max-width: 1220px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 48px;
+        padding-bottom: 62px;
+        position: relative;
+        h1 {
+          line-height: 57.6px;
+        }
+        div.img-container {
+          background: url("/assets/images/wid_hero_dino.png");
+          width: 308.57px;
+          height: 253px;
+          position: absolute;
+          top: calc(72% - 125px);
+          right: -100px;
+          img {
+            display: none;
+          }
+        }
+      }
+    }
+    section#features {
+      div.wrapper {
+        max-width: 1220px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px 200px;
+        div.container {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: flex-start;
+          div.item {
+            height: 168px;
+            &:not(:last-child) {
+              border-right-style: solid;
+              border-right-width: 1;
+              border-right-color: rgba(255, 255, 255, 0.4);
+              margin-right: 57px;
+              padding-right: 57px;
+            }
+          }
+          div.separator {
+            display: none;
+          }
+        }
+      }
+    }
+    section#conception,
+    section#conception2 {
+      div.wrapper {
+        max-width: 1220px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 72px 200px 48px 200px;
+      }
+    }
+    section#born,
+    section#community {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    section#dinorank-video {
+      div.wrapper {
+        max-width: 1220px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 72px 200px 48px 200px;
+        p {
+          &.drl-Caption1 {
+            margin-bottom: 8px;
+          }
+
+          &.drl-Text1 {
+            margin-bottom: 19.46px;
+          }
+        }
+        div.video-container {
+          img,
+          iframe {
+            max-width: 610px;
+          }
+        }
+      }
+    }
+
+    section#discover-dinorank {
+      div.wrapper {
+        max-width: 1220px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 72px 200px 48px 200px;
+        h2 {
+          margin-bottom: 0;
+        }
+        h3 {
+          margin-bottom: 48px;
+        }
+        div.img-container {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 48px;
+          margin-left: -80px;
+          img {
+            width: 100%;
+            max-width: 610px;
+            height: auto;
+          }
+        }
+        p.drl-Text1 {
+          &:not(:last-child) {
+            margin-bottom: 24ox;
+          }
+        }
+      }
+    }
+
+    section#knowledge {
+      div.wrapper {
+        max-width: 1220px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 72px 200px 48px 200px;
+        p {
+          &:not(:last-child) {
+            margin-bottom: 32px;
+          }
+        }
+      }
+    }
+
+    section#community {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    section#live {
+      div.wrapper {
+        max-width: 1220px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 72px 200px 48px 200px;
+        p {
+          line-height: 28.8px;
+          &:not(:last-child) {
+            margin-bottom: 32px;
+          }
+        }
+        div.img-wrapper {
+          img {
+            max-width: 610px;
+          }
+        }
+        div.btn-container {
+          a {
+            width: 149px;
+          }
+        }
+      }
+    }
+
+    section#optimize {
+      div.wrapper {
+        max-width: 1220px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 32px 200px 35.6px 200px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        h2 {
+          padding-left: 46.76px;
+        }
+        div.img-wrapper {
+          img {
+            max-width: 208px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+}

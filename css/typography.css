@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+.drl-Headline1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--drl-c-titles);
+}
+
+.drl-Headline2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--drl-c-titles);
+}
+
+.drl-Headline3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--drl-c-titles);
+}
+
+.drl-Headline4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--drl-c-titles);
+}
+
+.drl-Headline5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--drl-c-titles);
+}
+
+.drl-Headline6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--drl-c-titles);
+}
+
+.drl-Caption1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--drl-c-paragraph);
+}
+
+.drl-Caption2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--drl-c-paragraph);
+}
+
+.drl-Caption3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--drl-c-paragraph);
+}
+
+.drl-Caption4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--drl-c-paragraph);
+}
+
+.drl-Button1, a.drl-btn {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.drl-Button2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.drl-Text1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--drl-c-paragraph);
+}
+
+.drl-Text2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--drl-c-paragraph);
+}
+
+.drl-Text3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--drl-c-paragraph);
+}
+
+.drl-Label1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.drl-Label2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .drl-Headline1 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .drl-Headline2 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+    }
+    
+    .drl-Headline3 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 26px;
+        font-weight: bold;
+    }
+    
+    .drl-Headline4 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+    .drl-Headline5 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .drl-Headline6 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .drl-Caption1 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .drl-Caption2 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .drl-Caption3 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+    .drl-Caption4 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    
+    .drl-Button1, a.drl-btn {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .drl-Button2 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+    .drl-Text1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    
+    .drl-Text2 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: normal;
+    }
+    
+    .drl-Text3 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        font-weight: normal;
+    }
+    
+    .drl-Label1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .drl-Label2 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+    }    
+}
+
+@media (max-width: 425px) {
+    .drl-Headline1 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 34px;
+        font-weight: bold;
+    }
+    
+    .drl-Headline2 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .drl-Headline3 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+    .drl-Headline4 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .drl-Headline5 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .drl-Headline6 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .drl-Caption1 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .drl-Caption2 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+    .drl-Caption3 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .drl-Caption4 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    
+    .drl-Button1, a.drl-btn {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .drl-Button2 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .drl-Text1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: normal;
+    }
+    
+    .drl-Text2 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    
+    .drl-Text3 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+    }
+    
+    .drl-Label1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .drl-Label2 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+    }    
+}
