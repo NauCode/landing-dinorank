@@ -7,7 +7,7 @@ main section#hero {
 }
 
 main section#hero div.container {
-  background: url("/assets/images/test1.svg");
+  background: url("../../assets/images/test1.svg");
   background-position-y: bottom;
   background-position-x: center;
   background-repeat: no-repeat;
@@ -72,7 +72,7 @@ main section#hero-badge div.container {
 main section#hero-badge div.container div.dino {
   width: 303px;
   height: 332.28px;
-  background: url("/assets/images/Color_Dino.svg");
+  background: url("../../assets/images/Color_Dino.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -335,7 +335,7 @@ main section#dino-functions div.wrapper div.items-container div.item div.btn-con
 }
 
 main section#dino-functions div.wrapper div.items-container div.item div.shape {
-  background: url("/assets/images/home_dinorank_feature_circle.svg");
+  background: url("../../assets/images/home_dinorank_feature_circle.svg");
   left: 175px;
   background-size: contain;
   width: 275px;
@@ -513,7 +513,7 @@ main section#testimonials div.wrapper div.content div.item#testimonial5 {
 }
 
 main section#testimonials div.wrapper div.content div.item div.comilla {
-  background: url("/assets/images/comilla-icon.svg");
+  background: url("../../assets/images/comilla-icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 28.8px;
@@ -679,7 +679,7 @@ main section#plans-prices div.wrapper div.plan-picker a.picker-btn:last-child {
 }
 
 main section#plans-prices div.wrapper div.top-dots {
-  background: url("/assets/images/home_plans_prices_top_dots.svg");
+  background: url("../../assets/images/home_plans_prices_top_dots.svg");
   width: 64px;
   height: 64px;
 }
@@ -828,7 +828,7 @@ main section#plans-prices div.wrapper div.plans div.item#monthly-business a, mai
 }
 
 main section#plans-prices div.wrapper div.bottom-dots {
-  background: url("/assets/images/home_plans_prices_bottom_dots.svg");
+  background: url("../../assets/images/home_plans_prices_bottom_dots.svg");
   width: 64px;
   height: 64px;
   margin-top: -8px;
@@ -847,7 +847,7 @@ main section#plans-prices div.wrapper div.plan-chooser-container {
 }
 
 main section#plans-prices div.wrapper div.plan-chooser-container div.side-figure {
-  background: url("/assets/images/home_plans_prices_button_figure.svg");
+  background: url("../../assets/images/home_plans_prices_button_figure.svg");
   width: 24px;
   height: 30px;
   position: absolute;
@@ -1020,7 +1020,7 @@ main section#about-founders div.wrapper div.btn-wrapper a {
 }
 
 main section#dinorank-academy {
-  background: url("/assets/images/home_dinorank_academy_background.png");
+  background: url("../../assets/images/home_dinorank_academy_background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1132,7 +1132,7 @@ main section#newsletter {
 }
 
 main section#newsletter div.wrapper {
-  background: url("/assets/images/newsletter_tablet_background.svg");
+  background: url("../../assets/images/newsletter_tablet_background.svg");
   background-size: contain;
   background-repeat: no-repeat;
   padding: 20px 80px;
@@ -1293,7 +1293,7 @@ main section#newsletter div.wrapper form a span {
 
 main section#newsletter div.wrapper div.mobile-vulcan {
   display: none;
-  background: url("/assets/images/newsletter_vulcan.svg");
+  background: url("../../assets/images/newsletter_vulcan.svg");
   width: 310px;
   height: 178px;
   background-repeat: no-repeat;
@@ -1517,7 +1517,7 @@ footer div.wrapper div.bottom p {
     margin-left: 5px;
   }
   main section#dino-functions div.wrapper div.items-container div.item div.shape {
-    background: url("/assets/images/home_dinorank_feature_circle.svg");
+    background: url("../../assets/images/home_dinorank_feature_circle.svg");
     width: 392px;
     height: 392px;
     position: absolute;
@@ -1671,7 +1671,7 @@ footer div.wrapper div.bottom p {
     margin-top: 0px;
   }
   main section#testimonials div.wrapper div.content div.item div.comilla {
-    background: url("/assets/images/comilla-icon.svg");
+    background: url("../../assets/images/comilla-icon.svg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 28.8px;
@@ -1813,7 +1813,7 @@ footer div.wrapper div.bottom p {
     margin-right: 28px;
   }
   main section#plans-prices div.wrapper div.top-dots {
-    background: url("/assets/images/home_plans_prices_top_dots.svg");
+    background: url("../../assets/images/home_plans_prices_top_dots.svg");
     width: 64px;
     height: 64px;
   }
@@ -1945,7 +1945,7 @@ footer div.wrapper div.bottom p {
     margin-top: 24px;
   }
   main section#plans-prices div.wrapper div.bottom-dots {
-    background: url("/assets/images/home_plans_prices_bottom_dots.svg");
+    background: url("../../assets/images/home_plans_prices_bottom_dots.svg");
     width: 64px;
     height: 64px;
     margin-top: -8px;
@@ -1960,7 +1960,7 @@ footer div.wrapper div.bottom p {
     width: unset;
   }
   main section#plans-prices div.wrapper div.plan-chooser-container div.side-figure {
-    background: url("/assets/images/home_plans_prices_button_figure.svg");
+    background: url("../../assets/images/home_plans_prices_button_figure.svg");
     width: 24px;
     height: 30px;
     position: absolute;
@@ -2099,7 +2099,7 @@ footer div.wrapper div.bottom p {
     text-transform: uppercase;
   }
   main section#dinorank-academy {
-    background: url("/assets/images/home_dinorank_academy_background.png");
+    background: url("../../assets/images/home_dinorank_academy_background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2190,7 +2190,7 @@ footer div.wrapper div.bottom p {
     margin-bottom: 48px;
   }
   main section#newsletter div.wrapper {
-    background: url("/assets/images/newsletter_tablet_background.svg");
+    background: url("../../assets/images/newsletter_tablet_background.svg");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 80px 80px;
@@ -2330,7 +2330,7 @@ footer div.wrapper div.bottom p {
   }
   main section#newsletter div.wrapper div.mobile-vulcan {
     display: none;
-    background: url("/assets/images/newsletter_vulcan.svg");
+    background: url("../../assets/images/newsletter_vulcan.svg");
     width: 310px;
     height: 178px;
     background-repeat: no-repeat;
@@ -2596,7 +2596,7 @@ footer div.wrapper div.bottom p {
     border-radius: 10px;
   }
   main section#testimonials div.wrapper div.content div.item div.comilla {
-    background: url("/assets/images/comilla-icon.svg");
+    background: url("../../assets/images/comilla-icon.svg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 28.8px;
@@ -2738,7 +2738,7 @@ footer div.wrapper div.bottom p {
     margin-right: 16px;
   }
   main section#plans-prices div.wrapper div.top-dots {
-    background: url("/assets/images/home_plans_prices_top_dots.svg");
+    background: url("../../assets/images/home_plans_prices_top_dots.svg");
     width: 64px;
     height: 64px;
   }
@@ -2855,7 +2855,7 @@ footer div.wrapper div.bottom p {
     margin-right: 16px;
   }
   main section#plans-prices div.wrapper div.bottom-dots {
-    background: url("/assets/images/home_plans_prices_bottom_dots.svg");
+    background: url("../../assets/images/home_plans_prices_bottom_dots.svg");
     width: 64px;
     height: 64px;
     margin-top: -8px;
@@ -2869,7 +2869,7 @@ footer div.wrapper div.bottom p {
     position: relative;
   }
   main section#plans-prices div.wrapper div.plan-chooser-container div.side-figure {
-    background: url("/assets/images/home_plans_prices_button_figure.svg");
+    background: url("../../assets/images/home_plans_prices_button_figure.svg");
     width: 24px;
     height: 30px;
     position: absolute;
@@ -3007,7 +3007,7 @@ footer div.wrapper div.bottom p {
     text-transform: uppercase;
   }
   main section#dinorank-academy {
-    background: url("/assets/images/home_dinorank_academy_background.png");
+    background: url("../../assets/images/home_dinorank_academy_background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3232,7 +3232,7 @@ footer div.wrapper div.bottom p {
   }
   main section#newsletter div.wrapper div.mobile-vulcan {
     display: block;
-    background: url("/assets/images/newsletter_vulcan.svg");
+    background: url("../../assets/images/newsletter_vulcan.svg");
     width: 310px;
     height: 178px;
     background-repeat: no-repeat;
