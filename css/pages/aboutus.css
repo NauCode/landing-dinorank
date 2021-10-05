@@ -361,4 +361,208 @@ main section#alternative div.wrapper div.img-wrapper img {
   max-width: 220px;
   height: auto;
 }
+
+@media (min-width: 1024px) {
+  main section#hero div.wrapper {
+    padding: 48px 200px 64px 200px;
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  main section#hero div.wrapper h1 {
+    line-height: 57.6px;
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main section#hero div.wrapper div.img-container {
+    position: absolute;
+    bottom: 0;
+    right: calc(1220px - 820px - 300px);
+  }
+  main section#hero div.wrapper div.img-container img {
+    max-width: 223px;
+  }
+}
+
+@media (min-width: 1920px) {
+  main section#hero div.wrapper div.img-container {
+    right: calc(1220px - 820px - 150px);
+  }
+}
+
+@media (min-width: 1024px) {
+  main section#hero div.wrapper {
+    padding: 48px 200px 64px 200px;
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  main section#hero div.wrapper h1 {
+    line-height: 57.6px;
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main section#hero div.wrapper div.img-container {
+    position: absolute;
+    bottom: 0;
+    right: calc(1220px - 820px - 300px);
+  }
+  main section#hero div.wrapper div.img-container img {
+    max-width: 223px;
+  }
+  main section#story div.wrapper,
+  main section#story-2 div.wrapper,
+  main section#story-3 div.wrapper,
+  main section#story-4 div.wrapper,
+  main section#story-5 div.wrapper {
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 72px 200px 48px 200px;
+  }
+  main section#story div.wrapper p.drl-Text1,
+  main section#story-2 div.wrapper p.drl-Text1,
+  main section#story-3 div.wrapper p.drl-Text1,
+  main section#story-4 div.wrapper p.drl-Text1,
+  main section#story-5 div.wrapper p.drl-Text1 {
+    line-height: 28.8px;
+  }
+  main section#story div.wrapper div.img-wrapper img,
+  main section#story-2 div.wrapper div.img-wrapper img,
+  main section#story-3 div.wrapper div.img-wrapper img,
+  main section#story-4 div.wrapper div.img-wrapper img,
+  main section#story-5 div.wrapper div.img-wrapper img {
+    max-width: 610px;
+  }
+  main section#initial-contact div.wrapper {
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40;
+  }
+  main section#initial-contact div.wrapper h2 {
+    line-height: 43.2px;
+  }
+  main section#comment-fragment div.wrapper {
+    max-width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main section#objetive div.wrapper {
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 72px 200px 48px 200px;
+  }
+  main section#objetive div.wrapper h2 {
+    line-height: 43.2px;
+  }
+  main section#objetive div.wrapper p.drl-Headline5 {
+    line-height: 24px;
+  }
+  main section#objetive div.wrapper div.img-wrapper img {
+    max-width: 669.5px;
+  }
+  main section#achieved div.wrapper {
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 72px;
+    padding-bottom: 46px;
+  }
+  main section#achieved div.wrapper h3 {
+    line-height: 33.6px;
+  }
+  main section#achieved div.wrapper div.img-wrapper img {
+    max-width: 610px;
+  }
+  main section#cta-banner div.wrapper {
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  main section#cta-banner div.wrapper h3 {
+    line-height: 33.6px;
+    margin-bottom: 40px;
+  }
+  main section#cta-banner div.wrapper div.btn-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+  }
+  main section#dino-cards div.wrapper {
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 72px 200px 48px 200px;
+  }
+  main section#dino-cards div.wrapper div.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main section#dino-cards div.wrapper div.container div.item {
+    height: 246px;
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-bottom: 0 !important;
+    padding: 32px;
+  }
+  main section#dino-cards div.wrapper div.container div.item p.drl-Caption1 {
+    line-height: 21.6px;
+    margin-bottom: 16px;
+  }
+  main section#dino-cards div.wrapper div.container div.item p.drl-Text2 {
+    line-height: 25.6px;
+    margin-bottom: 16px;
+  }
+  main section#dino-cards div.wrapper div.container div.item div.list p.drl-Text2 {
+    line-height: 25.6px;
+  }
+  main section#alternative div.wrapper {
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main section#alternative div.wrapper h2 {
+    line-height: 43.2px;
+    padding-left: 32px;
+    text-align: left;
+  }
+  main section#alternative div.wrapper div.img-wrapper img {
+    width: 264px;
+  }
+}
 /*# sourceMappingURL=aboutus.css.map */

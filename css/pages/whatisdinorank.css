@@ -504,5 +504,52 @@ main section#optimize div.wrapper div.img-wrapper img {
   main section#knowledge div.wrapper p:not(:last-child) {
     margin-bottom: 32px;
   }
+  main section#community {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  main section#live div.wrapper {
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 72px 200px 48px 200px;
+  }
+  main section#live div.wrapper p {
+    line-height: 28.8px;
+  }
+  main section#live div.wrapper p:not(:last-child) {
+    margin-bottom: 32px;
+  }
+  main section#live div.wrapper div.img-wrapper img {
+    max-width: 610px;
+  }
+  main section#live div.wrapper div.btn-container a {
+    width: 149px;
+  }
+  main section#optimize div.wrapper {
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px 200px 35.6px 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main section#optimize div.wrapper h2 {
+    padding-left: 46.76px;
+  }
+  main section#optimize div.wrapper div.img-wrapper img {
+    max-width: 208px;
+  }
 }
 /*# sourceMappingURL=whatisdinorank.css.map */
