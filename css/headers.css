@@ -33,6 +33,11 @@ header.drl-header div.drl-left {
           justify-content: flex-start;
 }
 
+header.drl-header div.drl-left a.logo img {
+  width: 157.8px;
+  height: 40px;
+}
+
 header.drl-header div.drl-left a.drl-logo img {
   width: 126.24px;
   height: 32px;

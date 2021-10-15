@@ -141,11 +141,80 @@ a.drl-btn.drl-btn-outlined.drl-btn-disabled {
     border-color: var(--drl-c-opacity-black-1);
 }
 
+a.drl-btn.cta::before {
+    position: absolute;
+    top: 0;
+    right: 70%;
+    width: 88px;
+    height: 100%;
+    margin-right: 15px;
+    content: " ";
+    opacity: 0;
+    background: rgba(255, 255, 255, 0);
+    background: -moz-linear-gradient(
+      left,
+      rgba(255, 255, 255, 0) 0%,
+      #fff 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    background: -webkit-linear-gradient(
+      left,
+      rgba(255, 255, 255, 0) 0%,
+      #fff 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    background: -o-linear-gradient(
+      left,
+      rgba(255, 255, 255, 0) 0%,
+      #fff 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    background: -ms-linear-gradient(
+      left,
+      rgba(255, 255, 255, 0) 0%,
+      #fff 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0) 0%,
+      #fff 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+  a.drl-btn.cta:hover::before,
+  a.drl-btn.cta.force::before {
+      
+      -webkit-transition: 1s all;
+      -moz-transition: 1s all;
+      transition: 1s all;
+      animation-name: cta-animation;
+  animation-duration: 1s;
+  }
+
 @media (max-width: 425px) {
     a.drl-btn {
         padding-left: 12px;
         padding-right: 12px;
         padding-top: 8px;
         padding-bottom: 8px;
+    }
+}
+
+@keyframes cta-animation {
+    0% {
+        margin-right: 15px;
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.6;
+    }
+    65% {
+        opacity: 0.6;
+    }
+    100% {
+        margin-right: -95%;
+        opacity: 0;
     }
 }

@@ -64,7 +64,6 @@ main {
         bottom: 30px;
         left: calc(100% - 183px);
         z-index: 2;
-        animation: dinoShake 8s infinite ease-in-out;
       }
       div.boxes {
         display: flex;
@@ -278,6 +277,7 @@ main {
             }
           }
           &.image {
+            width: unset;
             img {
               max-width: 100%;
               height: auto;
@@ -333,6 +333,14 @@ main {
           justify-content: center;
           align-items: center;
           margin-bottom: 32px;
+          div.avatar-container {
+            width: 100px;
+            height: 100px;
+            img {
+              width: 100px;
+              height: 100px;
+            }
+          }
           div.content {
             margin-left: 16px;
             display: flex;
@@ -696,7 +704,7 @@ main {
               margin-top: 10px;
             }
             a {
-              margin-top: 24px;
+              margin-top: 45px;
             }
           }
         }
@@ -753,7 +761,7 @@ main {
         line-height: 38.4px;
       }
       div.work-picker {
-        overflow-x: scroll;
+        overflow-x: auto;
         white-space: nowrap;
         display: flex;
         flex-direction: row;
@@ -1152,9 +1160,9 @@ footer {
         div.items-container {
           div.item {
             div.shape {
-              left: 275px;
+              left: 325px;
               &.left {
-                right: 275px;
+                right: 325px;
               }
             }
           }
@@ -1171,6 +1179,60 @@ footer {
   }
 }
 
+@media (min-width: 1366px) {
+  main {
+    section#dino-functions {
+      div.wrapper {
+        div.items-container {
+          div.item {
+            &.image {
+              width: 600px;
+            }
+            div.shape {
+              left: 375px;
+              &.left {
+                right: 375px;
+              }
+            }
+          }
+        }
+      }
+    }
+    section#testimonials {
+      div.wrapper {
+        div.content {
+          &#testimonial1 {
+            height: 570px;
+          }
+
+          &#testimonial2 {
+            height: 760px;
+          }
+          &#testimonial3 {
+          }
+          &#testimonial4 {
+            margin-top: -200px;
+          }
+          &#testimonial5 {
+            margin-top: -10px;
+          }
+          &#testimonial6 {
+          }
+        }
+      }
+    }
+    section#weekly-lives {
+      div.wrapper {
+        div.img-container {
+          img {
+            max-width: 800px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (min-width: 1920px) {
   main {
     section#dino-functions {
@@ -1179,10 +1241,16 @@ footer {
 
         div.items-container {
           div.item {
+            &.image {
+              width: 700px;
+            }
             div.shape {
-              left: 325px;
+              left: 275px;
+              height: 475px;
+              width: 475px;
+              top: 30px;
               &.left {
-                right: 375px;
+                right: 275px;
               }
             }
           }
