@@ -7,7 +7,7 @@ main section#hero {
 }
 
 main section#hero div.container {
-  background: url("/assets/images/test1.svg");
+  background: url("../../assets/images/test1.svg");
   background-position-y: bottom;
   background-position-x: center;
   background-repeat: no-repeat;
@@ -72,7 +72,7 @@ main section#hero-badge div.container {
 main section#hero-badge div.container div.dino {
   width: 303px;
   height: 332.28px;
-  background: url("/assets/images/Color_Dino.svg");
+  background: url("../../assets/images/Color_Dino.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -80,8 +80,6 @@ main section#hero-badge div.container div.dino {
   bottom: 30px;
   left: calc(100% - 183px);
   z-index: 2;
-  -webkit-animation: dinoShake 8s infinite ease-in-out;
-          animation: dinoShake 8s infinite ease-in-out;
 }
 
 main section#hero-badge div.container div.boxes {
@@ -335,7 +333,7 @@ main section#dino-functions div.wrapper div.items-container div.item div.btn-con
 }
 
 main section#dino-functions div.wrapper div.items-container div.item div.shape {
-  background: url("/assets/images/home_dinorank_feature_circle.svg");
+  background: url("../../assets/images/home_dinorank_feature_circle.svg");
   left: 175px;
   background-size: contain;
   width: 275px;
@@ -348,6 +346,10 @@ main section#dino-functions div.wrapper div.items-container div.item div.shape {
 main section#dino-functions div.wrapper div.items-container div.item div.shape.left {
   left: unset;
   right: 175px;
+}
+
+main section#dino-functions div.wrapper div.items-container div.item.image {
+  width: unset;
 }
 
 main section#dino-functions div.wrapper div.items-container div.item.image img {
@@ -406,6 +408,16 @@ main section#opinions-content div.wrapper div.opinions div.opinion-item {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 32px;
+}
+
+main section#opinions-content div.wrapper div.opinions div.opinion-item div.avatar-container {
+  width: 100px;
+  height: 100px;
+}
+
+main section#opinions-content div.wrapper div.opinions div.opinion-item div.avatar-container img {
+  width: 100px;
+  height: 100px;
 }
 
 main section#opinions-content div.wrapper div.opinions div.opinion-item div.content {
@@ -513,7 +525,7 @@ main section#testimonials div.wrapper div.content div.item#testimonial5 {
 }
 
 main section#testimonials div.wrapper div.content div.item div.comilla {
-  background: url("/assets/images/comilla-icon.svg");
+  background: url("../../assets/images/comilla-icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 28.8px;
@@ -679,7 +691,7 @@ main section#plans-prices div.wrapper div.plan-picker a.picker-btn:last-child {
 }
 
 main section#plans-prices div.wrapper div.top-dots {
-  background: url("/assets/images/home_plans_prices_top_dots.svg");
+  background: url("../../assets/images/home_plans_prices_top_dots.svg");
   width: 64px;
   height: 64px;
 }
@@ -824,11 +836,11 @@ main section#plans-prices div.wrapper div.plans div.item#monthly-business div.pr
 }
 
 main section#plans-prices div.wrapper div.plans div.item#monthly-business a, main section#plans-prices div.wrapper div.plans div.item#anually-business a {
-  margin-top: 24px;
+  margin-top: 45px;
 }
 
 main section#plans-prices div.wrapper div.bottom-dots {
-  background: url("/assets/images/home_plans_prices_bottom_dots.svg");
+  background: url("../../assets/images/home_plans_prices_bottom_dots.svg");
   width: 64px;
   height: 64px;
   margin-top: -8px;
@@ -847,7 +859,7 @@ main section#plans-prices div.wrapper div.plan-chooser-container {
 }
 
 main section#plans-prices div.wrapper div.plan-chooser-container div.side-figure {
-  background: url("/assets/images/home_plans_prices_button_figure.svg");
+  background: url("../../assets/images/home_plans_prices_button_figure.svg");
   width: 24px;
   height: 30px;
   position: absolute;
@@ -884,7 +896,7 @@ main section#dinorank-helps div.wrapper h2 {
 }
 
 main section#dinorank-helps div.wrapper div.work-picker {
-  overflow-x: scroll;
+  overflow-x: auto;
   white-space: nowrap;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1020,7 +1032,7 @@ main section#about-founders div.wrapper div.btn-wrapper a {
 }
 
 main section#dinorank-academy {
-  background: url("/assets/images/home_dinorank_academy_background.png");
+  background: url("../../assets/images/home_dinorank_academy_background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1132,7 +1144,7 @@ main section#newsletter {
 }
 
 main section#newsletter div.wrapper {
-  background: url("/assets/images/newsletter_tablet_background.svg");
+  background: url("../../assets/images/newsletter_tablet_background.svg");
   background-size: contain;
   background-repeat: no-repeat;
   padding: 20px 80px;
@@ -1293,7 +1305,7 @@ main section#newsletter div.wrapper form a span {
 
 main section#newsletter div.wrapper div.mobile-vulcan {
   display: none;
-  background: url("/assets/images/newsletter_vulcan.svg");
+  background: url("../../assets/images/newsletter_vulcan.svg");
   width: 310px;
   height: 178px;
   background-repeat: no-repeat;
@@ -1394,10 +1406,10 @@ footer div.wrapper div.bottom p {
     max-width: 1000px;
   }
   main section#dino-functions div.wrapper div.items-container div.item div.shape {
-    left: 275px;
+    left: 325px;
   }
   main section#dino-functions div.wrapper div.items-container div.item div.shape.left {
-    right: 275px;
+    right: 325px;
   }
   main section#opinions-content div.wrapper,
   main section#testimonials div.wrapper {
@@ -1405,15 +1417,48 @@ footer div.wrapper div.bottom p {
   }
 }
 
+@media (min-width: 1366px) {
+  main section#dino-functions div.wrapper div.items-container div.item.image {
+    width: 600px;
+  }
+  main section#dino-functions div.wrapper div.items-container div.item div.shape {
+    left: 375px;
+  }
+  main section#dino-functions div.wrapper div.items-container div.item div.shape.left {
+    right: 375px;
+  }
+  main section#testimonials div.wrapper div.content#testimonial1 {
+    height: 570px;
+  }
+  main section#testimonials div.wrapper div.content#testimonial2 {
+    height: 760px;
+  }
+  main section#testimonials div.wrapper div.content#testimonial4 {
+    margin-top: -200px;
+  }
+  main section#testimonials div.wrapper div.content#testimonial5 {
+    margin-top: -10px;
+  }
+  main section#weekly-lives div.wrapper div.img-container img {
+    max-width: 800px;
+  }
+}
+
 @media (min-width: 1920px) {
   main section#dino-functions div.wrapper {
     max-width: 1200px;
   }
+  main section#dino-functions div.wrapper div.items-container div.item.image {
+    width: 700px;
+  }
   main section#dino-functions div.wrapper div.items-container div.item div.shape {
-    left: 325px;
+    left: 275px;
+    height: 475px;
+    width: 475px;
+    top: 30px;
   }
   main section#dino-functions div.wrapper div.items-container div.item div.shape.left {
-    right: 375px;
+    right: 275px;
   }
   main section#opinions-content div.wrapper,
   main section#testimonials div.wrapper {
@@ -1517,7 +1562,7 @@ footer div.wrapper div.bottom p {
     margin-left: 5px;
   }
   main section#dino-functions div.wrapper div.items-container div.item div.shape {
-    background: url("/assets/images/home_dinorank_feature_circle.svg");
+    background: url("../../assets/images/home_dinorank_feature_circle.svg");
     width: 392px;
     height: 392px;
     position: absolute;
@@ -1671,7 +1716,7 @@ footer div.wrapper div.bottom p {
     margin-top: 0px;
   }
   main section#testimonials div.wrapper div.content div.item div.comilla {
-    background: url("/assets/images/comilla-icon.svg");
+    background: url("../../assets/images/comilla-icon.svg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 28.8px;
@@ -1813,7 +1858,7 @@ footer div.wrapper div.bottom p {
     margin-right: 28px;
   }
   main section#plans-prices div.wrapper div.top-dots {
-    background: url("/assets/images/home_plans_prices_top_dots.svg");
+    background: url("../../assets/images/home_plans_prices_top_dots.svg");
     width: 64px;
     height: 64px;
   }
@@ -1945,7 +1990,7 @@ footer div.wrapper div.bottom p {
     margin-top: 24px;
   }
   main section#plans-prices div.wrapper div.bottom-dots {
-    background: url("/assets/images/home_plans_prices_bottom_dots.svg");
+    background: url("../../assets/images/home_plans_prices_bottom_dots.svg");
     width: 64px;
     height: 64px;
     margin-top: -8px;
@@ -1960,7 +2005,7 @@ footer div.wrapper div.bottom p {
     width: unset;
   }
   main section#plans-prices div.wrapper div.plan-chooser-container div.side-figure {
-    background: url("/assets/images/home_plans_prices_button_figure.svg");
+    background: url("../../assets/images/home_plans_prices_button_figure.svg");
     width: 24px;
     height: 30px;
     position: absolute;
@@ -2099,7 +2144,7 @@ footer div.wrapper div.bottom p {
     text-transform: uppercase;
   }
   main section#dinorank-academy {
-    background: url("/assets/images/home_dinorank_academy_background.png");
+    background: url("../../assets/images/home_dinorank_academy_background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2190,7 +2235,7 @@ footer div.wrapper div.bottom p {
     margin-bottom: 48px;
   }
   main section#newsletter div.wrapper {
-    background: url("/assets/images/newsletter_tablet_background.svg");
+    background: url("../../assets/images/newsletter_tablet_background.svg");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 80px 80px;
@@ -2330,7 +2375,7 @@ footer div.wrapper div.bottom p {
   }
   main section#newsletter div.wrapper div.mobile-vulcan {
     display: none;
-    background: url("/assets/images/newsletter_vulcan.svg");
+    background: url("../../assets/images/newsletter_vulcan.svg");
     width: 310px;
     height: 178px;
     background-repeat: no-repeat;
@@ -2596,7 +2641,7 @@ footer div.wrapper div.bottom p {
     border-radius: 10px;
   }
   main section#testimonials div.wrapper div.content div.item div.comilla {
-    background: url("/assets/images/comilla-icon.svg");
+    background: url("../../assets/images/comilla-icon.svg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 28.8px;
@@ -2738,7 +2783,7 @@ footer div.wrapper div.bottom p {
     margin-right: 16px;
   }
   main section#plans-prices div.wrapper div.top-dots {
-    background: url("/assets/images/home_plans_prices_top_dots.svg");
+    background: url("../../assets/images/home_plans_prices_top_dots.svg");
     width: 64px;
     height: 64px;
   }
@@ -2855,7 +2900,7 @@ footer div.wrapper div.bottom p {
     margin-right: 16px;
   }
   main section#plans-prices div.wrapper div.bottom-dots {
-    background: url("/assets/images/home_plans_prices_bottom_dots.svg");
+    background: url("../../assets/images/home_plans_prices_bottom_dots.svg");
     width: 64px;
     height: 64px;
     margin-top: -8px;
@@ -2869,7 +2914,7 @@ footer div.wrapper div.bottom p {
     position: relative;
   }
   main section#plans-prices div.wrapper div.plan-chooser-container div.side-figure {
-    background: url("/assets/images/home_plans_prices_button_figure.svg");
+    background: url("../../assets/images/home_plans_prices_button_figure.svg");
     width: 24px;
     height: 30px;
     position: absolute;
@@ -3007,7 +3052,7 @@ footer div.wrapper div.bottom p {
     text-transform: uppercase;
   }
   main section#dinorank-academy {
-    background: url("/assets/images/home_dinorank_academy_background.png");
+    background: url("../../assets/images/home_dinorank_academy_background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3232,7 +3277,7 @@ footer div.wrapper div.bottom p {
   }
   main section#newsletter div.wrapper div.mobile-vulcan {
     display: block;
-    background: url("/assets/images/newsletter_vulcan.svg");
+    background: url("../../assets/images/newsletter_vulcan.svg");
     width: 310px;
     height: 178px;
     background-repeat: no-repeat;

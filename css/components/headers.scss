@@ -18,10 +18,10 @@ header.drl-header {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    a.drl-logo {
+    a.logo {
       img {
         width: 126.24px;
-        height: 32px;
+        height: 100%;
       }
     }
   }
@@ -178,6 +178,7 @@ header.drl-header {
           }
 
           span {
+            margin-left: 10px;
             color: var(--drl-c-paragraph);
             transition: all ease-in-out 0s;
           }

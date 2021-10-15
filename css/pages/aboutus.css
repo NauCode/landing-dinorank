@@ -252,7 +252,7 @@ main section#dino-cards div.wrapper div.container div.item div.list {
 }
 
 main section#dino-cards div.wrapper div.container div.item div.list div.valid-icon {
-  background: url("/assets/images/valid_icon.svg");
+  background: url("../../assets/images/valid_icon.svg");
   width: 15.41px;
   height: 11.18px;
   margin-top: 10px;
