@@ -33,9 +33,9 @@ header.drl-header div.drl-left {
           justify-content: flex-start;
 }
 
-header.drl-header div.drl-left a.drl-logo img {
+header.drl-header div.drl-left a.logo img {
   width: 126.24px;
-  height: 32px;
+  height: 100%;
 }
 
 header.drl-header div.drl-center {
@@ -254,6 +254,7 @@ header.drl-header div.drl-right div.drl-language-dropdown div.drl-language-dropd
 }
 
 header.drl-header div.drl-right div.drl-language-dropdown div.drl-language-dropdown-content a.drl-language-menu-item span {
+  margin-left: 10px;
   color: var(--drl-c-paragraph);
   -webkit-transition: all ease-in-out 0s;
   transition: all ease-in-out 0s;
