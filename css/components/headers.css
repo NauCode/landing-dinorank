@@ -35,7 +35,8 @@ header.drl-header div.drl-left {
 
 header.drl-header div.drl-left a.logo img {
   width: 126.24px;
-  height: 100%;
+  height: 32px;
+  padding-top: 8px;
 }
 
 header.drl-header div.drl-center {
@@ -208,11 +209,21 @@ header.drl-header div.drl-right div.drl-language-dropdown div.drl-langauge-dropd
   cursor: pointer;
 }
 
+header.drl-header div.drl-right div.drl-language-dropdown div.drl-langauge-dropdown-btn img.flag {
+  width: 23.4px;
+  height: 24px;
+}
+
 header.drl-header div.drl-right div.drl-language-dropdown div.drl-language-dropdown-content {
   display: none;
   position: absolute;
   min-width: 160px;
   left: -30%;
+  z-index: 1;
+}
+
+header.drl-header div.drl-right div.drl-language-dropdown div.drl-language-dropdown-content div {
+  margin-top: 16px;
   background: var(--drl-c-bg);
   -webkit-box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
@@ -220,12 +231,11 @@ header.drl-header div.drl-right div.drl-language-dropdown div.drl-language-dropd
   border-top-style: solid;
   border-top-width: 4px;
   border-top-color: var(--drl-c-primary-accent);
-  z-index: 1;
   -webkit-transition: all ease-in-out 0s;
   transition: all ease-in-out 0s;
 }
 
-header.drl-header div.drl-right div.drl-language-dropdown div.drl-language-dropdown-content a.drl-language-menu-item {
+header.drl-header div.drl-right div.drl-language-dropdown div.drl-language-dropdown-content div a.drl-language-menu-item {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -248,23 +258,28 @@ header.drl-header div.drl-right div.drl-language-dropdown div.drl-language-dropd
   transition: all ease-in-out 0s;
 }
 
-header.drl-header div.drl-right div.drl-language-dropdown div.drl-language-dropdown-content a.drl-language-menu-item:last-child {
+header.drl-header div.drl-right div.drl-language-dropdown div.drl-language-dropdown-content div a.drl-language-menu-item img {
+  width: 23.4px;
+  height: 24px;
+}
+
+header.drl-header div.drl-right div.drl-language-dropdown div.drl-language-dropdown-content div a.drl-language-menu-item:last-child {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
-header.drl-header div.drl-right div.drl-language-dropdown div.drl-language-dropdown-content a.drl-language-menu-item span {
+header.drl-header div.drl-right div.drl-language-dropdown div.drl-language-dropdown-content div a.drl-language-menu-item span {
   margin-left: 10px;
   color: var(--drl-c-paragraph);
   -webkit-transition: all ease-in-out 0s;
   transition: all ease-in-out 0s;
 }
 
-header.drl-header div.drl-right div.drl-language-dropdown div.drl-language-dropdown-content a.drl-language-menu-item:hover {
+header.drl-header div.drl-right div.drl-language-dropdown div.drl-language-dropdown-content div a.drl-language-menu-item:hover {
   background: var(--drl-c-primary);
 }
 
-header.drl-header div.drl-right div.drl-language-dropdown div.drl-language-dropdown-content a.drl-language-menu-item:hover span {
+header.drl-header div.drl-right div.drl-language-dropdown div.drl-language-dropdown-content div a.drl-language-menu-item:hover span {
   color: var(--drl-c-bg);
 }
 
@@ -315,14 +330,12 @@ header.drl-header div.drl-right div.drl-header-action-buttons a.drl-header-btn.d
 
 header.drl-header div.drl-right div.drl-header-action-buttons a.drl-header-btn.drl-header-btn-1.drl-header-btn-1--gooey {
   position: relative;
-  -webkit-transition: all 700ms ease;
-  transition: all 700ms ease;
+  -webkit-transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 header.drl-header div.drl-right div.drl-header-action-buttons a.drl-header-btn.drl-header-btn-1.drl-header-btn-1--gooey .drl-header-btn-1__blobs {
   height: 100%;
-  -webkit-filter: url(#goo);
-          filter: url(#goo);
   overflow: hidden;
   position: absolute;
   top: 0;
@@ -338,10 +351,7 @@ header.drl-header div.drl-right div.drl-header-action-buttons a.drl-header-btn.d
   height: 100%;
   border-radius: 100%;
   position: absolute;
-  -webkit-transform: scale(1.1) translateY(125%) translateZ(0);
-          transform: scale(1.1) translateY(125%) translateZ(0);
-  -webkit-transition: all 700ms ease;
-  transition: all 700ms ease;
+  display: none;
 }
 
 header.drl-header div.drl-right div.drl-header-action-buttons a.drl-header-btn.drl-header-btn-1.drl-header-btn-1--gooey .drl-header-btn-1__blobs div:nth-child(1) {
@@ -350,23 +360,15 @@ header.drl-header div.drl-right div.drl-header-action-buttons a.drl-header-btn.d
 
 header.drl-header div.drl-right div.drl-header-action-buttons a.drl-header-btn.drl-header-btn-1.drl-header-btn-1--gooey .drl-header-btn-1__blobs div:nth-child(2) {
   left: 30%;
-  -webkit-transition-delay: 60ms;
-          transition-delay: 60ms;
 }
 
 header.drl-header div.drl-right div.drl-header-action-buttons a.drl-header-btn.drl-header-btn-1.drl-header-btn-1--gooey .drl-header-btn-1__blobs div:nth-child(3) {
   left: 50%;
-  -webkit-transition-delay: 25ms;
-          transition-delay: 25ms;
 }
 
 header.drl-header div.drl-right div.drl-header-action-buttons a.drl-header-btn.drl-header-btn-1.drl-header-btn-1--gooey:hover {
   color: #fff;
-}
-
-header.drl-header div.drl-right div.drl-header-action-buttons a.drl-header-btn.drl-header-btn-1.drl-header-btn-1--gooey:hover .drl-header-btn-1__blobs div {
-  -webkit-transform: scale(1.3) translateY(0) translateZ(0);
-          transform: scale(1.3) translateY(0) translateZ(0);
+  background-color: var(--drl-c-contrast-bg);
 }
 
 header.drl-header div.drl-right div.drl-header-action-buttons a.drl-header-btn.drl-header-btn-2 {

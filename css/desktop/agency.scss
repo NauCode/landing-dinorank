@@ -1,0 +1,193 @@
+@media only screen and (min-width: 1440px) {
+  div.wrapper {
+    width: 820px !important;
+    padding-left: 310px !important;
+    padding-right: 310px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section#hero {
+    height: 428px;
+    div.wrapper {
+      position: relative;
+      padding: 0 !important;
+      padding-left: 310px !important;
+      padding-right: 310px !important;
+      h1 {
+        position: absolute;
+        width: 820px;
+        left: 0;
+        right: 0;
+        top: 48px;
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 120% !important;
+        text-align: center !important;
+        color: #222033 !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+      }
+
+      div.btn-wrapper {
+        position: absolute;
+        width: 820px;
+        left: 0;
+        right: 0;
+        top: 270px;
+      }
+
+      div.img-container {
+        width: 238px;
+        height: 458px;
+        top: 94px;
+        bottom: unset !important;
+        left: 1080px;
+      }
+    }
+  }
+
+  p.drl-Text1 {
+    font-family: "Open Sans" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    line-height: 160% !important;
+    color: #33304d !important;
+  }
+
+  section#data-2 {
+    div.wrapper {
+      margin-left: auto;
+      margin-right: auto;
+      height: 511px;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      position: relative;
+      h3 {
+        position: absolute;
+        width: 820px;
+        left: 310px;
+        top: 72px;
+      }
+
+      div.container {
+        position: absolute;
+        width: 820px;
+        height: 267px;
+        left: 310px;
+        top: 172px;
+
+        div.item {
+          width: 247px;
+          height: 267px;
+          padding: 0 !important;
+          position: relative;
+
+          p {
+            position: absolute;
+            width: 199px !important;
+            height: 156px !important;
+            left: 24px !important;
+            right: 24px !important;
+            top: 24px !important;
+            margin-top: 0 !important;
+            margin: 0 !important;
+
+            /* Desktop/Text 2 */
+
+            font-family: "Open Sans" !important;
+            font-style: normal !important;
+            font-weight: normal !important;
+            font-size: 16px !important;
+            line-height: 160% !important;
+            /* or 26px */
+
+            text-align: center !important;
+
+            /* Dark_Blue/Dark_Blue 2 */
+
+            color: #33304d !important;
+
+            /* Inside Auto Layout */
+
+            flex: none !important;
+            order: 1 !important;
+            align-self: stretch !important;
+            flex-grow: 0 !important;
+          }
+
+          a.drl-btn {
+            display: flex!important;
+            flex-direction: row!important;
+            justify-content: center!important;
+            align-items: center!important;
+            padding: 10px 15px!important;
+            
+            position: absolute!important;
+            width: 199px!important;
+            height: 39px!important;
+            left: 24px!important;
+            right: 24px!important;
+            bottom: 24px!important;
+            
+            background: #5DB59D!important;
+            border-radius: 5px!important;
+            
+            /* Inside Auto Layout */
+            
+            flex: none!important;
+            order: 1!important;
+            align-self: stretch!important;
+            flex-grow: 0!important;
+            padding: 0!important;
+            border-width: 0!important;
+          }
+        }
+      }
+    }
+  }
+
+  section#final-cta {
+    height: 148px!important;
+    padding: 0!important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+      h3 {
+        position: static;
+        width: 865px;
+        height: 68px;
+        left: 287.5px;
+        top: 40px;
+        
+        /* Desktop/Headline 3 */
+        
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 34px!important;
+        /* or 34px */
+        
+        text-align: center;
+        
+        /* 06. White */
+        
+        color: #FFFFFF;
+        
+        
+        /* Inside Auto Layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0!important;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  }
+}

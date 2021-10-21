@@ -15,7 +15,19 @@ a.drl-btn {
     border-width: 1px;
     border-style: solid;
     border-color: var(--drl-c-primary);
-    transition: all ease-in-out .3s;
+    transition: all ease-in-out .1s;
+}
+
+a.drl-btn > img.onhover {
+    display: none;
+}
+
+a.drl-btn:hover > img.onhover {
+    display: block;
+}
+
+a.drl-btn:hover > img:not(.onhover) {
+    display: none;
 }
 
 a.drl-btn.drl-btn-b {
@@ -54,36 +66,36 @@ a.drl-btn:not(.drl-btn-disabled):active {
     background: var(--drl-c-primary);
     color: var(--drl-c-bg);
     border-color: var(--drl-c-primary);
-    box-shadow: 0 4px 10px rgba(5, 219, 91, 0.4)  ; 
+    /*box-shadow: 0 4px 10px rgba(5, 219, 91, 0.4)  ; 
 	-webkit-box-shadow: 0 4px 10px rgba(5, 219, 91, 0.4)  ; 
-	-moz-box-shadow: 0 4px 10px rgba(5, 219, 91, 0.4)  ; 
+	-moz-box-shadow: 0 4px 10px rgba(5, 219, 91, 0.4)  ;*/ 
 }
 
 a.drl-btn:not(.drl-btn-disabled):hover, a.drl-btn:not(.drl-btn-disabled):focus {
     color: var(--drl-c-bg);
     background: var(--drl-c-primary-accent);
     border-color: var(--drl-c-primary-accent);
-    box-shadow: 0 4px 10px rgba(5, 219, 91, 0.4)  ; 
+    /*box-shadow: 0 4px 10px rgba(5, 219, 91, 0.4)  ; 
 	-webkit-box-shadow: 0 4px 10px rgba(5, 219, 91, 0.4)  ; 
-	-moz-box-shadow: 0 4px 10px rgba(5, 219, 91, 0.4)  ; 
+	-moz-box-shadow: 0 4px 10px rgba(5, 219, 91, 0.4)  ;*/ 
 }
 
 a.drl-btn.drl-btn-b:not(.drl-btn-disabled):active {
     background: var(--drl-c-primary-b);
     color: var(--drl-c-bg);
     border-color: var(--drl-c-primary-b);
-    box-shadow: 0 4px 10px rgba(219, 73, 107, 0.4)  ; 
+    /*box-shadow: 0 4px 10px rgba(219, 73, 107, 0.4)  ; 
 	-webkit-box-shadow: 0 4px 10px rgba(219, 73, 107, 0.4)  ; 
-	-moz-box-shadow: 0 4px 10px rgba(219, 73, 107, 0.4)  ; 
+	-moz-box-shadow: 0 4px 10px rgba(219, 73, 107, 0.4)  ; */
 }
 
 a.drl-btn.drl-btn-b:not(.drl-btn-disabled):hover, a.drl-btn.drl-btn-b:not(.drl-btn-disabled):focus {
     color: var(--drl-c-bg);
     background: var(--drl-c-primary-b-accent);
     border-color: var(--drl-c-primary-b-accent);
-    box-shadow: 0 4px 10px rgba(219, 73, 107, 0.4)  ; 
+    /*box-shadow: 0 4px 10px rgba(219, 73, 107, 0.4)  ; 
 	-webkit-box-shadow: 0 4px 10px rgba(219, 73, 107, 0.4)  ; 
-	-moz-box-shadow: 0 4px 10px rgba(219, 73, 107, 0.4)  ; 
+	-moz-box-shadow: 0 4px 10px rgba(219, 73, 107, 0.4)  ; */
 }
 
 a.drl-btn.drl-btn-outlined:not(.drl-btn-disabled):active {
