@@ -1,45 +1,976 @@
-/* main section#hero div.container div.wrapper h1 {
-  width: 820px;
-  height: 174px;
-
-  /* Desktop/Headline 1 */
-/* font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 120%; */
-/* or 58px */
-/* text-align: center; */
-/* Dark_Blue/Dark_Blue 1 */
-/* color: #222033; */
-/* Inside Auto Layout */
-/* flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-  margin: 32px 0px;
-}
-
-main section#hero div.container div.wrapper p {
+@media only screen and (min-width: 1280px) {
+  body {
+    overflow-x: hidden;
+  }
+  div.wrapper {
+    width: 820px !important;
+    padding-left: 310px !important;
+    padding-right: 310px !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+  }
+  section#hero {
+    height: 523px;
+  }
+  section#hero div.container {
+    height: 100%;
+  }
+  section#hero div.container div.home_particles_1 {
+    display: block;
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: calc(((100vw - 1440px) / 2) + 121px);
+    top: 128px;
+    background-image: url("../../assets/images/home_particles_2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  section#hero div.container div.home_particles_2 {
+    display: block;
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    right: calc(((100vw - 1440px) / 2) + 186px);
+    top: 290px;
+    background-image: url("../../assets/images/home_particles_1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  section#hero div.container div.wrapper {
+    position: relative;
+    padding: 0 !important;
+  }
+  section#hero div.container div.wrapper h1.drl-Headline1 {
+    position: absolute;
     width: 820px;
-    height: 60px;
-    font-family: 'Open Sans';
+    left: 0;
+    right: 0;
+    top: 48px;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 120% !important;
+    text-align: center !important;
+    color: #222033 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  section#hero div.container div.wrapper p.drl-Text1 {
+    position: absolute;
+    width: 820px;
+    left: 0;
+    right: 0;
+    top: 238px;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 19px;
-    line-height: 160%; */
-/* or 30px */
-/* text-align: center; */
-/* Dark_Blue/Dark_Blue 2 */
-/*  color: #33304D; */
-/* Inside Auto Layout */
-/* flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-    margin: 32px 0px;
+    line-height: 30px !important;
+    text-align: center !important;
+    color: #33304d !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  section#hero div.container div.wrapper div.btn-wrapper {
+    position: absolute;
+    width: 820px;
+    left: 0;
+    right: 0;
+    top: 360px;
+  }
+  section#hero-badge {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 178px;
+    left: 0 !important;
+    right: 0 !important;
+    top: 579px;
+  }
+  section#hero-badge div.dino {
+    left: calc(((100vw - 1440px) / 2) + 1219px) !important;
+    bottom: 15.72px !important;
+  }
+  section#hero-badge div.container div.boxes div.box p.drl-Text2 {
+    line-height: 26px;
+    max-width: 330px;
+  }
+  section#intro-content {
+    margin-top: 178px;
+    padding-top: 44.46px !important;
+  }
+  section#intro-content div.wrapper {
+    position: relative;
+  }
+  section#intro-content div.wrapper h2#ic-h2-1 {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px !important;
+    margin-top: 39px !important;
+    text-align: center !important;
+    color: #222033 !important;
+  }
+  section#intro-content div.wrapper p {
+    margin-top: 40px !important;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px !important;
+    color: #33304d !important;
+  }
+  section#intro-content div.wrapper a#ic-btn-1 {
+    margin-top: 74px !important;
+    margin-bottom: 30px !important;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px !important;
+    color: #ffffff !important;
+    height: 19px;
+  }
+  section#dino-functions {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height: 5332px !important;
+  }
+  section#dino-functions div.wrapper {
+    position: relative;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 1030px !important;
+    width: 100% !important;
+  }
+  section#dino-functions div.wrapper h2#df-h2-1 {
+    margin-top: 130px !important;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px !important;
+    text-align: center !important;
+    color: #222033 !important;
+  }
+  section#dino-functions div.wrapper p#df-p-1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px !important;
+    text-align: center !important;
+    color: #33304d !important;
+    margin-top: 16px !important;
+    margin-bottom: 0 !important;
+  }
+  section#dino-functions div.wrapper div.items-container {
+    position: absolute;
+    width: 1030px;
+    height: 4956px;
+    left: 0;
+    right: 0;
+    top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0px;
+    display: block !important;
+  }
+  section#dino-functions div.wrapper div.items-container div.item {
+    display: none;
+  }
+  section#dino-functions div.wrapper div.items-container div.feature {
+    display: block !important;
+    position: relative;
+    padding: 0px;
+    width: 1030px;
+    height: 346px;
+  }
+  section#dino-functions div.wrapper div.items-container div.feature:not(:first-child) {
+    margin-top: 152px;
+  }
+  section#dino-functions div.wrapper div.items-container div.feature:not(:first-child).odd {
+    margin-top: 172px;
+  }
+  section#dino-functions div.wrapper div.items-container div.feature div.particles {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: calc(525px - 10px);
+    top: 332px;
+    background-image: url("../../assets/images/home_particles_4.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  section#dino-functions div.wrapper div.items-container div.feature div.item {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0px;
+    margin-top: 0 !important;
+    position: absolute;
+    width: 400px;
+    height: 346px;
+    left: 630px;
+    top: 5px;
+  }
+  section#dino-functions div.wrapper div.items-container div.feature div.item.image {
+    display: block !important;
+    position: absolute;
+    width: calc(505px * 1.1);
+    height: calc(330px * 1.1);
+    left: 0px;
+    top: 0px;
+  }
+  section#dino-functions div.wrapper div.items-container div.feature div.item.image img {
+    width: calc(505px * 1.1);
+    height: calc(330px * 1.1);
+  }
+  section#dino-functions div.wrapper div.items-container div.feature div.item.image div.shape {
+    background: unset;
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    left: -50px;
+    right: unset;
+    top: 60px;
+    border-radius: 50%;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(93, 181, 157, 0.4)), to(rgba(93, 181, 157, 0)));
+    background: linear-gradient(180deg, rgba(93, 181, 157, 0.4) 0%, rgba(93, 181, 157, 0) 100%);
+  }
+  section#dino-functions div.wrapper div.items-container div.feature div.item h3.drl-Headline3 {
+    width: 100%;
+    max-height: 102px;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px !important;
+    color: #222033 !important;
+    margin-bottom: 0;
+  }
+  section#dino-functions div.wrapper div.items-container div.feature div.item p.drl-Text2 {
+    width: 100%;
+    max-height: 156px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px !important;
+    color: #33304d !important;
+    margin-bottom: 0px;
+    margin-top: 24px;
+  }
+  section#dino-functions div.wrapper div.items-container div.feature div.item div.btn-container {
+    margin-top: 24px;
+  }
+  section#dino-functions div.wrapper div.items-container div.feature.odd div.particles {
+    left: calc(525px - 4px);
+    top: 322px;
+    background-image: url("../../assets/images/home_particles_3.svg");
+  }
+  section#dino-functions div.wrapper div.items-container div.feature.odd div.item {
+    left: 0px;
+    top: 0px;
+  }
+  section#dino-functions div.wrapper div.items-container div.feature.odd div.item.image {
+    left: 525px;
+    top: -8px;
+  }
+  section#dino-functions div.wrapper div.items-container div.feature.odd div.item.image div.shape {
+    left: unset;
+    right: -50px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(93, 181, 157, 0.4)), to(rgba(93, 181, 157, 0)));
+    background: linear-gradient(180deg, rgba(93, 181, 157, 0.4) 0%, rgba(93, 181, 157, 0) 100%);
+  }
+  section#opinions-content div.wrapper {
+    height: calc(1303px + 220px);
+  }
+  section#opinions-content div.wrapper h3#op-h3-1 {
+    line-height: 34px;
+    text-align: center !important;
+    color: #222033 !important;
+  }
+  section#opinions-content div.wrapper p#op-p-1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px !important;
+    text-align: center !important;
+    color: #33304d !important;
+  }
+  section#opinions-content div.wrapper div.opinions {
+    width: 1030px;
+    height: 1303px;
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  section#opinions-content div.wrapper div.opinions div.opinion-item {
+    display: none !important;
+  }
+  section#opinions-content div.wrapper div.opinions div.opinions-row {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0px;
+    height: 137px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-column-gap: 32px;
+            column-gap: 32px;
+  }
+  section#opinions-content div.wrapper div.opinions div.opinions-row:not(:first-child) {
+    margin-top: 48px;
+  }
+  section#opinions-content div.wrapper div.opinions div.opinions-row div.opinion-item {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0px;
+    width: 322px;
+    height: 115px;
+  }
+  section#opinions-content div.wrapper div.opinions div.opinions-row div.opinion-item div.content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 0px;
+    width: 206px;
+    height: 137px;
+  }
+  section#opinions-content div.wrapper div.opinions div.opinions-row div.opinion-item div.content h5 {
+    margin-top: 0 !important;
+  }
+  section#opinions-content div.wrapper div.opinions div.opinions-row div.opinion-item div.content p.drl-Text3 {
+    line-height: 22px !important;
+  }
+  section#testimonials div.bottom a.drl-btn {
+    text-transform: uppercase;
+  }
+  section#testimonials div.wrapper {
+    max-width: 1059px !important;
+    width: 100% !important;
+  }
+  section#testimonials div.wrapper div.content {
+    width: 1059px !important;
+  }
+  section#testimonials div.wrapper div.content div.item {
+    display: none !important;
+  }
+  section#testimonials div.wrapper div.content div.column-items {
+    display: block !important;
+  }
+  section#testimonials div.wrapper div.content div.column-items div.item {
+    display: block !important;
+    margin-top: 0 !important;
+  }
+  section#testimonials div.wrapper div.content div.column-items div.item p.drl-Text2 {
+    margin-bottom: 0 !important;
+    font-size: 16px;
+    line-height: 26px !important;
+  }
+  section#testimonials div.wrapper div.content div.column-items div.item p.drl-Text2:not(:first-child) {
+    margin-top: 32px !important;
+  }
+  section#testimonials div.wrapper div.content div.column-items div.item div.profile {
+    margin-top: 24px !important;
+  }
+  section#plans-prices div.wrapper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+    max-width: 1032px !important;
+    position: relative;
+  }
+  section#plans-prices div.wrapper h2#pp-h2-1,
+  section#plans-prices div.wrapper p#pp-p-1,
+  section#plans-prices div.wrapper p#pp-p-2,
+  section#plans-prices div.wrapper p#pp-p-3,
+  section#plans-prices div.wrapper p#pp-p-4,
+  section#plans-prices div.wrapper div.plan-picker {
+    max-width: 822px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section#plans-prices div.wrapper div.plan-picker {
+    display: block !important;
+    position: relative;
+    padding: 4px;
+    width: 205px;
+    height: 44px;
+    background: rgba(34, 32, 51, 0.1);
+    border-radius: 66px;
+  }
+  section#plans-prices div.wrapper div.plan-picker a.picker-btn {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    position: absolute;
+    width: 51px;
+    height: 24px;
+    top: calc(50% - 24px / 2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    cursor: pointer;
+  }
+  section#plans-prices div.wrapper div.plan-picker a.picker-btn.left {
+    left: 20px;
+    right: unset;
+  }
+  section#plans-prices div.wrapper div.plan-picker a.picker-btn.right {
+    left: unset;
+    right: 20px;
+  }
+  section#plans-prices div.wrapper div.plan-picker a.picker-btn.selected {
+    padding: 6px 16px !important;
+    width: 92px;
+    height: 32px;
+    top: 4px;
+    z-index: 2;
+    background: #ffffff;
+    /* sd. 1 */
+    -webkit-box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05), 0px 6px 20px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05), 0px 6px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 555px;
+  }
+  section#plans-prices div.wrapper div.plan-picker a.picker-btn.selected.left {
+    left: 4px;
+    right: unset;
+  }
+  section#plans-prices div.wrapper div.plan-picker a.picker-btn.selected.right {
+    left: unset;
+    right: 4px;
+  }
+  section#plans-prices div.wrapper div.plans {
+    margin-top: 70px !important;
+    margin-bottom: 64px !important;
+    position: relative;
+    padding: 0px;
+    width: 1032px;
+    height: 362px;
+  }
+  section#plans-prices div.wrapper div.plans div.tier1 {
+    padding: 0px;
+    position: absolute;
+    width: 320px !important;
+    height: 342px;
+    left: 0px;
+    top: 10px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    border-radius: 10px !important;
+  }
+  section#plans-prices div.wrapper div.plans div.tier1 div.header h3.drl-Headline2 {
+    position: absolute;
+    width: 234px;
+    height: 43px;
+    left: 43px;
+    top: 40px;
+    padding: 0 !important;
+  }
+  section#plans-prices div.wrapper div.plans div.tier1 div.header p.drl-Text3 {
+    position: absolute;
+    width: 280px;
+    height: 44px;
+    left: 20px;
+    top: 87px;
+    padding: 0 !important;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px !important;
+    text-align: center;
+    color: #33304d !important;
+  }
+  section#plans-prices div.wrapper div.plans div.tier1 div.price-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    height: 115px;
+    left: 20px;
+    right: 20px;
+    top: 157px;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  section#plans-prices div.wrapper div.plans div.tier1 div.price-box p.drl-Headline2 {
+    font-size: 32px !important;
+  }
+  section#plans-prices div.wrapper div.plans div.tier1 div.price-box p.drl-Headline2 span {
+    font-size: 16px !important;
+  }
+  section#plans-prices div.wrapper div.plans div.tier1 a.drl-btn {
+    padding: 10px 15px;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    position: absolute;
+    height: 40px;
+    left: 20px;
+    right: 20px;
+    bottom: 0px;
+  }
+  section#plans-prices div.wrapper div.plans div.tier1 a.drl-btn img {
+    margin-left: 8.68px;
+  }
+  section#plans-prices div.wrapper div.plans div.tier2 {
+    padding: 0px;
+    position: absolute;
+    width: 320px !important;
+    height: 362px;
+    left: 356px;
+    top: 0px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    border-radius: 10px !important;
+  }
+  section#plans-prices div.wrapper div.plans div.tier2 div.header {
+    height: 151px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  section#plans-prices div.wrapper div.plans div.tier2 div.header h3.drl-Headline2 {
+    position: absolute;
+    width: 251px;
+    height: 43px;
+    left: 43px;
+    top: 40px;
+    padding: 0 !important;
+  }
+  section#plans-prices div.wrapper div.plans div.tier2 div.header p.drl-Text3 {
+    position: absolute;
+    width: 280px;
+    height: 44px;
+    left: 20px;
+    top: 87px;
+    padding: 0 !important;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px !important;
+    text-align: center;
+  }
+  section#plans-prices div.wrapper div.plans div.tier2 div.price-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    height: 115px;
+    left: 20px;
+    right: 20px;
+    top: 167px;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  section#plans-prices div.wrapper div.plans div.tier2 div.price-box p.drl-Headline2 {
+    font-size: 32px !important;
+  }
+  section#plans-prices div.wrapper div.plans div.tier2 div.price-box p.drl-Headline2 span {
+    font-size: 16px !important;
+  }
+  section#plans-prices div.wrapper div.plans div.tier2 a.drl-btn {
+    padding: 10px 15px;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    position: absolute;
+    height: 40px;
+    left: 20px;
+    right: 20px;
+    bottom: 0px;
+  }
+  section#plans-prices div.wrapper div.plans div.tier2 a.drl-btn img {
+    margin-left: 8.68px;
+  }
+  section#plans-prices div.wrapper div.plans div.tier3 {
+    padding: 0px;
+    position: absolute;
+    width: 320px !important;
+    height: 342px !important;
+    left: 712px;
+    top: 10px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    border-radius: 10px !important;
+  }
+  section#plans-prices div.wrapper div.plans div.tier3 div.header h3.drl-Headline2 {
+    position: absolute;
+    width: 251px;
+    height: 43px;
+    left: 43px;
+    top: 40px;
+    padding: 0 !important;
+  }
+  section#plans-prices div.wrapper div.plans div.tier3 div.header p.drl-Text3 {
+    position: absolute;
+    width: 280px;
+    height: 44px;
+    left: 20px;
+    top: 87px;
+    padding: 0 !important;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px !important;
+    text-align: center;
+    color: #33304d !important;
+  }
+  section#plans-prices div.wrapper div.plans div.tier3 div.price-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    height: 115px;
+    left: 20px;
+    right: 20px;
+    top: 157px;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  section#plans-prices div.wrapper div.plans div.tier3 div.price-box p.drl-Headline2 {
+    font-size: 32px !important;
+  }
+  section#plans-prices div.wrapper div.plans div.tier3 div.price-box p.drl-Headline2 span {
+    font-size: 16px !important;
+  }
+  section#plans-prices div.wrapper div.plans div.tier3 a.drl-btn {
+    padding: 10px 15px;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    position: absolute;
+    height: 40px;
+    left: 20px;
+    right: 20px;
+    bottom: 0px;
+  }
+  section#plans-prices div.wrapper div.plans div.tier3 a.drl-btn img {
+    margin-left: 8.68px;
+  }
+  section#plans-prices div.wrapper div.top-dots {
+    background-image: url("../../assets/images/home_particles_6.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: absolute;
+    width: 64px !important;
+    height: 64px !important;
+    left: calc(((100vw - 1440px) / 2) - 156px);
+    bottom: 0px;
+  }
+  section#plans-prices div.wrapper div.bottom-dots {
+    background-image: url("../../assets/images/home_particles_5.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: absolute;
+    width: 140px !important;
+    height: 140px !important;
+    right: calc(((100vw - 1440px) / 2) - 156px);
+    bottom: 54px;
+  }
+  section#dinorank-helps div.wrapper {
+    max-width: 820px !important;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  section#dinorank-helps div.wrapper h2.drl-Headline2 {
+    width: 820px;
+    height: 86px;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px !important;
+    text-align: center;
+    color: #222033;
+  }
+  section#dinorank-helps div.wrapper div.work-picker {
+    width: 820px;
+    height: 44px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0px;
+    -webkit-filter: drop-shadow(0px 6px 20px rgba(0, 0, 0, 0.1));
+            filter: drop-shadow(0px 6px 20px rgba(0, 0, 0, 0.1));
+  }
+  section#dinorank-helps div.wrapper div.work-picker a.picker-btn {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10px 15px !important;
+    width: 205px;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid rgba(34, 32, 51, 0.1) !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  section#dinorank-helps div.wrapper div.content p.drl-Text1 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 29px !important;
+    color: #222033 !important;
+  }
+  section#dinorank-helps div.wrapper div.content p.drl-Text1:not(:first-child) {
+    margin-top: 40px !important;
+  }
+  section#dinorank-helps div.wrapper div.cta-container {
+    width: 360px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: 39px;
+  }
+  section#about-founders div.wrapper {
+    max-width: 820px !important;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  section#about-founders div.wrapper h2.drl-Headline2 {
+    margin-top: 0 !important;
+    width: 336px;
+    height: 43px;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px !important;
+    line-height: 43px !important;
+    text-align: center;
+    color: #222033 !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section#about-founders div.wrapper p.drl-Text1 {
+    width: 818px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 29px !important;
+    color: #000000 !important;
+  }
+  section#about-founders div.wrapper p.drl-Text1:not(:first-child) {
+    margin-top: 32px !important;
+  }
+  section#about-founders div.wrapper p.drl-Text1:last-child {
+    margin-bottom: 36px !important;
+  }
+  section#weekly-lives div.wrapper h2.drl-Headline1 {
+    margin-top: 0 !important;
+  }
+  section#weekly-lives div.wrapper div.img-container img {
+    width: 610px !important;
+    height: 343px !important;
+  }
+  section#newsletter div.wrapper {
+    position: relative;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 860px !important;
+    width: 100% !important;
+    margin-right: auto;
+    margin-left: auto;
+    background: unset !important;
+    border-radius: unset !important;
+    padding: 0 !important;
+    margin-top: 20px;
+  }
+  section#newsletter div.wrapper div.nw-particles-1 {
+    background-image: url("../../assets/images/home_particles_9.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30.825px;
+    height: 54.6125px;
+    left: -27.7px;
+    top: -20px;
+  }
+  section#newsletter div.wrapper div.nw-particles-2 {
+    background-image: url("../../assets/images/home_particles_7.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 392px;
+    height: 392px;
+    left: -88px;
+    top: 192px;
+    z-index: -1;
+  }
+  section#newsletter div.wrapper div.nw-particles-3 {
+    background-image: url("../../assets/images/home_particles_8.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    right: -60px;
+    bottom: -26px;
+    z-index: -1;
+  }
+  section#newsletter div.wrapper div.content {
+    width: 820px;
+    height: 448px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../../assets/images/newsletter_tablet_background.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px 80px;
+  }
 }
-
-main section#hero div.container {
-} */
 /*# sourceMappingURL=home.css.map */

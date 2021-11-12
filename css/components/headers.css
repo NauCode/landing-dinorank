@@ -40,7 +40,7 @@ header.drl-header.fixed {
   position: fixed;
   z-index: 99;
   background-color: var(--drl-c-paragraph);
-  right: 0 !important;
+  right: -17px !important;
   left: 0 !important;
   /*border-bottom: 1px solid var(--drl-c-paragraph);*/
 }
@@ -51,10 +51,6 @@ header.drl-header.fixed img {
 
 header.drl-header.fixed img.fixedContent {
   display: block;
-}
-
-header.drl-header.fixed img.arrow {
-  margin-left: 6px;
 }
 
 header.drl-header.fixed span:not(.lItem) {

@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="4.787" height="3.062" viewBox="0 0 4.787 3.062">
-  <path id="drop-down-white" d="M5.807,7.807,7.534,9.533a.664.664,0,0,0,.94,0L10.2,7.807a.669.669,0,0,0-.473-1.14H6.274A.667.667,0,0,0,5.807,7.807Z" transform="translate(-5.609 -6.667)" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Grupo_1" data-name="Grupo 1" transform="translate(-19 -297)">
+    <g id="Rectángulo_1" data-name="Rectángulo 1" transform="translate(19 297)" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="16" height="16" stroke="none"/>
+      <rect x="0.5" y="0.5" width="15" height="15" fill="none"/>
+    </g>
+    <path id="drop-down-white" d="M5.807,7.807,7.534,9.533a.664.664,0,0,0,.94,0L10.2,7.807a.669.669,0,0,0-.473-1.14H6.274A.667.667,0,0,0,5.807,7.807Z" transform="translate(18.997 296.802)" fill="#fff"/>
+  </g>
 </svg>

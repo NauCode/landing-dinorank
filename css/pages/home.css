@@ -4,6 +4,7 @@ main {
 
 main section#hero {
   min-height: 499px;
+  padding-top: 80px;
 }
 
 main section#hero div.container {
@@ -47,13 +48,17 @@ main section#hero div.container div.wrapper p {
   margin-bottom: 48px;
 }
 
-main section#hero div.container div.wrapper a {
+main section#hero div.container div.wrapper div.btn-wrapper {
+  max-width: 239px;
   margin-left: auto;
   margin-right: auto;
-  width: 144px;
-  height: 24px;
-  padding: 20px 30px;
+  margin-bottom: 48px;
+}
+
+main section#hero div.container div.wrapper div.btn-wrapper a {
+  text-align: center;
   text-transform: uppercase;
+  padding: 20px 30px;
 }
 
 main section#hero-badge {
@@ -61,15 +66,7 @@ main section#hero-badge {
   background: #5db59d;
 }
 
-main section#hero-badge div.container {
-  position: relative;
-  width: 100%;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-main section#hero-badge div.container div.dino {
+main section#hero-badge div.dino {
   width: 303px;
   height: 332.28px;
   background: url("../../assets/images/Color_Dino.svg");
@@ -80,6 +77,14 @@ main section#hero-badge div.container div.dino {
   bottom: 30px;
   left: calc(100% - 183px);
   z-index: 2;
+}
+
+main section#hero-badge div.container {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 main section#hero-badge div.container div.boxes {
@@ -152,7 +157,7 @@ main section#intro-content div.wrapper {
 main section#intro-content div.wrapper div.video-container {
   margin-left: auto;
   margin-right: auto;
-  background: url(/assets/images/home_dinorank_video_1_frame.svg);
+  /*background: url(/assets/images/home_dinorank_video_1_frame.svg);*/
   background-position-x: center;
   background-position-y: center;
   background-repeat: no-repeat;
@@ -172,11 +177,12 @@ main section#intro-content div.wrapper div.video-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 main section#intro-content div.wrapper div.video-container img {
-  width: 610px;
-  height: 343px;
+  width: 669px;
+  height: 398px;
 }
 
 main section#intro-content div.wrapper h2 {
@@ -298,6 +304,10 @@ main section#dino-functions div.wrapper div.items-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+main section#dino-functions div.wrapper div.items-container div.feature {
+  display: none;
 }
 
 main section#dino-functions div.wrapper div.items-container div.item {
@@ -455,6 +465,10 @@ main section#opinions-content div.wrapper div.opinions div.opinion-item div.cont
   line-height: 19.2px;
 }
 
+main section#opinions-content div.wrapper div.opinions div.opinions-row {
+  display: none;
+}
+
 main section#testimonials {
   background-color: #f9f9f9;
   position: relative;
@@ -494,6 +508,10 @@ main section#testimonials div.wrapper div.content {
       grid-template-columns: repeat(3, 1fr);
   -webkit-column-gap: 31px;
           column-gap: 31px;
+}
+
+main section#testimonials div.wrapper div.content div.column-items {
+  display: none;
 }
 
 main section#testimonials div.wrapper div.content div.item {
@@ -1518,8 +1536,8 @@ footer div.wrapper div.bottom p {
     height: 342px;
   }
   main section#intro-content div.wrapper div.video-container img {
-    width: 511px;
-    height: 287px;
+    width: 570px;
+    height: 342px;
   }
   main section#dino-functions {
     padding-top: 28px;
@@ -3360,8 +3378,8 @@ footer div.wrapper div.bottom p {
     height: 183px;
   }
   main section#intro-content div.wrapper div.video-container img {
-    width: 280px;
-    height: 157px;
+    width: 311px;
+    height: 183px;
   }
   main section#dino-functions div.wrapper {
     padding-left: 20px;
