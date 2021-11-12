@@ -8,7 +8,7 @@
     padding-right: 310px !important;
     margin-left: auto;
     margin-right: auto;
-    height: 100%;
+    height: 100% !important;
   }
   section#hero {
     height: 523px;
