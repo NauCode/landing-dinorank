@@ -439,6 +439,10 @@
         }
       }
     }
+
+    div.bottom {
+      top: calc(1280px - 144px)!important;
+    }
   }
 
   section#plans-prices {

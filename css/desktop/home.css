@@ -436,6 +436,9 @@
   section#testimonials div.wrapper div.content div.column-items div.item div.profile {
     margin-top: 24px !important;
   }
+  section#testimonials div.bottom {
+    top: calc(1280px - 144px) !important;
+  }
   section#plans-prices div.wrapper {
     padding-left: 0 !important;
     padding-right: 0 !important;
