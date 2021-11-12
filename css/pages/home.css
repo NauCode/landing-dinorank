@@ -1469,9 +1469,6 @@ footer div.wrapper div.bottom p {
   main section#testimonials div.wrapper {
     max-width: 1200px;
   }
-  main section#testimonials div.bottom {
-    top: calc(1000px - 144px) !important;
-  }
 }
 
 @media (max-width: 1279px) {
