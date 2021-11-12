@@ -1445,18 +1445,6 @@ footer div.wrapper div.bottom p {
   main section#dino-functions div.wrapper div.items-container div.item div.shape.left {
     right: 375px;
   }
-  main section#testimonials div.wrapper div.content#testimonial1 {
-    height: 570px;
-  }
-  main section#testimonials div.wrapper div.content#testimonial2 {
-    height: 760px;
-  }
-  main section#testimonials div.wrapper div.content#testimonial4 {
-    margin-top: -200px;
-  }
-  main section#testimonials div.wrapper div.content#testimonial5 {
-    margin-top: -10px;
-  }
   main section#weekly-lives div.wrapper div.img-container img {
     max-width: 800px;
   }
@@ -1484,18 +1472,6 @@ footer div.wrapper div.bottom p {
   }
   main section#testimonials {
     height: 1000px !important;
-  }
-  main section#testimonials div.wrapper div.content #testimonial1 {
-    height: 400px !important;
-  }
-  main section#testimonials div.wrapper div.content #testimonial2 {
-    height: 550px !important;
-  }
-  main section#testimonials div.wrapper div.content #testimonial4 {
-    margin-top: -210px !important;
-  }
-  main section#testimonials div.wrapper div.content #testimonial5 {
-    margin-top: -60px !important;
   }
   main section#testimonials div.bottom {
     top: calc(1000px - 144px) !important;
@@ -1720,18 +1696,6 @@ footer div.wrapper div.bottom p {
     -webkit-box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05), 0px 6px 20px rgba(0, 0, 0, 0.05);
             box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05), 0px 6px 20px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
-  }
-  main section#testimonials div.wrapper div.content div.item#testimonial1 {
-    height: 400px;
-  }
-  main section#testimonials div.wrapper div.content div.item#testimonial2 {
-    height: 550px;
-  }
-  main section#testimonials div.wrapper div.content div.item#testimonial3 {
-    margin-top: -150px;
-  }
-  main section#testimonials div.wrapper div.content div.item#testimonial4 {
-    margin-top: 0px;
   }
   main section#testimonials div.wrapper div.content div.item div.comilla {
     background: url("../../assets/images/comilla-icon.svg");
