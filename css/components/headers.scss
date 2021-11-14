@@ -56,6 +56,13 @@ header.drl-header {
 
         &.drl-header-btn-1 {
           border: 1px solid white!important;
+
+          &.drl-header-btn-1--gooey {
+            &:hover {
+              background-color: #5DB59D!important;
+              border-color: #5DB59D!important;
+            }
+          }
         }
       }
     }

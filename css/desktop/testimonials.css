@@ -1,0 +1,51 @@
+@media only screen and (min-width: 1280px) {
+  body {
+    overflow-x: hidden;
+  }
+  div.wrapper {
+    width: 820px !important;
+    padding-left: 310px !important;
+    padding-right: 310px !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+  }
+  section#testimonials div.bottom a.drl-btn {
+    text-transform: uppercase;
+  }
+  section#testimonials div.wrapper {
+    max-width: 1028px !important;
+    width: 100% !important;
+    height: 2338px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  section#testimonials div.wrapper div.content {
+    width: 1028px !important;
+  }
+  section#testimonials div.wrapper div.content div.item {
+    display: none !important;
+  }
+  section#testimonials div.wrapper div.content div.column-items {
+    display: block !important;
+  }
+  section#testimonials div.wrapper div.content div.column-items div.item {
+    display: block !important;
+    margin-top: 0 !important;
+  }
+  section#testimonials div.wrapper div.content div.column-items div.item p.drl-Text2 {
+    margin-bottom: 0 !important;
+    font-size: 16px;
+    line-height: 26px !important;
+  }
+  section#testimonials div.wrapper div.content div.column-items div.item p.drl-Text2:not(:first-child) {
+    margin-top: 32px !important;
+  }
+  section#testimonials div.wrapper div.content div.column-items div.item div.profile {
+    margin-top: 24px !important;
+  }
+  section#testimonials div.bottom {
+    top: calc(2238px - 70px) !important;
+  }
+}
+/*# sourceMappingURL=testimonials.css.map */

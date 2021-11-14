@@ -35,71 +35,140 @@ main {
   }
 
   section#testimonials {
+    position: relative;
+    overflow-y: hidden;
     div.wrapper {
-      padding: 48px 20px;
-      div.container {
-        display: block;
+      max-width: 1028px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+
+      overflow-y: hidden;
+      padding-top: 72px;
+      padding-left: 0px;
+      padding-right: 0px;
+      position: relative;
+      h2 {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 24px;
+        color: var(--drl-c-titles);
+      }
+      p {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 67px;
+        color: var(--drl-c-paragraph);
+      }
+
+      div.content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 31px;
+        div.column-items {
+          display:none;
+        }
         div.item {
-          padding: 20px 20px;
-          background: #ffffff;
+          margin-bottom: 32px;
+          background-color: var(--drl-c-bg);
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 20px;
+          padding-bottom: 20px;
           box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05),
             0px 6px 20px rgba(0, 0, 0, 0.05);
           border-radius: 10px;
-          &:not(:last-child) {
-            margin-bottom: 32px;
+
+          &#testimonial1 {
+            height: 570px;
           }
-          div.img-wrapper {
+
+          &#testimonial2 {
+            height: 760px;
+          }
+          &#testimonial3 {
+          }
+          &#testimonial4 {
+            margin-top: -300px;
+          }
+          &#testimonial5 {
+            margin-top: -110px;
+          }
+          &#testimonial6 {
+          }
+
+          div.comilla {
+            background: url("../../assets/images/comilla-icon.svg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 28.8px;
+            height: 24px;
             margin-bottom: 8px;
-            img {
-            }
           }
-          p.drl-Text2 {
-            margin-top: 0;
-            margin-bottom: 0;
+
+          p {
             color: var(--drl-c-contrast-bg);
+            text-align: left;
+            margin-bottom: 16px;
+            margin-top: 0;
             line-height: 22.4px;
-            &:not(:last-child) {
-              margin-bottom: 16px;
-            }
           }
+
           div.profile {
-            margin-top: 16px;
             display: flex;
             flex-direction: row;
-            align-items: center;
             justify-content: flex-start;
-            div.avatar-wrapper {
-              img {
-              }
-            }
-            div.titles {
-              padding-left: 16px;
+            align-items: center;
+
+            div.profile-data {
+              margin-left: 16px;
               p {
                 margin-top: 0;
                 margin-bottom: 0;
-              }
-              p.drl-Headline6 {
-                color: var(--drl-c-titles);
-                line-height: 18px;
-              }
-              p.drl-Caption3 {
-                color: var(--drl-c-primary-accent);
-                line-height: 14.4px;
-                margin-top: 4px;
+                font-weight: 700;
+
+                &:first-child {
+                  margin-bottom: 4px;
+                }
+
+                &:last-child {
+                  color: var(--drl-c-primary-accent);
+                }
               }
             }
           }
         }
       }
-      div.btn-wrapper {
-        max-width: 243px;
-        margin-top: 48px;
-        margin-left: auto;
-        margin-right: auto;
-        a {
-          text-transform: uppercase;
-          text-align: center;
-        }
+
+      div.bottom {
+        display: none;
+      }
+    }
+    div.bottom {
+      position: absolute;
+      height: 144px;
+      top: calc(1280px - 70px);
+      left: 0;
+      right: 0;
+
+      /* Gradients/Black - 40% */
+
+      background: linear-gradient(
+        180deg,
+        rgba(34, 32, 51, 0.4) 0%,
+        rgba(34, 32, 51, 0) 100%
+      );
+      transform: matrix(1, 0, 0, -1, 0, 0);
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      a.drl-btn {
+        margin-left: 38.5px;
+        margin-right: 38.5px;
+        margin-bottom: 48px;
+        transform: matrix(1, 0, 0, -1, 0, 0);
       }
     }
   }

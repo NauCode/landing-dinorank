@@ -69,6 +69,11 @@ header.drl-header.fixed div.drl-header-action-buttons a.drl-header-btn.drl-heade
   border: 1px solid white !important;
 }
 
+header.drl-header.fixed div.drl-header-action-buttons a.drl-header-btn.drl-header-btn-1.drl-header-btn-1--gooey:hover {
+  background-color: #5DB59D !important;
+  border-color: #5DB59D !important;
+}
+
 header.drl-header div.drl-left {
   display: -webkit-box;
   display: -ms-flexbox;
