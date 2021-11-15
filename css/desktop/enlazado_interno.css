@@ -221,6 +221,8 @@
     max-width: 1059px !important;
     width: 100% !important;
     height: 1300px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
   section#testimonials div.wrapper div.content {
     width: 1059px !important;
