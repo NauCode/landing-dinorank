@@ -1,5 +1,6 @@
 main section#hero {
   background: rgba(34, 32, 51, 0.05);
+  padding-top: 80px;
 }
 
 main section#hero div.wrapper {
@@ -36,7 +37,6 @@ main section#hero div.wrapper div.img-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: -16px;
 }
 
 main section#hero div.wrapper div.img-container img {
@@ -44,45 +44,85 @@ main section#hero div.wrapper div.img-container img {
   max-width: 280px;
   height: auto;
   margin-left: 30px;
+  margin-bottom: -16px;
+}
+
+main section#testimonials {
+  position: relative;
+  overflow-y: hidden;
 }
 
 main section#testimonials div.wrapper {
-  padding: 48px 20px;
+  max-width: 1028px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: hidden;
+  padding-top: 72px;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
 }
 
-main section#testimonials div.wrapper div.container {
-  display: block;
+main section#testimonials div.wrapper h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: var(--drl-c-titles);
 }
 
-main section#testimonials div.wrapper div.container div.item {
-  padding: 20px 20px;
-  background: #ffffff;
+main section#testimonials div.wrapper p {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 67px;
+  color: var(--drl-c-paragraph);
+}
+
+main section#testimonials div.wrapper div.content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  -webkit-column-gap: 31px;
+          column-gap: 31px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+main section#testimonials div.wrapper div.content div.column-items {
+  display: none;
+}
+
+main section#testimonials div.wrapper div.content div.item {
+  margin-bottom: 32px;
+  background-color: var(--drl-c-bg);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   -webkit-box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05), 0px 6px 20px rgba(0, 0, 0, 0.05);
           box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05), 0px 6px 20px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
 }
 
-main section#testimonials div.wrapper div.container div.item:not(:last-child) {
-  margin-bottom: 32px;
-}
-
-main section#testimonials div.wrapper div.container div.item div.img-wrapper {
+main section#testimonials div.wrapper div.content div.item div.comilla {
+  background: url("../../assets/images/comilla-icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 28.8px;
+  height: 24px;
   margin-bottom: 8px;
 }
 
-main section#testimonials div.wrapper div.container div.item p.drl-Text2 {
-  margin-top: 0;
-  margin-bottom: 0;
+main section#testimonials div.wrapper div.content div.item p {
   color: var(--drl-c-contrast-bg);
+  text-align: left;
+  margin-bottom: 24px;
+  margin-top: 0;
   line-height: 22.4px;
 }
 
-main section#testimonials div.wrapper div.container div.item p.drl-Text2:not(:last-child) {
-  margin-bottom: 16px;
-}
-
-main section#testimonials div.wrapper div.container div.item div.profile {
-  margin-top: 16px;
+main section#testimonials div.wrapper div.content div.item div.profile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -90,44 +130,69 @@ main section#testimonials div.wrapper div.container div.item div.profile {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-main section#testimonials div.wrapper div.container div.item div.profile div.titles {
-  padding-left: 16px;
+main section#testimonials div.wrapper div.content div.item div.profile div.profile-data {
+  margin-left: 16px;
 }
 
-main section#testimonials div.wrapper div.container div.item div.profile div.titles p {
+main section#testimonials div.wrapper div.content div.item div.profile div.profile-data p {
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: 700;
 }
 
-main section#testimonials div.wrapper div.container div.item div.profile div.titles p.drl-Headline6 {
-  color: var(--drl-c-titles);
-  line-height: 18px;
+main section#testimonials div.wrapper div.content div.item div.profile div.profile-data p:first-child {
+  margin-bottom: 4px;
 }
 
-main section#testimonials div.wrapper div.container div.item div.profile div.titles p.drl-Caption3 {
+main section#testimonials div.wrapper div.content div.item div.profile div.profile-data p:last-child {
   color: var(--drl-c-primary-accent);
-  line-height: 14.4px;
-  margin-top: 4px;
 }
 
-main section#testimonials div.wrapper div.btn-wrapper {
-  max-width: 243px;
-  margin-top: 48px;
-  margin-left: auto;
-  margin-right: auto;
+main section#testimonials div.wrapper div.bottom {
+  display: none;
 }
 
-main section#testimonials div.wrapper div.btn-wrapper a {
-  text-transform: uppercase;
-  text-align: center;
+main section#testimonials div.bottom {
+  position: absolute;
+  height: 144px;
+  top: calc(1280px - 70px);
+  left: 0;
+  right: 0;
+  /* Gradients/Black - 40% */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 32, 51, 0.4)), to(rgba(34, 32, 51, 0)));
+  background: linear-gradient(180deg, rgba(34, 32, 51, 0.4) 0%, rgba(34, 32, 51, 0) 100%);
+  -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+          transform: matrix(1, 0, 0, -1, 0, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+main section#testimonials div.bottom a.drl-btn {
+  margin-left: 38.5px;
+  margin-right: 38.5px;
+  margin-bottom: 48px;
+  -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+          transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 @media (min-width: 768px) {
