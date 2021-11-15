@@ -1,0 +1,253 @@
+@media only screen and (min-width: 1280px) {
+  body {
+    overflow-x: hidden;
+  }
+  div.wrapper {
+    width: 820px !important;
+    padding-left: 310px !important;
+    padding-right: 310px !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+  }
+  section#hero {
+    height: 488px;
+  }
+  section#hero div.wrapper {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    position: relative;
+  }
+  section#hero div.wrapper div.particles-1 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    right: 65px !important;
+    top: 40px !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(93, 181, 157, 0.4)), to(rgba(93, 181, 157, 0)));
+    background: linear-gradient(180deg, rgba(93, 181, 157, 0.4) 0%, rgba(93, 181, 157, 0) 100%);
+    -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+            transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  section#hero div.wrapper div.particles-2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    right: 150px !important;
+    top: 10px !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(93, 181, 157, 0.4)), to(rgba(93, 181, 157, 0)));
+    background: linear-gradient(180deg, rgba(93, 181, 157, 0.4) 0%, rgba(93, 181, 157, 0) 100%);
+    -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+            transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  section#hero div.wrapper div.particles-3 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    left: calc((100vw / 2) - 700px) !important;
+    top: 70px !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(93, 181, 157, 0.4)), to(rgba(93, 181, 157, 0)));
+    background: linear-gradient(180deg, rgba(93, 181, 157, 0.4) 0%, rgba(93, 181, 157, 0) 100%);
+    -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+            transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  section#hero div.wrapper div.particles-4 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    left: calc((100vw / 2) - 680px) !important;
+    top: 52px !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(93, 181, 157, 0.4)), to(rgba(93, 181, 157, 0)));
+    background: linear-gradient(180deg, rgba(93, 181, 157, 0.4) 0%, rgba(93, 181, 157, 0) 100%);
+    -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+            transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  section#hero div.wrapper div.img-container {
+    right: 130px !important;
+    bottom: 44px !important;
+  }
+  section#testimonials {
+    background-color: #f9f9f9;
+    position: relative;
+    overflow-y: hidden;
+  }
+  section#testimonials div.wrapper {
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: hidden;
+    padding-top: 72px;
+    padding-left: 206px;
+    padding-right: 206px;
+    position: relative;
+  }
+  section#testimonials div.wrapper h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 24px;
+    color: var(--drl-c-titles);
+  }
+  section#testimonials div.wrapper p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 67px;
+    color: var(--drl-c-paragraph);
+  }
+  section#testimonials div.wrapper div.content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    -webkit-column-gap: 31px;
+            column-gap: 31px;
+  }
+  section#testimonials div.wrapper div.content div.column-items {
+    display: none;
+  }
+  section#testimonials div.wrapper div.content div.item {
+    margin-bottom: 32px;
+    background-color: var(--drl-c-bg);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05), 0px 6px 20px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05), 0px 6px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+  }
+  section#testimonials div.wrapper div.content div.item#testimonial1 {
+    height: 570px;
+  }
+  section#testimonials div.wrapper div.content div.item#testimonial2 {
+    height: 760px;
+  }
+  section#testimonials div.wrapper div.content div.item#testimonial4 {
+    margin-top: -300px;
+  }
+  section#testimonials div.wrapper div.content div.item#testimonial5 {
+    margin-top: -110px;
+  }
+  section#testimonials div.wrapper div.content div.item div.comilla {
+    background: url("../../assets/images/comilla-icon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 28.8px;
+    height: 24px;
+    margin-bottom: 8px;
+  }
+  section#testimonials div.wrapper div.content div.item p {
+    color: var(--drl-c-contrast-bg);
+    text-align: left;
+    margin-bottom: 16px;
+    margin-top: 0;
+    line-height: 22.4px;
+  }
+  section#testimonials div.wrapper div.content div.item div.profile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section#testimonials div.wrapper div.content div.item div.profile div.profile-data {
+    margin-left: 16px;
+  }
+  section#testimonials div.wrapper div.content div.item div.profile div.profile-data p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+  section#testimonials div.wrapper div.content div.item div.profile div.profile-data p:first-child {
+    margin-bottom: 4px;
+  }
+  section#testimonials div.wrapper div.content div.item div.profile div.profile-data p:last-child {
+    color: var(--drl-c-primary-accent);
+  }
+  section#testimonials div.wrapper div.bottom {
+    display: none;
+  }
+  section#testimonials div.bottom {
+    position: absolute;
+    height: 144px;
+    top: calc(1280px - 70px);
+    left: 0;
+    right: 0;
+    /* Gradients/Black - 40% */
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 32, 51, 0.4)), to(rgba(34, 32, 51, 0)));
+    background: linear-gradient(180deg, rgba(34, 32, 51, 0.4) 0%, rgba(34, 32, 51, 0) 100%);
+    -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+            transform: matrix(1, 0, 0, -1, 0, 0);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section#testimonials div.bottom a.drl-btn {
+    margin-left: 38.5px;
+    margin-right: 38.5px;
+    margin-bottom: 48px;
+    -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+            transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  section#testimonials {
+    max-height: 1300px !important;
+    overflow: hidden;
+  }
+  section#testimonials div.bottom a.drl-btn {
+    text-transform: uppercase;
+  }
+  section#testimonials div.wrapper {
+    max-width: 1059px !important;
+    width: 100% !important;
+    height: 1300px !important;
+  }
+  section#testimonials div.wrapper div.content {
+    width: 1059px !important;
+  }
+  section#testimonials div.wrapper div.content div.item {
+    display: none !important;
+  }
+  section#testimonials div.wrapper div.content div.column-items {
+    display: block !important;
+  }
+  section#testimonials div.wrapper div.content div.column-items div.item {
+    display: block !important;
+    margin-top: 0 !important;
+  }
+  section#testimonials div.wrapper div.content div.column-items div.item p.drl-Text2 {
+    margin-bottom: 0 !important;
+    font-size: 16px;
+    line-height: 26px !important;
+  }
+  section#testimonials div.wrapper div.content div.column-items div.item p.drl-Text2:not(:first-child) {
+    margin-top: 32px !important;
+  }
+  section#testimonials div.wrapper div.content div.column-items div.item div.profile {
+    margin-top: 24px !important;
+  }
+  section#testimonials div.bottom {
+    top: calc(1300px - 140px) !important;
+  }
+}
+/*# sourceMappingURL=keyword_research.css.map */

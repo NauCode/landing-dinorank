@@ -70,8 +70,8 @@ header.drl-header.fixed div.drl-header-action-buttons a.drl-header-btn.drl-heade
 }
 
 header.drl-header.fixed div.drl-header-action-buttons a.drl-header-btn.drl-header-btn-1.drl-header-btn-1--gooey:hover {
-  background-color: #5DB59D !important;
-  border-color: #5DB59D !important;
+  background-color: #5db59d !important;
+  border-color: #5db59d !important;
 }
 
 header.drl-header div.drl-left {
@@ -450,6 +450,53 @@ header.drl-header div.drl-right div.drl-header-action-buttons a.drl-header-btn.d
           clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
+header.drl-header div.mobile-menu {
+  position: absolute;
+  background: #ffffff;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  top: 90px;
+  left: 0;
+  right: 0;
+  padding: 20px 20px;
+  display: none;
+}
+
+header.drl-header div.mobile-menu div.mm-item {
+  margin-bottom: 14px;
+}
+
+header.drl-header div.mobile-menu div.mm-item a,
+header.drl-header div.mobile-menu div.mm-item span {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 17px;
+  text-align: center;
+  color: #33304d !important;
+  text-decoration: none;
+}
+
+header.drl-header div.mobile-menu div.mm-item div.box {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  margin-left: 8px;
+  display: none;
+}
+
+header.drl-header div.mobile-menu div.mm-item div.box div.mm-subitem {
+  padding: 3px 0;
+}
+
+header.drl-header div.mobile-menu div.mm-item div.box div.mm-subitem span, header.drl-header div.mobile-menu div.mm-item div.box div.mm-subitem a {
+  font-size: 16px;
+}
+
+header.drl-header div.mobile-menu div.mm-item div.box.open {
+  display: block;
+}
+
 @media (max-width: 1279px) {
   header.drl-header {
     -webkit-box-pack: justify;
@@ -496,6 +543,9 @@ header.drl-header div.drl-right div.drl-header-action-buttons a.drl-header-btn.d
   header.drl-header div.drl-right div.drl-separator,
   header.drl-header div.drl-right div.drl-header-action-buttons {
     display: none;
+  }
+  header.drl-header div.mobile-menu.show {
+    display: block;
   }
   header.drl-header.fixed div.drl-right div.drl-mobile-menu-btn img {
     display: none;
