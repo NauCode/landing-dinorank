@@ -559,5 +559,10 @@
     right: calc(((100vw - 1440px) / 2) - 156px);
     bottom: 54px;
   }
+  section#related-functions div.wrapper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 1000px !important;
+  }
 }
 /*# sourceMappingURL=marketing_manager.css.map */

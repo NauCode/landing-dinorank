@@ -129,4 +129,12 @@
       background: unset!important;
     }
   }
+
+  section#related-functions {
+    div.wrapper {
+        padding-left: 0!important;
+        padding-right: 0!important;
+        width: 1000px!important;
+    }
+}
 }

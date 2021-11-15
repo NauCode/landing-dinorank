@@ -976,5 +976,10 @@
     background-repeat: no-repeat;
     padding: 20px 80px;
   }
+  section#related-functions div.wrapper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 1000px !important;
+  }
 }
 /*# sourceMappingURL=home.css.map */

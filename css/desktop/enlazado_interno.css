@@ -267,5 +267,10 @@
         -ms-flex-pack: center !important;
             justify-content: center !important;
   }
+  section#related-functions div.wrapper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 1000px !important;
+  }
 }
 /*# sourceMappingURL=enlazado_interno.css.map */

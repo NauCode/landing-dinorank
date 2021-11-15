@@ -263,5 +263,10 @@
     padding-top: 0 !important;
     padding-bottom: 0 !important;
   }
+  section#related-functions div.wrapper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 1000px !important;
+  }
 }
 /*# sourceMappingURL=visibility.css.map */

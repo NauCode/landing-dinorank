@@ -619,5 +619,10 @@
     max-width: 1032px !important;
     width: 100% !important;
   }
+  section#related-functions div.wrapper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 1000px !important;
+  }
 }
 /*# sourceMappingURL=precios.css.map */
