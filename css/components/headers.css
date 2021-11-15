@@ -467,7 +467,11 @@ header.drl-header div.drl-right div.drl-header-action-buttons a.drl-header-btn.d
   header.drl-header div.drl-center {
     display: none;
   }
+  header.drl-header div.drl-right {
+    width: 100% !important;
+  }
   header.drl-header div.drl-right div.drl-mobile-menu-btn {
+    margin-right: 30px !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -482,10 +486,22 @@ header.drl-header div.drl-right div.drl-header-action-buttons a.drl-header-btn.d
         -ms-flex-pack: center;
             justify-content: center;
   }
+  header.drl-header div.drl-right div.drl-mobile-menu-btn img {
+    display: block;
+  }
+  header.drl-header div.drl-right div.drl-mobile-menu-btn img.fixedContent {
+    display: none;
+  }
   header.drl-header div.drl-right div.drl-language-dropdown,
   header.drl-header div.drl-right div.drl-separator,
   header.drl-header div.drl-right div.drl-header-action-buttons {
     display: none;
+  }
+  header.drl-header.fixed div.drl-right div.drl-mobile-menu-btn img {
+    display: none;
+  }
+  header.drl-header.fixed div.drl-right div.drl-mobile-menu-btn img.fixedContent {
+    display: block;
   }
 }
 

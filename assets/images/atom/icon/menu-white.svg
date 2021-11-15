@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-Mesa_de_trabajo_1">
+      <rect width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="Mesa_de_trabajo_1" data-name="Mesa de trabajo – 1" clip-path="url(#clip-Mesa_de_trabajo_1)">
+    <path id="menu-white" d="M6.667,30H33.333a1.667,1.667,0,1,0,0-3.333H6.667a1.667,1.667,0,1,0,0,3.333Zm0-8.333H33.333a1.667,1.667,0,0,0,0-3.333H6.667a1.667,1.667,0,0,0,0,3.333ZM5,11.667a1.672,1.672,0,0,0,1.667,1.667H33.333a1.667,1.667,0,1,0,0-3.333H6.667A1.672,1.672,0,0,0,5,11.667Z" fill="#fff"/>
+  </g>
+</svg>

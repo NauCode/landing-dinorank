@@ -37,7 +37,6 @@ main section#hero div.wrapper div.img-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: -16px;
 }
 
 main section#hero div.wrapper div.img-container img {
@@ -45,6 +44,7 @@ main section#hero div.wrapper div.img-container img {
   max-width: 280px;
   height: auto;
   margin-left: 30px;
+  margin-bottom: -16px;
 }
 
 main section#testimonials {
@@ -81,10 +81,12 @@ main section#testimonials div.wrapper p {
 main section#testimonials div.wrapper div.content {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
   -webkit-column-gap: 31px;
           column-gap: 31px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 main section#testimonials div.wrapper div.content div.column-items {
@@ -103,22 +105,6 @@ main section#testimonials div.wrapper div.content div.item {
   border-radius: 10px;
 }
 
-main section#testimonials div.wrapper div.content div.item#testimonial1 {
-  height: 570px;
-}
-
-main section#testimonials div.wrapper div.content div.item#testimonial2 {
-  height: 760px;
-}
-
-main section#testimonials div.wrapper div.content div.item#testimonial4 {
-  margin-top: -300px;
-}
-
-main section#testimonials div.wrapper div.content div.item#testimonial5 {
-  margin-top: -110px;
-}
-
 main section#testimonials div.wrapper div.content div.item div.comilla {
   background: url("../../assets/images/comilla-icon.svg");
   background-size: contain;
@@ -131,7 +117,7 @@ main section#testimonials div.wrapper div.content div.item div.comilla {
 main section#testimonials div.wrapper div.content div.item p {
   color: var(--drl-c-contrast-bg);
   text-align: left;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   margin-top: 0;
   line-height: 22.4px;
 }
@@ -198,6 +184,7 @@ main section#testimonials div.bottom {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: none;
 }
 
 main section#testimonials div.bottom a.drl-btn {
