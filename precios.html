@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/components/headers.css" />
     <link rel="stylesheet" href="css/components/footer.css" />
     <link rel="stylesheet" href="css/pages/precios.css" />
+    <link rel="stylesheet" href="css/desktop/precios.css">
   </head>
   <body>
     <!-- HEADER -->
@@ -275,16 +276,6 @@
           <h1 class="drl-Headline1">
             Si eres freelance, pyme o agencia SEO hay un plan de DinoRANK a tu medida
           </h1>
-          <p class="drl-Headline4">
-            DinoRANK te da la hoja de ruta completa en un solo clic
-          </p>
-          <div class="btn-wrapper">
-            <div class="container">
-              <div style="position: relative;">
-                <a id="cta-hero-btn" href="" class="drl-btn drl-btn-b cta">SUSCríbete ahora</a>
-              </div>
-            </div>
-          </div>
           <div class="img-container">
             <img src="assets/images/dino_read.png" alt="" />
           </div>
@@ -298,160 +289,130 @@
           <p class="drl-Text1">Por eso nuestra filosofía es democratizar el mundo del SEO y te lo demostramos con hechos.</p>
         </div>
       </section>
-      <section id="price-plans">
+      <section id="plans-prices">
         <div class="wrapper">
           <p class="drl-Headline2">
             Ninguna herramienta SEO te da todo lo que te ofrece DinoRANK por menos precio
           </p>
           <p class="drl-Caption1">
-            Paga mes a mes o paga anualmente y <u>ahorra hasta un 20%</u>
+            Paga mes a mes - Paga anualmente y <u>ahorra hasta un 20%</u>
           </p>
-          <div class="period-picker">
-            <div class="item left picker-btn"><p class="drl-Headline5">Mensual</p></div>
-            <div class="item selected right picker-btn">
-              <p class="drl-Headline5">Anual</p>
-            </div>
+          <div class="plan-picker">
+            <a href="" class="picker-btn left selected"><span>Mensual</span></a>
+            <a href="" class="picker-btn right"><span>Anual</span></a>
           </div>
-          <div class="container" id="monthly">
-            <!-- ITEM -->
-            <div class="item">
-              <div class="plan">
-                <div class="header">
-                  <p class="drl-Headline2">PLAN STARTER</p>
-                  <p class="drl-Text3">
-                    Si eres nichero, redactor SEO, copy o diseñador web, Starter es tu plan
-                  </p>
-                </div>
-                <div class="price-box">
-                  <p class="price">19,90 €<span>/mes</span></p>
-                  <p class="drl-Text3">IVA incluído</p>
-                </div>
-                <div class="btn-wrapper">
-                  <a href="" class="drl-btn drl-btn-outlined">
-                    <span>Suscríbete a STARTER</span>
-                    
-                    <img src="assets/images/arrow-right-white.svg" class="onhover" alt="" />
-                  </a>
-                </div>
+          <div class="top-dots"></div>
+          <div class="plans" id="monthly">
+            <!-- ITEM STARTER -->
+            <div class="item tier1" id="monthly-starter">
+              <div class="header">
+                <h3 class="drl-Headline2">Plan Starter</h3>
+                <p class="drl-Text3">
+                  Ideal para nicheros, pequeños emprendedores y redactores
+                </p>
               </div>
+              <div class="price-box">
+                <p class="drl-Headline2">25,00 €<span> /mes</span></p>
+                <p class="drl-Text3">Impuestos incluídos</p>
+              </div>
+              <a href="" class="drl-btn drl-btn-outlined">
+                <span>Contratar</span>
+                
+                
+              </a>
             </div>
-            <!-- END ITEM -->
-            <!-- ITEM -->
-            <div class="item">
-                <div class="plan featured">
-                  <div class="header">
-                    <p class="drl-Headline2">PLAN PRO</p>
-                    <p class="drl-Text3">
-                      Si eres Consultor SEO, tienes o gestionas un ecommerce,
-                      elige PRO
-                    </p>
-                  </div>
-                  <div class="price-box">
-                    <p class="price">34,90 €<span>/mes</span></p>
-                    <p class="drl-Text3">IVA incluído</p>
-                  </div>
-                  <div class="btn-wrapper">
-                    <a href="" class="drl-btn">
-                      <span>Suscríbete a PRO</span>
-                    </a>
-                  </div>
-                </div>
+            <!-- END ITEM STARTER -->
+            <!-- ITEM PRO -->
+            <div class="item tier2 featured" id="monthly-pro">
+              <div class="header">
+                <h3 class="drl-Headline2">Plan Business</h3>
+                <p class="drl-Text3">
+                  Perfecto para agencias SEO y de marketing y grandes ecommerce
+                </p>
               </div>
-              <!-- END ITEM -->
-              <!-- ITEM -->
-            <div class="item">
-                <div class="plan">
-                  <div class="header">
-                    <p class="drl-Headline2">PLAN BUSINESS</p>
-                    <p class="drl-Text3">
-                      Si eres una agencia SEO o marketing manager, escoge Business
-                    </p>
-                  </div>
-                  <div class="price-box">
-                    <p class="price">55,20 €<span>/mes</span></p>
-                    <p class="drl-Text3">IVA incluído</p>
-                  </div>
-                  <div class="btn-wrapper">
-                    <a href="" class="drl-btn drl-btn-outlined">
-                      <span>Suscríbete a BUSINESS</span>
-                      
-                      <img src="assets/images/arrow-right-white.svg" class="onhover" alt="" />
-                    </a>
-                  </div>
-                </div>
+              <div class="price-box">
+                <p class="drl-Headline2">68,99 €<span> /mes</span></p>
+                <p class="drl-Text3">Impuestos incluídos</p>
               </div>
-              <!-- END ITEM -->
-          </div>
-          <div class="container" id="yearly">
-            <!-- ITEM -->
-            <div class="item">
-              <div class="plan">
-                <div class="header">
-                  <p class="drl-Headline2">PLAN STARTER</p>
-                  <p class="drl-Text3">
-                    Si eres nichero, redactor SEO, copy o diseñador web, Starter es tu plan
-                  </p>
-                </div>
-                <div class="price-box">
-                  <p class="price">19,90 €<span>/año</span></p>
-                  <p class="drl-Text3">IVA incluído</p>
-                </div>
-                <div class="btn-wrapper">
-                  <a href="" class="drl-btn drl-btn-outlined">
-                    <span>Suscríbete a STARTER</span>
-                    
-                    <img src="assets/images/arrow-right-white.svg" class="onhover" alt="" />
-                  </a>
-                </div>
-              </div>
+              <a href="" class="drl-btn drl-btn">
+                <span>Contratar</span>
+              </a>
             </div>
-            <!-- END ITEM -->
-            <!-- ITEM -->
-            <div class="item">
-                <div class="plan featured">
-                  <div class="header">
-                    <p class="drl-Headline2">PLAN PRO</p>
-                    <p class="drl-Text3">
-                      Si eres Consultor SEO, tienes o gestionas un ecommerce,
-                      elige PRO
-                    </p>
-                  </div>
-                  <div class="price-box">
-                    <p class="price">34,90 €<span>/año</span></p>
-                    <p class="drl-Text3">IVA incluído</p>
-                  </div>
-                  <div class="btn-wrapper">
-                    <a href="" class="drl-btn">
-                      <span>Suscríbete a PRO</span>
-                    </a>
-                  </div>
-                </div>
+            <!-- END ITEM PRO -->
+            <!-- ITEM BUSINESS -->
+            <div class="item tier3" id="monthly-business">
+              <div class="header">
+                <h3 class="drl-Headline2">Plan Pro</h3>
+                <p class="drl-Text3">
+                  Pensado para consultores, marketing managers y diseñadores web
+                </p>
               </div>
-              <!-- END ITEM -->
-              <!-- ITEM -->
-            <div class="item">
-                <div class="plan">
-                  <div class="header">
-                    <p class="drl-Headline2">PLAN BUSINESS</p>
-                    <p class="drl-Text3">
-                      Si eres una agencia SEO o marketing manager, escoge Business
-                    </p>
-                  </div>
-                  <div class="price-box">
-                    <p class="price">55,20 €<span>/año</span></p>
-                    <p class="drl-Text3">IVA incluído</p>
-                  </div>
-                  <div class="btn-wrapper">
-                    <a href="" class="drl-btn drl-btn-outlined">
-                      <span>Suscríbete a BUSINESS</span>
-                      
-                      <img src="assets/images/arrow-right-white.svg" class="onhover" alt="" />
-                    </a>
-                  </div>
-                </div>
+              <div class="price-box">
+                <p class="drl-Headline2">42,00 €<span> /mes</span></p>
+                <p class="drl-Text3">Impuestos incluídos</p>
               </div>
-              <!-- END ITEM -->
+              <a href="" class="drl-btn drl-btn-outlined">
+                <span>Contratar</span>
+              </a>
+            </div>
+            <!-- END ITEM BUSINESS -->
           </div>
+          <div class="plans" id="yearly">
+            <!-- ITEM STARTER -->
+            <div class="item tier1" id="monthly-starter">
+              <div class="header">
+                <h3 class="drl-Headline2">Plan Starter</h3>
+                <p class="drl-Text3">
+                  Ideal para nicheros, pequeños emprendedores y redactores
+                </p>
+              </div>
+              <div class="price-box">
+                <p class="drl-Headline2">25,00 €<span> /año</span></p>
+                <p class="drl-Text3">Impuestos incluídos</p>
+              </div>
+              <a href="" class="drl-btn drl-btn-outlined">
+                <span>Contratar</span>
+                
+                
+              </a>
+            </div>
+            <!-- END ITEM STARTER -->
+            <!-- ITEM PRO -->
+            <div class="item tier2 featured" id="monthly-pro">
+              <div class="header">
+                <h3 class="drl-Headline2">Plan Business</h3>
+                <p class="drl-Text3">
+                  Perfecto para agencias SEO y de marketing y grandes ecommerce
+                </p>
+              </div>
+              <div class="price-box">
+                <p class="drl-Headline2">68,99 €<span> /año</span></p>
+                <p class="drl-Text3">Impuestos incluídos</p>
+              </div>
+              <a href="" class="drl-btn drl-btn">
+                <span>Contratar</span>
+              </a>
+            </div>
+            <!-- END ITEM PRO -->
+            <!-- ITEM BUSINESS -->
+            <div class="item tier3" id="monthly-business">
+              <div class="header">
+                <h3 class="drl-Headline2">Plan Pro</h3>
+                <p class="drl-Text3">
+                  Pensado para consultores, marketing managers y diseñadores web
+                </p>
+              </div>
+              <div class="price-box">
+                <p class="drl-Headline2">42,00 €<span> /año</span></p>
+                <p class="drl-Text3">Impuestos incluídos</p>
+              </div>
+              <a href="" class="drl-btn drl-btn-outlined">
+                <span>Contratar</span>
+              </a>
+            </div>
+            <!-- END ITEM BUSINESS -->
+          </div>
+          <div class="bottom-dots"></div>
         </div>
       </section>
       <section id="plan-functions">
@@ -1269,6 +1230,7 @@
     <script src="js/header.js"></script>
     <script src="js/ctaEffect.js"></script>
     <script src="js/priceSwitcher.js"></script>
+    <script src="js/preciosScreen.js"></script>
     <script>
       planDisplayMode="grid";
     </script>

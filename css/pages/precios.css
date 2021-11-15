@@ -562,6 +562,269 @@ main section#plan-functions div.wrapper div.bottom p.drl-Text1:not(:last-child) 
   margin-bottom: 4px;
 }
 
+main section#plans-prices div.wrapper {
+  max-width: 1032px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 72px;
+}
+
+main section#plans-prices div.wrapper h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: var(--drl-c-titles);
+  text-align: center;
+  line-height: 43.2px;
+}
+
+main section#plans-prices div.wrapper p.drl-Text1 {
+  color: var(--drl-c-titles);
+  margin-bottom: 24px;
+  line-height: 28.8px;
+}
+
+main section#plans-prices div.wrapper p.drl-Caption1 {
+  color: var(--drl-c-paragraph);
+  text-align: center;
+  margin-bottom: 44px;
+  padding-left: 32px;
+  padding-right: 32px;
+  line-height: 21.6px;
+}
+
+main section#plans-prices div.wrapper div.plan-picker {
+  width: 205px;
+  height: 44px;
+  background: rgba(34, 32, 51, 0.1);
+  border-radius: 66px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+main section#plans-prices div.wrapper div.plan-picker a.picker-btn {
+  color: var(--drl-c-paragraph);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+main section#plans-prices div.wrapper div.plan-picker a.picker-btn.selected {
+  background: var(--drl-c-bg);
+  -webkit-box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05), 0px 6px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05), 0px 6px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 555px;
+  padding: 6px 16px;
+  color: var(--drl-c-primary-accent);
+}
+
+main section#plans-prices div.wrapper div.plan-picker a.picker-btn:first-child {
+  margin-left: 8px;
+}
+
+main section#plans-prices div.wrapper div.plan-picker a.picker-btn:last-child {
+  margin-right: 32px;
+}
+
+main section#plans-prices div.wrapper div.top-dots {
+  background: url("../../assets/images/home_plans_prices_top_dots.svg");
+  width: 64px;
+  height: 64px;
+}
+
+main section#plans-prices div.wrapper div.plans {
+  margin-top: -16px;
+  margin-bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section#plans-prices div.wrapper div.plans div.item {
+  width: 320px;
+  background: var(--drl-c-bg);
+  /* Gradients/02. Primary_Variant */
+  border: 1px solid var(--drl-c-primary-accent);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* sd. 1 */
+  -webkit-box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05), 0px 6px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05), 0px 6px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+main section#plans-prices div.wrapper div.plans div.item:not(:last-child) {
+  margin-bottom: 0;
+}
+
+main section#plans-prices div.wrapper div.plans div.item div.header h3 {
+  margin-top: 0;
+  padding-top: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 43.2px;
+  margin-bottom: 0;
+  text-align: center;
+  color: var(--drl-c-paragraph);
+  text-transform: uppercase;
+}
+
+main section#plans-prices div.wrapper div.plans div.item div.header p {
+  margin-top: 4px;
+  padding-bottom: 20px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 22.4px;
+  color: var(--drl-c-paragraph);
+}
+
+main section#plans-prices div.wrapper div.plans div.item.featured div.header {
+  background: var(--drl-c-primary-accent);
+}
+
+main section#plans-prices div.wrapper div.plans div.item.featured div.header h3 {
+  color: var(--drl-c-bg);
+}
+
+main section#plans-prices div.wrapper div.plans div.item.featured div.header p {
+  color: var(--drl-c-bg);
+}
+
+main section#plans-prices div.wrapper div.plans div.item div.price-box {
+  background-color: var(--drl-c-primary-bg);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 21px;
+  padding-right: 21px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+main section#plans-prices div.wrapper div.plans div.item div.price-box p.drl-Headline2 {
+  color: var(--drl-c-primary-accent);
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 22px;
+}
+
+main section#plans-prices div.wrapper div.plans div.item div.price-box p.drl-Text3 {
+  color: var(--drl-c-paragraph);
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+main section#plans-prices div.wrapper div.plans div.item a {
+  margin-bottom: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+main section#plans-prices div.wrapper div.plans div.item#monthly-starter div.header, main section#plans-prices div.wrapper div.plans div.item#anually-starter div.header {
+  margin-bottom: 0;
+}
+
+main section#plans-prices div.wrapper div.plans div.item#monthly-starter div.price-box, main section#plans-prices div.wrapper div.plans div.item#anually-starter div.price-box {
+  margin-top: 34px;
+}
+
+main section#plans-prices div.wrapper div.plans div.item#monthly-starter a, main section#plans-prices div.wrapper div.plans div.item#anually-starter a {
+  margin-top: 24px;
+}
+
+main section#plans-prices div.wrapper div.plans div.item#monthly-pro div.price-box, main section#plans-prices div.wrapper div.plans div.item#anually-pro div.price-box {
+  margin-top: 40px;
+}
+
+main section#plans-prices div.wrapper div.plans div.item#monthly-pro div.price-box p.drl-Headline2, main section#plans-prices div.wrapper div.plans div.item#anually-pro div.price-box p.drl-Headline2 {
+  font-size: 25px;
+}
+
+main section#plans-prices div.wrapper div.plans div.item#monthly-pro a, main section#plans-prices div.wrapper div.plans div.item#anually-pro a {
+  margin-top: 30px;
+}
+
+main section#plans-prices div.wrapper div.plans div.item#monthly-business, main section#plans-prices div.wrapper div.plans div.item#anually-business {
+  height: 402.4px;
+}
+
+main section#plans-prices div.wrapper div.plans div.item#monthly-business div.header, main section#plans-prices div.wrapper div.plans div.item#anually-business div.header {
+  margin-bottom: 0;
+}
+
+main section#plans-prices div.wrapper div.plans div.item#monthly-business div.price-box, main section#plans-prices div.wrapper div.plans div.item#anually-business div.price-box {
+  margin-top: 10px;
+}
+
+main section#plans-prices div.wrapper div.plans div.item#monthly-business a, main section#plans-prices div.wrapper div.plans div.item#anually-business a {
+  margin-top: 45px;
+}
+
+main section#plans-prices div.wrapper div.bottom-dots {
+  background: url("../../assets/images/home_plans_prices_bottom_dots.svg");
+  width: 64px;
+  height: 64px;
+  margin-top: -8px;
+  z-index: -1;
+  margin-left: 90%;
+}
+
+main section#plans-prices div.wrapper div.plan-chooser-container {
+  padding-left: 9px;
+  padding-right: 9px;
+  margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 390px;
+}
+
+main section#plans-prices div.wrapper div.plan-chooser-container div.side-figure {
+  background: url("../../assets/images/home_plans_prices_button_figure.svg");
+  width: 24px;
+  height: 30px;
+  position: absolute;
+  right: -9px;
+  top: -18px;
+  -webkit-transform: rotate(-3.67deg);
+          transform: rotate(-3.67deg);
+}
+
+main section#plans-prices div.wrapper div.plan-chooser-container a.drl-btn {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  text-align: center;
+  line-height: 16.8px;
+}
+
 main section#data-1 div.wrapper {
   padding: 48px 20px;
 }
