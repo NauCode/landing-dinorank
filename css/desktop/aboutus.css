@@ -1,0 +1,140 @@
+@media only screen and (min-width: 1280px) {
+  div.wrapper {
+    width: 820px !important;
+    padding-left: 310px !important;
+    padding-right: 310px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section#hero {
+    height: 286px;
+  }
+  section#hero div.wrapper {
+    position: relative;
+    padding: 0 !important;
+    padding-left: 310px !important;
+    padding-right: 310px !important;
+  }
+  section#hero div.wrapper h1 {
+    position: absolute;
+    width: 820px;
+    height: 174px;
+    left: 310px;
+    top: 48px;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 120% !important;
+    text-align: center !important;
+    color: #222033 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  section#hero div.wrapper div.img-container {
+    width: 223px;
+    height: 204px;
+    top: 94px;
+    bottom: unset !important;
+    left: 1074px;
+  }
+  img#gaby-image {
+    width: 610px;
+    height: 400px;
+  }
+  p.drl-Text1 {
+    font-family: "Open Sans" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    line-height: 160% !important;
+    color: #33304d !important;
+  }
+  section#initial-contact {
+    height: 211px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section#initial-contact div.wrapper {
+    padding: 40px 310px !important;
+  }
+  section#initial-contact div.wrapper h2 {
+    margin-top: 0;
+    margin-bottom: 19px !important;
+    font-family: "Source Sans Pro" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 36px !important;
+    line-height: 120% !important;
+    text-align: center !important;
+    color: #ffffff !important;
+  }
+  section#initial-contact div.wrapper p {
+    font-family: "Source Sans Pro" !important;
+    font-style: normal !important;
+    line-height: 120% !important;
+    text-align: center !important;
+    color: #ffffff !important;
+  }
+  section#comment-fragment div.wrapper {
+    width: 610px !important;
+    padding: 0 !important;
+    height: 400px !important;
+  }
+  section#achieved div.wrapper h2 {
+    font-family: "Source Sans Pro" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 28px !important;
+    line-height: 120% !important;
+    text-align: center !important;
+    color: #FFFFFF !important;
+  }
+  section#achieved div.wrapper div.img-wrapper {
+    width: 610px !important;
+    height: 340px !important;
+    background: url("../../assets/images/dino_fire.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section#achieved div.wrapper div.img-wrapper img {
+    display: none;
+  }
+  section#cta-banner {
+    height: 261px !important;
+  }
+  section#cta-banner div.wrapper {
+    padding: 48px 310px !important;
+    width: 820px !important;
+  }
+  section#cta-banner div.wrapper h3 {
+    font-family: "Source Sans Pro" !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 28px !important;
+    line-height: 120% !important;
+    text-align: center !important;
+    color: #33304D !important;
+    padding: 0 40px !important;
+  }
+  section#related-functions div.wrapper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 1000px !important;
+  }
+}
+/*# sourceMappingURL=aboutus.css.map */

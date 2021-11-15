@@ -1,6 +1,7 @@
 main {
     section#hero {
       background: rgba(34, 32, 51, 0.05);
+      padding-top: 80px;
       div.wrapper {
         padding: 18px 20px;
         padding-bottom: 0;
@@ -333,6 +334,245 @@ main {
         }
       }
     }
+    section#plans-prices {
+      div.wrapper {
+        max-width: 1032px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 72px;
+        h2 {
+          margin-top: 0;
+          margin-bottom: 24px;
+          color: var(--drl-c-titles);
+          text-align: center;
+          line-height: 43.2px;
+        }
+        p.drl-Text1 {
+          color: var(--drl-c-titles);
+          margin-bottom: 24px;
+          line-height: 28.8px;
+        }
+        p.drl-Caption1 {
+          color: var(--drl-c-paragraph);
+          text-align: center;
+          margin-bottom: 44px;
+          padding-left: 32px;
+          padding-right: 32px;
+          line-height: 21.6px;
+        }
+        div.plan-picker {
+          width: 205px;
+          height: 44px;
+          background: rgba(34, 32, 51, 0.1);
+          border-radius: 66px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 0px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          position: relative;
+  
+          a.picker-btn {
+            color: var(--drl-c-paragraph);
+            font-weight: 700;
+            text-decoration: none;
+            &.selected {
+              background: var(--drl-c-bg);
+              box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05),
+                0px 6px 20px rgba(0, 0, 0, 0.05);
+              border-radius: 555px;
+              padding: 6px 16px;
+              color: var(--drl-c-primary-accent);
+            }
+            &:first-child {
+              margin-left: 8px;
+            }
+            &:last-child {
+              margin-right: 32px;
+            }
+          }
+        }
+        div.top-dots {
+          background: url("../../assets/images/home_plans_prices_top_dots.svg");
+          width: 64px;
+          height: 64px;
+        }
+        div.plans {
+          margin-top: -16px;
+          margin-bottom: 0px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+  
+          &#monthly {
+          }
+          &#yearly {
+          }
+          div.item {
+            width: 320px;
+            background: var(--drl-c-bg);
+            /* Gradients/02. Primary_Variant */
+  
+            border: 1px solid var(--drl-c-primary-accent);
+            box-sizing: border-box;
+            /* sd. 1 */
+  
+            box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05),
+              0px 6px 20px rgba(0, 0, 0, 0.05);
+            border-radius: 5px;
+            margin-left: 18px;
+            margin-right: 18px;
+  
+            &:not(:last-child) {
+              margin-bottom: 0;
+            }
+  
+            div.header {
+              h3 {
+                margin-top: 0;
+                padding-top: 40px;
+                padding-left: 80px;
+                padding-right: 80px;
+                line-height: 43.2px;
+                margin-bottom: 0;
+                text-align: center;
+                color: var(--drl-c-paragraph);
+                text-transform: uppercase;
+              }
+  
+              p {
+                margin-top: 4px;
+                padding-bottom: 20px;
+                text-align: center;
+                padding-left: 20px;
+                padding-right: 20px;
+                line-height: 22.4px;
+                color: var(--drl-c-paragraph);
+              }
+            }
+  
+            &.featured {
+              div.header {
+                background: var(--drl-c-primary-accent);
+                h3 {
+                  color: var(--drl-c-bg);
+                }
+  
+                p {
+                  color: var(--drl-c-bg);
+                }
+              }
+            }
+  
+            div.price-box {
+              background-color: var(--drl-c-primary-bg);
+              padding-top: 16px;
+              padding-bottom: 16px;
+              padding-left: 21px;
+              padding-right: 21px;
+              margin-left: 16px;
+              margin-right: 16px;
+              margin-bottom: 16px;
+              p.drl-Headline2 {
+                color: var(--drl-c-primary-accent);
+                margin-top: 0;
+                margin-bottom: 10px;
+                text-align: center;
+                font-size: 22px;
+              }
+              p.drl-Text3 {
+                color: var(--drl-c-paragraph);
+                margin-top: 0;
+                margin-bottom: 0;
+                text-align: center;
+              }
+            }
+  
+            a {
+              margin-bottom: 16px;
+              margin-left: 16px;
+              margin-right: 16px;
+            }
+  
+            &#monthly-starter,
+            &#anually-starter {
+              div.header {
+                margin-bottom: 0;
+              }
+              div.price-box {
+                margin-top: 34px;
+              }
+              a {
+                margin-top: 24px;
+              }
+            }
+            &#monthly-pro,
+            &#anually-pro {
+              div.price-box {
+                margin-top: 40px;
+                p.drl-Headline2 {
+                  font-size: 25px;
+                }
+              }
+  
+              a {
+                margin-top: 30px;
+              }
+            }
+            &#monthly-business,
+            &#anually-business {
+              height: 402.4px;
+              div.header {
+                margin-bottom: 0;
+              }
+              div.price-box {
+                margin-top: 10px;
+              }
+              a {
+                margin-top: 45px;
+              }
+            }
+          }
+        }
+  
+        div.bottom-dots {
+          background: url("../../assets/images/home_plans_prices_bottom_dots.svg");
+          width: 64px;
+          height: 64px;
+          margin-top: -8px;
+          z-index: -1;
+          margin-left: 90%;
+        }
+  
+        div.plan-chooser-container {
+          padding-left: 9px;
+          padding-right: 9px;
+          margin-bottom: 72px;
+          margin-left: auto;
+          margin-right: auto;
+          position: relative;
+          width: 390px;
+          div.side-figure {
+            background: url("../../assets/images/home_plans_prices_button_figure.svg");
+            width: 24px;
+            height: 30px;
+            position: absolute;
+            right: -9px;
+            top: -18px;
+            transform: rotate(-3.67deg);
+          }
+          a.drl-btn {
+            text-transform: uppercase;
+            padding: 10px 15px;
+            text-align: center;
+            line-height: 16.8px;
+          }
+        }
+      }
+    }
     section#final-cta {
         background: var(--drl-c-primary);
         padding: 40px 20px;
@@ -341,6 +581,237 @@ main {
             line-height: 26.4px;
             color: var(--drl-c-bg);
         }
+    }
+  }
+
+  @media (max-width: 640px) {
+    section#plans-prices {
+      div.wrapper {
+        padding-top: 48px;
+        padding-left: 20px;
+        padding-right: 20px;
+        h2 {
+          margin-top: 0;
+          margin-bottom: 24px;
+          color: var(--drl-c-titles);
+          text-align: center;
+        }
+        p.drl-Text1 {
+          color: var(--drl-c-titles);
+          margin-bottom: 24px;
+          line-height: 24px;
+        }
+        p.drl-Caption1 {
+          color: var(--drl-c-paragraph);
+          text-align: center;
+          margin-bottom: 40px;
+          padding-left: 32px;
+          padding-right: 32px;
+          line-height: 18px;
+        }
+        div.plan-picker {
+          width: 180px;
+          height: 39px;
+          background: rgba(34, 32, 51, 0.1);
+          border-radius: 66px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 0px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          position: relative;
+  
+          a.picker-btn {
+            color: var(--drl-c-paragraph);
+            font-weight: 700;
+            text-decoration: none;
+            &.selected {
+              background: var(--drl-c-bg);
+              box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05),
+                0px 6px 20px rgba(0, 0, 0, 0.05);
+              border-radius: 555px;
+              padding: 4px 16px;
+              color: var(--drl-c-primary-accent);
+            }
+            &:first-child {
+              margin-left: 8px;
+            }
+            &:last-child {
+              margin-right: 16px;
+            }
+          }
+        }
+        div.top-dots {
+          background: url("../../assets/images/home_plans_prices_top_dots.svg");
+          width: 64px;
+          height: 64px;
+        }
+        div.plans {
+          margin-top: -16px;
+          margin-bottom: 0px;
+          display: block;
+          &#monthly {
+          }
+          &#yearly {
+          }
+          div.item {
+            &#monthly-starter,
+            &#anually-starter {
+              height: unset;
+              div.header {
+                margin-bottom: unset;
+              }
+              div.price-box {
+                margin-top: unset;
+              }
+              a {
+                margin-top: unset;
+              }
+            }
+            &#monthly-pro,
+            &#anually-pro {
+              height: unset;
+              div.price-box {
+                margin-top: unset;
+                p.drl-Headline2 {
+                  font-size: unset;
+                }
+              }
+  
+              a {
+                margin-top: 30px;
+              }
+            }
+            &#monthly-business,
+            &#anually-business {
+              height: unset;
+              div.header {
+                margin-bottom: unset;
+              }
+              div.price-box {
+                margin-top: unset;
+              }
+              a {
+                margin-top: unset;
+              }
+            }
+            width: unset;
+            height: unset;
+            margin-left: unset;
+            margin-right: unset;
+            background: var(--drl-c-bg);
+            /* Gradients/02. Primary_Variant */
+  
+            border: 1px solid var(--drl-c-primary-accent);
+            box-sizing: border-box;
+            /* sd. 1 */
+  
+            box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05),
+              0px 6px 20px rgba(0, 0, 0, 0.05);
+            border-radius: 5px;
+  
+            &:not(:last-child) {
+              margin-bottom: 24px;
+            }
+  
+            div.header {
+              h3 {
+                margin-top: 0;
+                padding-top: 24px;
+                margin-bottom: 0;
+                text-align: center;
+                color: var(--drl-c-paragraph);
+                text-transform: uppercase;
+              }
+  
+              p {
+                margin-top: 0;
+                padding-bottom: 16px;
+                text-align: center;
+                padding-left: 16px;
+                padding-right: 16px;
+                color: var(--drl-c-paragraph);
+              }
+            }
+  
+            &.featured {
+              div.header {
+                background: var(--drl-c-primary-accent);
+                h3 {
+                  color: var(--drl-c-bg);
+                }
+  
+                p {
+                  color: var(--drl-c-bg);
+                }
+              }
+            }
+  
+            div.price-box {
+              background-color: var(--drl-c-primary-bg);
+              padding-top: 16px;
+              padding-bottom: 16px;
+              padding-left: 62.5px;
+              padding-right: 62.5px;
+              margin-left: 16px;
+              margin-right: 16px;
+              margin-bottom: 16px;
+              p.drl-Headline2 {
+                color: var(--drl-c-primary-accent);
+                margin-top: 0;
+                margin-bottom: 10px;
+                text-align: center;
+                font-size: 28px;
+              }
+              p.drl-Text3 {
+                color: var(--drl-c-paragraph);
+                margin-top: 0;
+                margin-bottom: 0;
+                text-align: center;
+              }
+            }
+  
+            a {
+              margin-bottom: 16px;
+              margin-left: 16px;
+              margin-right: 16px;
+            }
+          }
+        }
+  
+        div.bottom-dots {
+          background: url("../../assets/images/home_plans_prices_bottom_dots.svg");
+          width: 64px;
+          height: 64px;
+          margin-top: -8px;
+          z-index: -1;
+          margin-left: 84px;
+        }
+  
+        div.plan-chooser-container {
+          padding-left: 9px;
+          padding-right: 9px;
+          margin-bottom: 48px;
+          position: relative;
+          div.side-figure {
+            background: url("../../assets/images/home_plans_prices_button_figure.svg");
+            width: 24px;
+            height: 30px;
+            position: absolute;
+            right: -9px;
+            top: -18px;
+            transform: rotate(-3.67deg);
+          }
+          a.drl-btn {
+            text-transform: uppercase;
+            padding: 10px 15px;
+            text-align: center;
+            line-height: 16.8px;
+          }
+        }
+      }
     }
   }
   

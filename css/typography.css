@@ -107,86 +107,86 @@
 .drl-Label1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .drl-Label2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {
     .drl-Headline1 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 40px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Headline2 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 32px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Headline3 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 26px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Headline4 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 22px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Headline5 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 18px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Headline6 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 16px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Caption1 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 16px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Caption2 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 14px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Caption3 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 13px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Caption4 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 11px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Button1, a.drl-btn {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 15px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Button2 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 13px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Text1 {
@@ -210,13 +210,13 @@
     .drl-Label1 {
         font-family: 'Open Sans', sans-serif;
         font-size: 15px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Label2 {
         font-family: 'Open Sans', sans-serif;
         font-size: 11px;
-        font-weight: bold;
+        font-weight: 600;
     }    
 }
 
@@ -224,73 +224,73 @@
     .drl-Headline1 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 34px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Headline2 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 28px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Headline3 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 22px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Headline4 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 18px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Headline5 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 16px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Headline6 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 15px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Caption1 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 15px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Caption2 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 13px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Caption3 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 12px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Caption4 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 10px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Button1, a.drl-btn {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 14px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Button2 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 12px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Text1 {
@@ -314,12 +314,12 @@
     .drl-Label1 {
         font-family: 'Open Sans', sans-serif;
         font-size: 14px;
-        font-weight: bold;
+        font-weight: 600;
     }
     
     .drl-Label2 {
         font-family: 'Open Sans', sans-serif;
         font-size: 10px;
-        font-weight: bold;
+        font-weight: 600;
     }    
 }

@@ -2,7 +2,7 @@ main {
   overflow-x: hidden;
   section#hero {
     min-height: 499px;
-
+    padding-top: 80px;
     div.container {
       background: url("../../assets/images/test1.svg");
       background-position-y: bottom;
@@ -32,13 +32,16 @@ main {
           margin-bottom: 48px;
         }
 
-        a {
+        div.btn-wrapper {
+          max-width: 239px;
           margin-left: auto;
           margin-right: auto;
-          width: 144px;
-          height: 24px;
-          padding: 20px 30px;
-          text-transform: uppercase;
+          margin-bottom: 48px;
+          a {
+            text-align: center;
+            text-transform: uppercase;
+            padding: 20px 30px;
+          }
         }
       }
     }
@@ -47,24 +50,24 @@ main {
   section#hero-badge {
     height: 178px;
     background: #5db59d;
+    div.dino {
+      width: 303px;
+      height: 332.28px;
+      background: url("../../assets/images/Color_Dino.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      bottom: 30px;
+      left: calc(100% - 183px);
+      z-index: 2;
+    }
     div.container {
       position: relative;
       width: 100%;
       max-width: 1440px;
       margin-left: auto;
       margin-right: auto;
-      div.dino {
-        width: 303px;
-        height: 332.28px;
-        background: url("../../assets/images/Color_Dino.svg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        position: absolute;
-        bottom: 30px;
-        left: calc(100% - 183px);
-        z-index: 2;
-      }
       div.boxes {
         display: flex;
         flex-direction: row;
@@ -114,7 +117,7 @@ main {
       div.video-container {
         margin-left: auto;
         margin-right: auto;
-        background: url(/assets/images/home_dinorank_video_1_frame.svg);
+        /*background: url(/assets/images/home_dinorank_video_1_frame.svg);*/
         background-position-x: center;
         background-position-y: center;
         background-repeat: no-repeat;
@@ -125,9 +128,10 @@ main {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
         img {
-          width: 610px;
-          height: 343px;
+          width: 669px;
+          height: 398px;
         }
       }
 
@@ -233,6 +237,9 @@ main {
           ". ."
           ". .";
         align-items: center;
+        div.feature {
+          display:none;
+        }
         div.item {
           position: relative;
 
@@ -365,6 +372,10 @@ main {
             }
           }
         }
+
+        div.opinions-row {
+          display:none;
+        }
       }
     }
   }
@@ -378,7 +389,6 @@ main {
       margin-left: auto;
       margin-right: auto;
 
-      height: 1280px;
       overflow-y: hidden;
       padding-top: 72px;
       padding-left: 206px;
@@ -401,6 +411,9 @@ main {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 31px;
+        div.column-items {
+          display:none;
+        }
         div.item {
           margin-bottom: 32px;
           background-color: var(--drl-c-bg);
@@ -1202,19 +1215,15 @@ footer {
       div.wrapper {
         div.content {
           &#testimonial1 {
-            height: 570px;
           }
 
           &#testimonial2 {
-            height: 760px;
           }
           &#testimonial3 {
           }
           &#testimonial4 {
-            margin-top: -200px;
           }
           &#testimonial5 {
-            margin-top: -10px;
           }
           &#testimonial6 {
           }
@@ -1265,30 +1274,24 @@ footer {
     }
 
     section#testimonials {
-      height: 1000px !important;
       div.wrapper {
         div.content {
           #testimonial1 {
-            height: 400px !important;
           }
 
           #testimonial2 {
-            height: 550px !important;
           }
           #testimonial3 {
           }
           #testimonial4 {
-            margin-top: -210px !important;
           }
           #testimonial5 {
-            margin-top: -60px !important;
           }
           #testimonial6 {
           }
         }
       }
       div.bottom {
-        top: calc(1000px - 144px) !important;
       }
     }
   }
@@ -1299,6 +1302,7 @@ footer {
     section#hero {
       div.container {
         div.wrapper {
+          padding-top: 40px;
           padding-left: 40px;
           padding-right: 40px;
           padding-bottom: 0px;
@@ -1331,11 +1335,11 @@ footer {
         padding-left: 40px;
         padding-right: 40px;
         div.video-container {
-          width: 570px;
-          height: 342px;
-          img {
-            width: 511px;
-            height: 287px;
+          width: 100%;
+          height: auto;
+          img, iframe {
+            width: 100%;
+          height: auto;
           }
         }
       }
@@ -1345,8 +1349,8 @@ footer {
       padding-top: 28px;
       padding-bottom: 28px;
       div.wrapper {
-        padding-left: 128.5px;
-        padding-right: 128.5px;
+        padding-left: 30px;
+        padding-right: 30px;
 
         div.items-container {
           display: block;
@@ -1517,19 +1521,16 @@ footer {
             box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05),
               0px 6px 20px rgba(0, 0, 0, 0.05);
             border-radius: 10px;
+          height: auto!important;
 
             &#testimonial1 {
-              height: 400px;
             }
 
             &#testimonial2 {
-              height: 550px;
             }
             &#testimonial3 {
-              margin-top: -150px;
             }
             &#testimonial4 {
-              margin-top: 0px;
             }
             &#testimonial5 {
             }
@@ -3125,8 +3126,8 @@ footer {
           width: 311px;
           height: 183px;
           img {
-            width: 280px;
-            height: 157px;
+            width: 311px;
+            height: 183px;
           }
         }
       }

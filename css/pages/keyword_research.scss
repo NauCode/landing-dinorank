@@ -1,6 +1,119 @@
+@media only screen and (max-width: 640px)
+{
+  main {
+    section#testimonials {
+      background-color: #f9f9f9;
+      height: 1030px;
+      overflow-y: hidden;
+      div.wrapper {
+        padding-top: 48px;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+        h2 {
+          text-align: center;
+          margin-top: 0;
+          margin-bottom: 24px;
+          color: var(--drl-c-titles);
+        }
+        p {
+          text-align: center;
+          margin-top: 0;
+          margin-bottom: 67px;
+          color: var(--drl-c-paragraph);
+        }
+  
+        div.content {
+          display: block;
+          div.item {
+            margin-bottom: 32px;
+            background-color: var(--drl-c-bg);
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.05),
+              0px 6px 20px rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+            div.comilla {
+              background: url("../../assets/images/comilla-icon.svg");
+              background-size: contain;
+              background-repeat: no-repeat;
+              width: 28.8px;
+              height: 24px;
+              margin-bottom: 8px;
+            }
+  
+            p {
+              color: var(--drl-c-contrast-bg);
+              text-align: left;
+              margin-bottom: 16px;
+              margin-top: 0;
+              line-height: 22.4px;
+            }
+  
+            div.profile {
+              display: flex;
+              flex-direction: row;
+              justify-content: flex-start;
+              align-items: center;
+  
+              div.profile-data {
+                margin-left: 16px;
+                p {
+                  margin-top: 0;
+                  margin-bottom: 0;
+                  font-weight: 700;
+  
+                  &:first-child {
+                    margin-bottom: 4px;
+                  }
+  
+                  &:last-child {
+                    color: var(--drl-c-primary-accent);
+                  }
+                }
+              }
+            }
+          }
+        }
+  
+        div.bottom {
+          position: absolute;
+          height: 144px;
+          top: calc(1030px - 144px);
+          left: 0;
+          right: 0;
+  
+          /* Gradients/Black - 40% */
+  
+          background: linear-gradient(
+            180deg,
+            rgba(34, 32, 51, 0.4) 0%,
+            rgba(34, 32, 51, 0) 100%
+          );
+          transform: matrix(1, 0, 0, -1, 0, 0);
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+  
+          a.drl-btn {
+            margin-left: 38.5px;
+            margin-right: 38.5px;
+            margin-bottom: 48px;
+            transform: matrix(1, 0, 0, -1, 0, 0);
+          }
+        }
+      }
+    }
+  }
+}
+
 main {
   section#hero {
     background: rgba(34, 32, 51, 0.05);
+    padding-top: 80px;
     div.wrapper {
       padding: 18px 20px;
       padding-bottom: 0;
