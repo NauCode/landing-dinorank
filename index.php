@@ -188,6 +188,119 @@
           >
         </div>
       </div>
+      <div class="mobile-menu">
+        <div class="mm-item">
+          <span id="btnSubmm1"><?php getTranslation("Sobre DinoRANK"); ?></span>
+          <div id="submm-1" class="box">
+            <div class="mm-subitem">
+              <a href="whatisdinorank.html"><?php getTranslation("¿Qué es DinoRANK?"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="about_us.html"><?php getTranslation("Sobre los fundadores"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="testimonials.html"><?php getTranslation("Testimonios"); ?></a>
+            </div>
+          </div>
+        </div>
+        <div class="mm-item">
+          <span id="btnSubmm2"><?php getTranslation("Funciones"); ?></span>
+          <div id="submm-2" class="box">
+            <div class="mm-subitem">
+              <a href="tracking.html"><?php getTranslation("Tracking de posiciones"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="keyword_research.html"><?php getTranslation("Keyword research"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="auditoria_on_page.html"><?php getTranslation("Auditoría SEO on page"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="enlazado_interno.html"><?php getTranslation("Enlazado interno"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="pagerank_interno.html"><?php getTranslation("Pagerank interno"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="prominencia_semantica.html"><?php getTranslation("Prominencia semántica"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="canibalizaciones.html"><?php getTranslation("Canibalizaciones"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="thin_content.html"><?php getTranslation("Thin content"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="visibility.html"><?php getTranslation("Visibilidad"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="enlazado_externo.html"><?php getTranslation("Enlazado externo"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="gestion_enlazado_externo.html"
+                ><?php getTranslation("Gestión de enlazado externo"); ?></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="mm-item">
+          <span id="btnSubmm3"><?php getTranslation("Perfiles"); ?></span>
+          <div id="submm-3" class="box">
+            <div class="mm-subitem">
+              <a href="agency.html"><?php getTranslation("Agencia SEO"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="consultor.html"><?php getTranslation("Consultor SEO"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="designer.html"><?php getTranslation("Diseñador Web"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="entrepreneur.html"><?php getTranslation("Emprendedor E-commerce"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="marketing_manager.html"><?php getTranslation("Marketing Manager"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="nichero.html"><?php getTranslation("Nichero"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="copywriter.html"><?php getTranslation("Redactor SEO"); ?></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mm-item">
+          <a href="precios.html"><?php getTranslation("Precios"); ?></a>
+        </div>
+        <div class="mm-item">
+          <span id="btnSubmm4"><?php getTranslation("Recursos"); ?></span>
+          <div id="submm-4" class="box">
+            <div class="mm-subitem">
+              <a href="#"><?php getTranslation("Blog"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="#"><?php getTranslation("Podcast"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="#"><?php getTranslation("DinoWIKI"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="#"><?php getTranslation("Directos"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="#"><?php getTranslation("Librería"); ?></a>
+            </div>
+            <div class="mm-subitem">
+              <a href="#"><?php getTranslation("Merchandaising"); ?></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mm-item">
+          <a href="#"><?php getTranslation("Dino Academy"); ?></a>
+        </div>
+      </div>
     </header>
     <!-- END HEADER -->
     <!-- MAIN -->
