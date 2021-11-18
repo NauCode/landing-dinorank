@@ -300,6 +300,14 @@
         <div class="mm-item">
           <a href="#"><?php getTranslation("Dino Academy"); ?></a>
         </div>
+
+        <div class="mm-item">
+          <a href="#"><?php getTranslation("Iniciar Sesión"); ?></a>
+        </div>
+
+        <div class="mm-item">
+          <a href="#"><?php getTranslation("Registrarse"); ?></a>
+        </div>
       </div>
     </header>
     <!-- END HEADER -->
