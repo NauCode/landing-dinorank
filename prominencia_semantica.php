@@ -280,13 +280,13 @@
     <main>
       <section id="hero">
         <div class="wrapper">
-          <p class="drl-Headline3">Supera a tu competencia en Google</p>
+          <p class="drl-Headline3"><?php getTranslation("Supera a tu competencia en Google"); ?></p>
           <h1 class="drl-Headline1"><?php getTranslation("
             Crea o mejora tu contenido en base a las palabras clave que está utilizando en sus textos
           "); ?></h1>
-          <p class="drl-Text1">
+          <p class="drl-Text1"><?php getTranslation("
             No es mágia, es la función de Prominencia Semántica de DinoRANK
-          </p>
+          "); ?></p>
           <div class="btn-wrapper">
             <div style="position: relative;">
               <a id="cta-hero-btn" href="" class="drl-btn drl-btn-b cta"><?php getTranslation("SUSCríbete ahora"); ?></a>
@@ -299,30 +299,30 @@
       </section>
       <section id="data-1">
         <div class="wrapper">
-          <p class="drl-Text1">
+          <p class="drl-Text1"><?php getTranslation("
             Todas las empresas
             <b
               >quieren posicionar sus contenidos en Google y estar por encima de
               su competencia</b
             >. Por eso muchos profesionales saben que tienen que ofrecer ese
             servicio a sus clientes, pero no acaban de meterse de lleno.
-          </p>
-          <p class="drl-Text1">
+          "); ?></p>
+          <p class="drl-Text1"><?php getTranslation("
             Pasan decenas de horas trasteando herramientas gratuitas porque no
             están seguros de cuál es la mejor para ellos.
-          </p>
-          <p class="drl-Text1">
+          "); ?></p>
+          <p class="drl-Text1"><?php getTranslation("
             Intentando averiguar cuáles son las funciones que les van a ayudar a
             mejorar sus textos.
-          </p>
-          <p class="drl-Text1">
+          "); ?></p>
+          <p class="drl-Text1"><?php getTranslation("
             Leyendo términos técnicos que no acaban de entender.
-          </p>
-          <p class="drl-Text1">
+          "); ?></p>
+          <p class="drl-Text1"><?php getTranslation("
             Y, sobre todo, dando vueltas sin saber
             <b>qué tipo de contenidos crear y cómo estructurarlos</b> para que
             posicionen mejor.
-          </p>
+          "); ?></p>
         </div>
       </section>
       <section id="data-2">
@@ -332,61 +332,61 @@
             o a mejorar el contenido ya creado, para que posicione en Google
             basándose en las palabras clave que está utilizando tu competencia.
           "); ?></h2>
-          <p class="drl-Text1">¿Cómo?</p>
-          <p class="drl-Text1">
+          <p class="drl-Text1"><?php getTranslation("¿Cómo?"); ?></p>
+          <p class="drl-Text1"><?php getTranslation("
             <b
               >Diciéndote las palabras que tienen relación semántica con la
               keyword que quieres posicionar.</b
             >
-          </p>
-          <p class="drl-Text1">
+          "); ?></p>
+          <p class="drl-Text1"><?php getTranslation("
             Ya sabes que Google cada vez es más semántico, reconoce las palabras
             relacionadas con la keyword y lo valora positivamente.
-          </p>
-          <p class="drl-Text1">
+          "); ?></p>
+          <p class="drl-Text1"><?php getTranslation("
             Y, además, así ofreces al usuario textos más enriquecidos.
-          </p>
-          <p class="drl-Text1">
+          "); ?></p>
+          <p class="drl-Text1"><?php getTranslation("
             Puedes
             <b>buscar por una palabra, dos palabras y tres palabras</b> para
             mejorar todavía más el contenido.
-          </p>
-          <p class="drl-Text1" id="subtitle">Esto es lo que te ofrece:</p>
+          "); ?></p>
+          <p class="drl-Text1" id="subtitle"><?php getTranslation("Esto es lo que te ofrece:"); ?></p>
           <div class="container">
             <!-- ITEM -->
             <div class="item">
-              <p class="drl-Text1">
+              <p class="drl-Text1"><?php getTranslation("
                 Todos los
                 <b>términos que tienen relación semántica con la keyword</b> que
                 quieres posicionar.
-              </p>
+              "); ?></p>
               <div class="figure"></div>
             </div>
             <!-- END ITEM -->
             <!-- ITEM -->
             <div class="item">
-              <p class="drl-Text1">
+              <p class="drl-Text1"><?php getTranslation("
                 Es muy, muy <b>fácil de entender</b>. Tiene
                 <b>tutoriales</b> para que los veas cuando quieras.
-              </p>
+              "); ?></p>
               <div class="figure"></div>
             </div>
             <!-- END ITEM -->
             <!-- ITEM -->
             <div class="item">
-              <p class="drl-Text1">
+              <p class="drl-Text1"><?php getTranslation("
                 <b>Te dice cuántas veces tienes que usar</b> cada término en tu
                 contenido.
-              </p>
+              "); ?></p>
               <div class="figure"></div>
             </div>
             <!-- END ITEM -->
             <!-- ITEM -->
             <div class="item">
-              <p class="drl-Text1">
+              <p class="drl-Text1"><?php getTranslation("
                 <b>Los gráficos son muy sencillos</b>, visuales y te dan toda la
                 información que necesitas.
-              </p>
+              "); ?></p>
               <div class="figure"></div>
             </div>
             <!-- END ITEM -->
@@ -394,11 +394,11 @@
         </div>
       </section>
       <section id="banner">
-        <p class="drl-Caption1">
+        <p class="drl-Caption1"><?php getTranslation("
           Es una función muchas veces desconocida, por eso cuando nuestros
           clientes entran en DinoRANK y ven la información que ofrece para crear
           y mejorar contenidos, alucinan.
-        </p>
+        "); ?></p>
         <h2 class="drl-Headline2"><?php getTranslation("
           No hay ninguna otra suite SEO en el mercado que incluya la función
           WDF*DF Prominencia Semántica (más todas las demás funciones que tiene
@@ -410,31 +410,31 @@
           <h3 class="drl-Headline3"><?php getTranslation("
             Cómo funciona la función WDF*DF Prominencia Semántica.
           "); ?></h3>
-          <p class="drl-Text1">Es muy sencillo, verás.</p>
-          <p class="drl-Text1">
+          <p class="drl-Text1"><?php getTranslation("Es muy sencillo, verás."); ?></p>
+          <p class="drl-Text1"><?php getTranslation("
             Puedes usar la Prominencia Semántica de <b>dos formas.</b>
-          </p>
-          <p class="drl-Text1"><b>Para crear un nuevo texto:</b></p>
+          "); ?></p>
+          <p class="drl-Text1"><?php getTranslation("<b>Para crear un nuevo texto:</b>"); ?></p>
           <ul>
             <li>
-              <p class="drl-Text1">
+              <p class="drl-Text1"><?php getTranslation("
                 Introduce una palabra clave y te dice qué términos relacionados
                 semánticamente debes usar para posicionarla.
-              </p>
+              "); ?></p>
             </li>
           </ul>
-          <p class="drl-Text1"><b>Para mejorar un contenido ya creado:</b></p>
+          <p class="drl-Text1"><?php getTranslation("<b>Para mejorar un contenido ya creado:</b>"); ?></p>
           <ul>
             <li>
-              <p class="drl-Text1">
+              <p class="drl-Text1"><?php getTranslation("
                 Introduce en el buscador una keyword y una URL (puede ser tuya o
                 de tu competencia).La lista de resultados te dice si las
                 palabras claves relacionadas semánticamente con tu keyword están
                 ya incluidas en el contenido (o no) y con qué densidad.
-              </p>
+              "); ?></p>
             </li>
           </ul>
-          <p class="drl-Text1">
+          <p class="drl-Text1"><?php getTranslation("
             <b
               >1.
               <u
@@ -442,58 +442,58 @@
                 KEYWORD.</u
               ></b
             >
-          </p>
-          <p class="drl-Text1 centered">Esta es la gráfica que sale:</p>
+          "); ?></p>
+          <p class="drl-Text1 centered"><?php getTranslation("Esta es la gráfica que sale:"); ?></p>
           <div class="img-wrapper">
             <img src="assets/images/ps_graph.png" alt="" />
           </div>
-          <p class="drl-Text1">
+          <p class="drl-Text1"><?php getTranslation("
             En la parte superior de la gráfica puedes ver:
-          </p>
+          "); ?></p>
           <ul>
             <li>
-              <p class="drl-Text1">
+              <p class="drl-Text1"><?php getTranslation("
                 Todas las palabras que están posicionadas en el
                 <b>Top 10 de Google.</b>
-              </p>
+              "); ?></p>
             </li>
             <li>
-              <p class="drl-Text1">
+              <p class="drl-Text1"><?php getTranslation("
                 <b>La media y el máximo de palabras</b> que tienen los textos
                 posicionados.
-              </p>
+              "); ?></p>
             </li>
             <li>
-              <p class="drl-Text1">
+              <p class="drl-Text1"><?php getTranslation("
                 Y la <b>prominencia media</b> que tienen esos textos para esa
                 palabra clave.
-              </p>
+              "); ?></p>
             </li>
           </ul>
-          <p class="drl-Text1">
+          <p class="drl-Text1"><?php getTranslation("
             Puedes hacer
             <b
               >búsquedas por una palabra, por dos palabras y por tres
               palabras.</b
             ><br />A medida que incorpores palabras, los resultados son más
             interesantes y concretos.
-          </p>
-          <p class="drl-Text1">
+          "); ?></p>
+          <p class="drl-Text1"><?php getTranslation("
             <b>Listado de palabras clave.</b> Está justo debajo.
-          </p>
+          "); ?></p>
           <ul>
             <li>
-              <p class="drl-Text1">
+              <p class="drl-Text1"><?php getTranslation("
                 Muestra todas estas palabras ordenadas en forma de lista,
                 indicando
                 <b
                   >la media y la máxima de veces que tu competencia usa esas
                   keywords en su contenido.</b
                 >
-              </p>
+              "); ?></p>
             </li>
             <li>
-              <p class="drl-Text1">
+              <p class="drl-Text1"><?php getTranslation("
                 Además, puedes señalar las palabras que más te interesan,
                 copiarlas al portapapeles y hacerte un
                 <b
@@ -502,32 +502,32 @@
                 >
                 para coincidir (o superar) a lo que están haciendo tus
                 competidores.
-              </p>
+              "); ?></p>
             </li>
           </ul>
           <div class="img-wrapper">
             <img src="assets/images/ps_list.png" alt="" />
           </div>
-          <p class="drl-Text1">
+          <p class="drl-Text1"><?php getTranslation("
             Después te aparece la
             <b>estructura de contenidos de tus principales competidores</b>, los
             que están en Top 10 de Google.
-          </p>
+          "); ?></p>
           <div class="img-wrapper">
             <img src="assets/images/ps_structure.png" alt="" />
           </div>
-          <p class="drl-Headline3">
+          <p class="drl-Headline3"><?php getTranslation("
             Puedes ver los title, la estructura de los H y la prominencia de las
             palabras de las webs de tu competencia.
-          </p>
-          <p class="drl-Headline3">
+          "); ?></p>
+          <p class="drl-Headline3"><?php getTranslation("
             Toda una inspiración para que mejores tus contenidos.
-          </p>
-          <p class="drl-Text1">
+          "); ?></p>
+          <p class="drl-Text1"><?php getTranslation("
             Después te aparece la estructura de contenidos de tus principales
             competidores, los que están en Top 10 de Google.
-          </p>
-          <p class="drl-Text1">
+          "); ?></p>
+          <p class="drl-Text1"><?php getTranslation("
             <b
               >2.
               <u
@@ -535,35 +535,35 @@
                 URL QUE QUIERAS ANALIZAR</u
               ></b
             >
-          </p>
-          <p class="drl-Text1">
+          "); ?></p>
+          <p class="drl-Text1"><?php getTranslation("
             DinoRANK te dice cómo escribir tu contenido en base a los términos
             relacionados semánticamente con tu keyword que ya están posicionando
             en Google.
-          </p>
+          "); ?></p>
           <div class="img-wrapper">
             <img src="assets/images/ps_keyword.png" alt="" />
           </div>
-          <p class="drl-Text1">
+          <p class="drl-Text1"><?php getTranslation("
             En esta gráfica aparece más información porque está comparando con
             contenido que ya existe.
-          </p>
-          <p class="drl-Text1">
+          "); ?></p>
+          <p class="drl-Text1"><?php getTranslation("
             <b
               >Puedes ver la media y el máximo de palabras, la media y máximo de
               keywords y la prominencia media de esa palabra.</b
             >
-          </p>
-          <p class="drl-Text1">
+          "); ?></p>
+          <p class="drl-Text1"><?php getTranslation("
             La línea azul marca cómo estás usando tú esas palabras en tu
             contenido (si las estás usando).
-          </p>
-          <p class="drl-Text1">
+          "); ?></p>
+          <p class="drl-Text1"><?php getTranslation("
             <b
               >DinoRANK te da la comparativa exacta y te dice qué palabras
               tienes que aumentar e incluso cuales tienes que añadir.</b
             >
-          </p>
+          "); ?></p>
         </div>
       </section>
       <section id="data-4">
@@ -578,13 +578,13 @@
               <div class="img-wrapper">
                 <img src="assets/images/graph_icon.png" alt="" />
               </div>
-              <p class="drl-Text2">
+              <p class="drl-Text2"><?php getTranslation("
                 Aunque tu URL esté entre los primeros puestos, puedes mejorar
                 los contenidos y posicionar aún mejor.
-              </p>
-              <p class="drl-Text2">
+              "); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 Google no descansa y tu competencia tampoco.
-              </p>
+              "); ?></p>
               <div class="figure"></div>
             </div>
             <!-- END ITEM -->
@@ -593,13 +593,13 @@
               <div class="img-wrapper">
                 <img src="assets/images/book_icon.png" alt="" />
               </div>
-              <p class="drl-Text2">
+              <p class="drl-Text2"><?php getTranslation("
                 Selecciona las palabras que te interesen y llévatelas a tu bloc
                 de notas para usarlas en tu contenido.
-              </p>
-              <p class="drl-Text2">
+              "); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 Ahorra tiempo y simplifica tu trabajo para optimizar tu tiempo.
-              </p>
+              "); ?></p>
               <div class="figure"></div>
             </div>
             <!-- END ITEM -->
@@ -609,35 +609,35 @@
       <section id="testimonials">
         <div class="wrapper">
           <h2 class="drl-Headline2"><?php getTranslation("Testimonios de usuarios de DinoRANK"); ?></h2>
-          <p class="drl-Text2">
+          <p class="drl-Text2"><?php getTranslation("
             Opiniones de clientes que usan DinoRANK en su día a día para mejorar
             su visibilidad.
-          </p>
+          "); ?></p>
           <div class="content" id="masonry-effect">
             <!-- ITEM 1 -->
             <div class="item" id="testimonial1">
               <div class="comilla"></div>
-              <p class="drl-Text2">
+              <p class="drl-Text2"><?php getTranslation("
                 Es imposible hacer SEO sin los datos que DinoRank proporciona.
-              </p>
-              <p class="drl-Text2">
+              "); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 Ha optimizado mucho nuestro trabajo en la agencia, tanto a la
                 hora de hacer SEO on Page, como para ver el progreso de nuestros
                 clientes y el rendimiento de cada recurso.
-              </p>
-              <p class="drl-Text2">
+              "); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 La mayor ventaja es poder ver todos los problemas de una página
                 con un sencillo análisis. También nos ayuda a hacer seguimiento
                 del posicionamiento de las palabras clave y a conocer con
                 detalle el CPC y la competencia de cada palabra clave.
-              </p>
+              "); ?></p>
               <div class="profile">
                 <div class="image-container">
                   <img src="assets/images/people/maria_ponsada.png" alt="" />
                 </div>
                 <div class="profile-data">
-                  <p class="drl-Headline6">María Ponsada</p>
-                  <p class="drl-Caption3">CEO Seoriginalsweb.com</p>
+                  <p class="drl-Headline6"><?php getTranslation("María Ponsada"); ?></p>
+                  <p class="drl-Caption3"><?php getTranslation("CEO Seoriginalsweb.com"); ?></p>
                 </div>
               </div>
             </div>
@@ -645,27 +645,27 @@
             <!-- ITEM 2 -->
             <div class="item" id="testimonial2">
               <div class="comilla"></div>
-              <p class="drl-Text2">
+              <p class="drl-Text2"><?php getTranslation("
                 La gran virtud de DinoRANK es que es una herramienta SEO muy
                 económica pero también muy completa.
-              </p>
-              <p class="drl-Text2">
+              "); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 Cuando inicias un proyecto intentas contener los gastos usando
                 mil y una herramientas gratuitas para analizar las métricas de
                 tu web. Con DinoRANK, no tengo que saltar de herramienta en
                 herramienta.
-              </p>
-              <p class="drl-Text2">
+              "); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 Su Keyword research ha cambiado mi manera de afrontar la
                 redacción de los posts. La cantidad de palabras clave derivadas
                 y la rapidez con las que se logran, me enamoró desde el primer
                 momento.
-              </p>
-              <p class="drl-Text2">
+              "); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 La funcionalidad que más me ha sorprendido es el Tracking de
                 posiciones. Es muy útil para controlar la evolución de mis
                 keywords y ver cómo reacciona la competencia.
-              </p>
+              "); ?></p>
               <div class="profile">
                 <div class="image-container">
                   <img
@@ -674,8 +674,8 @@
                   />
                 </div>
                 <div class="profile-data">
-                  <p class="drl-Headline6">Francisco Marhuenda Sala</p>
-                  <p class="drl-Caption3">Webmaster laguíadelchollo.com</p>
+                  <p class="drl-Headline6"><?php getTranslation("Francisco Marhuenda Sala"); ?></p>
+                  <p class="drl-Caption3"><?php getTranslation("Webmaster laguíadelchollo.com"); ?></p>
                 </div>
               </div>
             </div>
@@ -684,28 +684,28 @@
               <!-- ITEM 1 -->
               <div class="item" id="testimonial1">
                 <div class="comilla"></div>
-                <p class="drl-Text2">
+                <p class="drl-Text2"><?php getTranslation("
                   Es imposible hacer SEO sin los datos que DinoRank proporciona.
-                </p>
-                <p class="drl-Text2">
+                "); ?></p>
+                <p class="drl-Text2"><?php getTranslation("
                   Ha optimizado mucho nuestro trabajo en la agencia, tanto a la
                   hora de hacer SEO on Page, como para ver el progreso de
                   nuestros clientes y el rendimiento de cada recurso.
-                </p>
-                <p class="drl-Text2">
+                "); ?></p>
+                <p class="drl-Text2"><?php getTranslation("
                   La mayor ventaja es poder ver todos los problemas de una
                   página con un sencillo análisis. También nos ayuda a hacer
                   seguimiento del posicionamiento de las palabras clave y a
                   conocer con detalle el CPC y la competencia de cada palabra
                   clave.
-                </p>
+                "); ?></p>
                 <div class="profile">
                   <div class="image-container">
                     <img src="assets/images/people/maria_ponsada.png" alt="" />
                   </div>
                   <div class="profile-data">
-                    <p class="drl-Headline6">María Ponsada</p>
-                    <p class="drl-Caption3">CEO Seoriginalsweb.com</p>
+                    <p class="drl-Headline6"><?php getTranslation("María Ponsada"); ?></p>
+                    <p class="drl-Caption3"><?php getTranslation("CEO Seoriginalsweb.com"); ?></p>
                   </div>
                 </div>
               </div>
@@ -713,57 +713,57 @@
               <!-- ITEM 4 -->
               <div class="item" id="testimonial4">
                 <div class="comilla"></div>
-                <p class="drl-Text2">
+                <p class="drl-Text2"><?php getTranslation("
                   Mi proyecto ha crecido en tráfico, autoridad y posicionamiento
                   en palabras clave superimportantes para mi negocio. A pesar de
                   haber trabajado con otras, la magia de WDF*DF y prominencia
                   para saber, en un solo vistazo, lo que deben tener mis
                   artículos a nivel de estructura es brutal y no necesito tener
                   profundos conocimientos SEO.
-                </p>
-                <p class="drl-Text2">
+                "); ?></p>
+                <p class="drl-Text2"><?php getTranslation("
                   Al principio dudé por ser menos conocida que Semrush o Ahrefs
                   pero he conseguido rankear en los primeros lugares de Google
                   para KW con intencionalidades de búsqueda muy competidas.
-                </p>
-                <p class="drl-Text2">
+                "); ?></p>
+                <p class="drl-Text2"><?php getTranslation("
                   DinoRANK es intuitiva. Te dice en un solo vistazo la
                   estructura que deberían tener tus artículos para posicionar
                   por encima de la competencia.
-                </p>
+                "); ?></p>
               </div>
               <!-- END ITEM 4 -->
             </div>
             <!-- ITEM 3 -->
             <div class="item" id="testimonial3">
               <div class="comilla"></div>
-              <p class="drl-Text2">
+              <p class="drl-Text2"><?php getTranslation("
                 Gracias a DinoRANK, he aprendido a distribuir el PageRank y los
                 niveles de clicks para dar fuerza a las partes que más me
                 interesan de mi página web. Antes no sabía lo importante que es
                 la distribución de un buen interlinking dentro de mis proyectos.
-              </p>
-              <p class="drl-Text2">
+              "); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 Reviso continuamente el tracking de posiciones para ver como
                 aumenta la visibilidad de mi web gracias al balance de mejora
                 que he implementado con esta Suite. He aumentado el
                 posicionamiento de mi página web para las palabras clave más
                 fuertes y más importantes de mis proyectos.
-              </p>
-              <p class="drl-Text2">
+              "); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 DinoRANK me ha ayudado de forma muy visual e intuitiva a
                 desarrollar una mejora del SEO On Page de mi web, a enriquecer
                 los textos gracias al estudio de la competencia y hacer una
                 auditoría de 0 a 100 que nada tiene que envidiar a Crawlers y/o
                 herramientas SEO de precios bastante más elevados.
-              </p>
+              "); ?></p>
               <div class="profile">
                 <div class="image-container">
                   <img src="assets/images/people/sergio_cordero.png" alt="" />
                 </div>
                 <div class="profile-data">
-                  <p class="drl-Headline6">Sergio Cordero</p>
-                  <p class="drl-Caption3">sergiocordero.net</p>
+                  <p class="drl-Headline6"><?php getTranslation("Sergio Cordero"); ?></p>
+                  <p class="drl-Caption3"><?php getTranslation("sergiocordero.net"); ?></p>
                 </div>
               </div>
             </div>
@@ -771,51 +771,51 @@
             <!-- ITEM 4 -->
             <div class="item" id="testimonial4">
               <div class="comilla"></div>
-              <p class="drl-Text2">
+              <p class="drl-Text2"><?php getTranslation("
                 Mi proyecto ha crecido en tráfico, autoridad y posicionamiento
                 en palabras clave superimportantes para mi negocio. A pesar de
                 haber trabajado con otras, la magia de WDF*DF y prominencia para
                 saber, en un solo vistazo, lo que deben tener mis artículos a
                 nivel de estructura es brutal y no necesito tener profundos
                 conocimientos SEO.
-              </p>
-              <p class="drl-Text2">
+              "); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 Al principio dudé por ser menos conocida que Semrush o Ahrefs
                 pero he conseguido rankear en los primeros lugares de Google
                 para KW con intencionalidades de búsqueda muy competidas.
-              </p>
-              <p class="drl-Text2">
+              "); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 DinoRANK es intuitiva. Te dice en un solo vistazo la estructura
                 que deberían tener tus artículos para posicionar por encima de
                 la competencia.
-              </p>
+              "); ?></p>
             </div>
             <!-- END ITEM 4 -->
             <div id="ts-column-2" class="column-items">
               <!-- ITEM 2 -->
               <div class="item" id="testimonial2">
                 <div class="comilla"></div>
-                <p class="drl-Text2">
+                <p class="drl-Text2"><?php getTranslation("
                   La gran virtud de DinoRANK es que es una herramienta SEO muy
                   económica pero también muy completa.
-                </p>
-                <p class="drl-Text2">
+                "); ?></p>
+                <p class="drl-Text2"><?php getTranslation("
                   Cuando inicias un proyecto intentas contener los gastos usando
                   mil y una herramientas gratuitas para analizar las métricas de
                   tu web. Con DinoRANK, no tengo que saltar de herramienta en
                   herramienta.
-                </p>
-                <p class="drl-Text2">
+                "); ?></p>
+                <p class="drl-Text2"><?php getTranslation("
                   Su Keyword research ha cambiado mi manera de afrontar la
                   redacción de los posts. La cantidad de palabras clave
                   derivadas y la rapidez con las que se logran, me enamoró desde
                   el primer momento.
-                </p>
-                <p class="drl-Text2">
+                "); ?></p>
+                <p class="drl-Text2"><?php getTranslation("
                   La funcionalidad que más me ha sorprendido es el Tracking de
                   posiciones. Es muy útil para controlar la evolución de mis
                   keywords y ver cómo reacciona la competencia.
-                </p>
+                "); ?></p>
                 <div class="profile">
                   <div class="image-container">
                     <img
@@ -824,8 +824,8 @@
                     />
                   </div>
                   <div class="profile-data">
-                    <p class="drl-Headline6">Francisco Marhuenda Sala</p>
-                    <p class="drl-Caption3">Webmaster laguíadelchollo.com</p>
+                    <p class="drl-Headline6"><?php getTranslation("Francisco Marhuenda Sala"); ?></p>
+                    <p class="drl-Caption3"><?php getTranslation("Webmaster laguíadelchollo.com"); ?></p>
                   </div>
                 </div>
               </div>
@@ -833,12 +833,12 @@
               <!-- ITEM 5 -->
               <div class="item" id="testimonial5">
                 <div class="comilla"></div>
-                <p class="drl-Text2">
+                <p class="drl-Text2"><?php getTranslation("
                   Tengo varios proyectos, y me ha sido muchísimo más fácil
                   encontrar nuevas keywords para posicionar y saber por las que
                   ya estaba posicionando.
-                </p>
-                <p class="drl-Text2">
+                "); ?></p>
+                <p class="drl-Text2"><?php getTranslation("
                   Hago keyword research para mis proyectos y de mis clientas
                   casi a diario. La auditoría la uso muchísimo tanto para
                   posibles clientes, como para controlar mis proyectos. Y la
@@ -848,23 +848,23 @@
                   interesantes. He comenzado un proyecto poco y ya está
                   consiguiendo tráfico orgánico interesante, sin haber invertido
                   en linkbuilding, solo con optimización de contenidos.
-                </p>
-                <p class="drl-Text2">
+                "); ?></p>
+                <p class="drl-Text2"><?php getTranslation("
                   Con DinoRANK es muy fácil hacer keyword research, la auditoría
                   completa del sitio y la visibilidad.
-                </p>
+                "); ?></p>
               </div>
               <!-- END ITEM 5 -->
             </div>
             <!-- ITEM 5 -->
             <div class="item" id="testimonial5">
               <div class="comilla"></div>
-              <p class="drl-Text2">
+              <p class="drl-Text2"><?php getTranslation("
                 Tengo varios proyectos, y me ha sido muchísimo más fácil
                 encontrar nuevas keywords para posicionar y saber por las que ya
                 estaba posicionando.
-              </p>
-              <p class="drl-Text2">
+              "); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 Hago keyword research para mis proyectos y de mis clientas casi
                 a diario. La auditoría la uso muchísimo tanto para posibles
                 clientes, como para controlar mis proyectos. Y la función de
@@ -874,80 +874,80 @@
                 comenzado un proyecto poco y ya está consiguiendo tráfico
                 orgánico interesante, sin haber invertido en linkbuilding, solo
                 con optimización de contenidos.
-              </p>
-              <p class="drl-Text2">
+              "); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 Con DinoRANK es muy fácil hacer keyword research, la auditoría
                 completa del sitio y la visibilidad.
-              </p>
+              "); ?></p>
             </div>
             <!-- END ITEM 5 -->
             <!-- ITEM 6 -->
             <div class="item" id="testimonial6">
               <div class="comilla"></div>
-              <p class="drl-Text2">
+              <p class="drl-Text2"><?php getTranslation("
                 Probé DinoRANK para 3 de mis páginas web, dos de ellas son
                 nichos y una, mi proyecto principal.
-              </p>
-              <p class="drl-Text2">
+              "); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 No esperaba que por ese precio me diera tanto. Al principio dudé
                 de si sería buena, pero tras probar Semrush, Ahrefs,
                 Ubersuggest, ninguna me ha enamorado como Dinorank.
-              </p>
-              <p class="drl-Text2">
+              "); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 La uso a diario para hacer seguimiento de las keywords. La
                 función de prominencia semántica ha sido un gran sorpresa, me ha
                 permitido escalar posiciones muy rápido y me ha generado un
                 incremento en los ingresos de la WEB.
-              </p>
-              <p class="drl-Text2">
+              "); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 Ver a golpe de click toda la estructura y fuerza interna de la
                 página, poder realizar de manera sencilla una auditoría de SEO
                 on Page o detectar canibalizaciones... me parece brutal.
-              </p>
-              <p class="drl-Text2">
+              "); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 Además, es la primera suite SEO todo en uno que he probado que
                 te hace sentir en su comunidad y partícipe del proyecto, y lo
                 valoro mucho.
-              </p>
-              <p class="drl-Text2">
+              "); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 Probé un mes y tengo claro que ya no me voy de Dinorank. Es una
                 herramienta sencilla, completa, a bajo coste y que te hace
                 llevar tu proyecto a dónde quieras, facilitándote la vida.
-              </p>
+              "); ?></p>
             </div>
             <!-- END ITEM 6 -->
             <div id="ts-column-3" class="column-items">
               <!-- ITEM 3 -->
               <div class="item" id="testimonial3">
                 <div class="comilla"></div>
-                <p class="drl-Text2">
+                <p class="drl-Text2"><?php getTranslation("
                   Gracias a DinoRANK, he aprendido a distribuir el PageRank y
                   los niveles de clicks para dar fuerza a las partes que más me
                   interesan de mi página web. Antes no sabía lo importante que
                   es la distribución de un buen interlinking dentro de mis
                   proyectos.
-                </p>
-                <p class="drl-Text2">
+                "); ?></p>
+                <p class="drl-Text2"><?php getTranslation("
                   Reviso continuamente el tracking de posiciones para ver como
                   aumenta la visibilidad de mi web gracias al balance de mejora
                   que he implementado con esta Suite. He aumentado el
                   posicionamiento de mi página web para las palabras clave más
                   fuertes y más importantes de mis proyectos.
-                </p>
-                <p class="drl-Text2">
+                "); ?></p>
+                <p class="drl-Text2"><?php getTranslation("
                   DinoRANK me ha ayudado de forma muy visual e intuitiva a
                   desarrollar una mejora del SEO On Page de mi web, a enriquecer
                   los textos gracias al estudio de la competencia y hacer una
                   auditoría de 0 a 100 que nada tiene que envidiar a Crawlers
                   y/o herramientas SEO de precios bastante más elevados.
-                </p>
+                "); ?></p>
                 <div class="profile">
                   <div class="image-container">
                     <img src="assets/images/people/sergio_cordero.png" alt="" />
                   </div>
                   <div class="profile-data">
-                    <p class="drl-Headline6">Sergio Cordero</p>
-                    <p class="drl-Caption3">sergiocordero.net</p>
+                    <p class="drl-Headline6"><?php getTranslation("Sergio Cordero"); ?></p>
+                    <p class="drl-Caption3"><?php getTranslation("sergiocordero.net"); ?></p>
                   </div>
                 </div>
               </div>
@@ -955,36 +955,36 @@
               <!-- ITEM 6 -->
               <div class="item" id="testimonial6">
                 <div class="comilla"></div>
-                <p class="drl-Text2">
+                <p class="drl-Text2"><?php getTranslation("
                   Probé DinoRANK para 3 de mis páginas web, dos de ellas son
                   nichos y una, mi proyecto principal.
-                </p>
-                <p class="drl-Text2">
+                "); ?></p>
+                <p class="drl-Text2"><?php getTranslation("
                   No esperaba que por ese precio me diera tanto. Al principio
                   dudé de si sería buena, pero tras probar Semrush, Ahrefs,
                   Ubersuggest, ninguna me ha enamorado como Dinorank.
-                </p>
-                <p class="drl-Text2">
+                "); ?></p>
+                <p class="drl-Text2"><?php getTranslation("
                   La uso a diario para hacer seguimiento de las keywords. La
                   función de prominencia semántica ha sido un gran sorpresa, me
                   ha permitido escalar posiciones muy rápido y me ha generado un
                   incremento en los ingresos de la WEB.
-                </p>
-                <p class="drl-Text2">
+                "); ?></p>
+                <p class="drl-Text2"><?php getTranslation("
                   Ver a golpe de click toda la estructura y fuerza interna de la
                   página, poder realizar de manera sencilla una auditoría de SEO
                   on Page o detectar canibalizaciones... me parece brutal.
-                </p>
-                <p class="drl-Text2">
+                "); ?></p>
+                <p class="drl-Text2"><?php getTranslation("
                   Además, es la primera suite SEO todo en uno que he probado que
                   te hace sentir en su comunidad y partícipe del proyecto, y lo
                   valoro mucho.
-                </p>
-                <p class="drl-Text2">
+                "); ?></p>
+                <p class="drl-Text2"><?php getTranslation("
                   Probé un mes y tengo claro que ya no me voy de Dinorank. Es
                   una herramienta sencilla, completa, a bajo coste y que te hace
                   llevar tu proyecto a dónde quieras, facilitándote la vida.
-                </p>
+                "); ?></p>
               </div>
               <!-- END ITEM 6 -->
             </div>
@@ -1006,16 +1006,16 @@
           <h3 class="drl-Caption1"><?php getTranslation("
             FUNCIONES RELACIONADAS QUE TE PUEDEN INTERESAR
           "); ?></h3>
-          <p id="subtitle" class="drl-Text2">
+          <p id="subtitle" class="drl-Text2"><?php getTranslation("
             Sácale más partido a la información que te da la Prominencia Semántica, combinando su uso con estas otras funcionalidades de DinoRANK.  
-          </p>
+          "); ?></p>
           <div class="container">
             <!-- ITEM -->
             <div class="item">
-              <p class="drl-Caption1">Keyword Research</p>
-              <p class="drl-Text2">
+              <p class="drl-Caption1"><?php getTranslation("Keyword Research"); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 Busca las palabras clave que quieres posicionar y después ve a Prominencia Semántica para saber qué términos debes incluir en esos contenidos.
-              </p>
+              "); ?></p>
               <div class="btn-wrapper">
                 <a href="" class="drl-btn"><?php getTranslation("Más información"); ?></a>
               </div>
@@ -1024,10 +1024,10 @@
             <!-- END ITEM -->
             <!-- ITEM -->
             <div class="item">
-              <p class="drl-Caption1">Tráfico Orgánico</p>
-              <p class="drl-Text2">
+              <p class="drl-Caption1"><?php getTranslation("Tráfico Orgánico"); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 Analiza las keywords ya posicionadas o las distintas oportunidades de palabras clave, para atraer tráfico a tu web o a las de tus clientes.
-              </p>
+              "); ?></p>
               <div class="btn-wrapper">
                 <a href="" class="drl-btn"><?php getTranslation("Más información"); ?></a>
               </div>
@@ -1036,10 +1036,10 @@
             <!-- END ITEM -->
             <!-- ITEM -->
             <div class="item">
-              <p class="drl-Caption1">Thin Content</p>
-              <p class="drl-Text2">
+              <p class="drl-Caption1"><?php getTranslation("Thin Content"); ?></p>
+              <p class="drl-Text2"><?php getTranslation("
                 Elimina o minimiza el contenido pobre que hay en tu web, consigue atraer más tráfico, mejorar posiciones y superar a tu competencia.
-              </p>
+              "); ?></p>
               <div class="btn-wrapper">
                 <a href="" class="drl-btn"><?php getTranslation("Más información"); ?></a>
               </div>
@@ -1090,7 +1090,7 @@
         </div>
         <div class="separator"></div>
         <div class="bottom">
-          <p class="drl-Caption2">Hecho con 💚 desde Madrid para el mundo</p>
+          <p class="drl-Caption2"><?php getTranslation("Hecho con 💚 desde Madrid para el mundo"); ?></p>
         </div>
       </div>
     </footer>
