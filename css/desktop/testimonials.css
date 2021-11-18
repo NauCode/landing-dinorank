@@ -85,14 +85,14 @@
   section#testimonials div.wrapper div.content {
     width: 1028px !important;
     padding: 0 30px !important;
+    -ms-grid-columns: (1fr)[3] !important;
+        grid-template-columns: repeat(3, 1fr) !important;
   }
   section#testimonials div.wrapper div.content div.item {
     display: none !important;
   }
   section#testimonials div.wrapper div.content div.column-items {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
+    display: block !important;
   }
   section#testimonials div.wrapper div.content div.column-items div.item {
     display: block !important;
