@@ -676,7 +676,7 @@
                   mil y una herramientas gratuitas para analizar las métricas de
                   tu web. Con DinoRANK, no tengo que saltar de herramienta en
                   herramienta.
-                "); ?></p>?></p>
+                "); ?></p>
                 <p class="drl-Text2"><?php getTranslation("
                   Su Keyword research ha cambiado mi manera de afrontar la
                   redacción de los posts. La cantidad de palabras clave

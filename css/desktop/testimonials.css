@@ -90,7 +90,9 @@
     display: none !important;
   }
   section#testimonials div.wrapper div.content div.column-items {
-    display: block !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
   }
   section#testimonials div.wrapper div.content div.column-items div.item {
     display: block !important;
