@@ -300,7 +300,14 @@
         <div class="mm-item">
           <a href="#"><?php getTranslation("Dino Academy"); ?></a>
         </div>
-      </div>
+
+        <div class="mm-item">
+          <a href="#"><?php getTranslation("Iniciar Sesión"); ?></a>
+        </div>
+
+        <div class="mm-item">
+          <a href="#"><?php getTranslation("Registrarse"); ?></a>
+        </div>      </div>
     <div class="mobile-menu">
         <div class="mm-item">
           <span id="btnSubmm1"><?php getTranslation("Sobre DinoRANK"); ?></span>
@@ -413,7 +420,14 @@
         <div class="mm-item">
           <a href="#"><?php getTranslation("Dino Academy"); ?></a>
         </div>
-      </div>
+
+        <div class="mm-item">
+          <a href="#"><?php getTranslation("Iniciar Sesión"); ?></a>
+        </div>
+
+        <div class="mm-item">
+          <a href="#"><?php getTranslation("Registrarse"); ?></a>
+        </div>      </div>
 </header>
     <!-- END HEADER -->
     <!-- MAIN -->
